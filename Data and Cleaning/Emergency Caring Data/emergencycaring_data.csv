@@ -1,0 +1,1369 @@
+state,Facility Name,Municipality,Expected Wait Time (Hours),201910 Wait Time (Hours),202407 Wait Time (Hours)
+illinois,Graham Hospital Association,Canton,1.6,1.7 ,1.6
+illinois,Alton Memorial Hospital,Alton,3.4,2.2 ,3.4
+illinois,Presence Saint Joseph Medical Center,Joliet,4.0,3.0 ,4.0
+illinois,Loyola Gottlieb Memorial Hospital,Melrose Park,4.9,2.7 ,4.9
+illinois,Northshore University Healthsystem - Evanston Hospital,Evanston,4.2,3.1 ,4.2
+illinois,Herrin Hospital,Herrin,2.7,2.6 ,2.7
+illinois,Katherine Shaw Bethea Hospital,Dixon,2.2,1.9 ,2.2
+illinois,Proctor Hospital,Peoria,3.0,2.1 ,3.0
+illinois,Blessing Hospital,Quincy,3.0,2.7 ,3.0
+illinois,Mt Sinai Hospital Medical Center,Chicago,3.4,3.5 ,3.4
+illinois,Copley Memorial Hospital,Aurora,3.2,2.6 ,3.2
+illinois,Advocate Sherman Hospital,Elgin,3.0,2.2 ,3.0
+illinois,St Anthonys Memorial Hospital,Effingham,2.6,2.0 ,2.6
+illinois,Ssm Health St Mary'S Hospital -Centralia,Centralia,2.7,2.6 ,2.7
+illinois,Cgh Medical Center,Sterling,3.1,2.3 ,3.1
+illinois,Good Samaritan Regional Hlth Center,Mount Vernon,3.3,3.1 ,3.3
+illinois,Advocate Trinity Hospital,Chicago,4.4,3.0 ,4.4
+illinois,West Suburban Medical Center,Oak Park,3.8,2.8 ,3.8
+illinois,Osf Saint Anthony'S Health Center,Alton,2.6,2.2 ,2.6
+illinois,St Johns Hospital,Springfield,3.3,2.6 ,3.3
+illinois,Macneal  Hospital,Berwyn,3.7,2.3 ,3.7
+illinois,Jersey Community Hospital,Jerseyville,2.1,2.0 ,2.1
+illinois,Palos Community Hospital,Palos Heights,4.7,3.3 ,4.7
+illinois,Rush Oak Park Hospital,Oak Park,3.9,2.2 ,3.9
+illinois,St Mary Medical Center,Galesburg,3.1,2.7 ,3.1
+illinois,Adventist La Grange Memorial Hospital,La Grange,2.9,2.5 ,2.9
+illinois,Saint Francis Medical Center,Peoria,4.3,4.0 ,4.3
+illinois,Roseland Community Hospital,Chicago,4.0,5.1 ,4.0
+illinois,Touchette Regional Hospital Inc,Centreville,2.1,2.1 ,2.1
+illinois,Presence Saint Francis Hospital,Evanston,3.0,2.4 ,3.0
+illinois,Louis A Weiss Memorial Hospital,Chicago,3.8,2.5 ,3.8
+illinois,Loretto Hospital,Chicago,3.0,3.3 ,3.0
+illinois,Vista Medical Center East,Waukegan,2.9,2.3 ,2.9
+illinois,The University Of Chicago Medical Center,Chicago,4.8,3.9 ,4.8
+illinois,Mc Donough District Hospital,Macomb,2.1,2.0 ,2.1
+illinois,Carle Foundation Hospital,Urbana,3.1,2.6 ,3.1
+illinois,Osf Sacred Heart Medical Center,Danville,2.8,2.3 ,2.8
+illinois,Saint Anthony Hospital,Chicago,3.4,3.6 ,3.4
+illinois,"Midwestern Region Med Center, Inc",Zion,3.0,2.4 ,3.0
+illinois,Morris Hospital & Healthcare Centers,Morris,2.9,2.2 ,2.9
+illinois,St Bernard Hospital,Chicago,4.8,3.7 ,4.8
+illinois,Osf Saint Elizabeth Mdl Ctr,Ottawa,2.1,1.5 ,2.1
+illinois,Osf Heart Of Mary Medical Center,Urbana,2.2,2.2 ,2.2
+illinois,Swedish Hospital,Chicago,4.6,3.1 ,4.6
+illinois,Thorek Memorial Hospital,Chicago,3.0,1.9 ,3.0
+illinois,Northwestern Medicine Mchenry,Mchenry,3.7,2.6 ,3.7
+illinois,Amita Health Resurrection Medical Center,Chicago,3.8,2.4 ,3.8
+illinois,Rush University Medical Center,Chicago,5.4,3.2 ,5.4
+illinois,Pekin Memorial Hospital,Pekin,1.9,1.5 ,1.9
+illinois,Adventist Hinsdale Hospital,Hinsdale,3.4,2.7 ,3.4
+illinois,John H Stroger Jr Hospital,Chicago,4.9,4.4 ,4.9
+illinois,Gateway Regional Medical Center,Granite City,2.2,2.4 ,2.2
+illinois,Carle Bromenn Medical Center,Normal,3.4,2.7 ,3.4
+illinois,Northwestern Lake Forest Hospital,Lake Forest,3.9,2.8 ,3.9
+illinois,Holy Cross Hospital,Chicago,3.2,3.0 ,3.2
+illinois,Decatur Memorial Hospital,Decatur,3.7,3.0 ,3.7
+illinois,Hshs Holy Family Hospital Inc,Greenville,1.8,1.7 ,1.8
+illinois,St Josephs Hospital,Breese,2.0,2.3 ,2.0
+illinois,Carle Richland Memorial Hospital,Olney,2.3,2.1 ,2.3
+illinois,Memorial Medical Center,Springfield,4.2,3.5 ,4.2
+illinois,University Of Illinois Hospital And Clinics,Chicago,5.5,4.3 ,5.5
+illinois,Presence St Marys Hospital,Kankakee,2.4,1.8 ,2.4
+illinois,Insight Hospital And Medical Center Chicago,Chicago,3.1,3.2 ,3.1
+illinois,Fhn Memorial Hospital,Freeport,2.8,2.5 ,2.8
+illinois,Saint James Hospital,Pontiac,2.0,2.0 ,2.0
+illinois,St Joseph Medical Center,Bloomington,3.6,3.8 ,3.6
+illinois,Memorial Hospital Of Carbondale,Carbondale,3.2,2.4 ,3.2
+illinois,St Marys Hospital,Decatur,3.7,2.0 ,3.7
+illinois,Franciscan Health Olympia & Chicago Heights,Olympia Fields,4.8,3.5 ,4.8
+illinois,Presence Mercy Medical Center,Aurora,3.5,2.7 ,3.5
+illinois,Jackson Park Hospital,Chicago,3.1,2.7 ,3.1
+illinois,Osf Little Company Of Mary Medical Center,Evergreen Park,4.6,2.9 ,4.6
+illinois,Presence Saints Mary And Elizabeth Medical Center,Chicago,3.5,2.6 ,3.5
+illinois,South Shore Hospital,Chicago,4.4,3.4 ,4.4
+illinois,Advocate Illinois Masonic Medical Center,Chicago,3.6,3.6 ,3.6
+illinois,Heartland Regional Medical Center,Marion,3.0,2.4 ,3.0
+illinois,Memorial Hospital,Belleville,3.2,3.0 ,3.2
+illinois,Riverside Medical Center,Kankakee,3.4,2.2 ,3.4
+illinois,Hshs St Elizabeth'S Hospital,O Fallon,3.2,3.0 ,3.2
+illinois,Sarah Bush Lincoln Health Center,Mattoon,3.4,3.1 ,3.4
+illinois,Ingalls Memorial Hospital,Harvey,2.6,2.4 ,2.6
+illinois,Methodist Hospital Of Chicago,Chicago,3.3,2.5 ,3.3
+illinois,Elmhurst Memorial Hospital,Elmhurst,3.0,2.5 ,3.0
+illinois,Advocate Condell Medical Center,Libertyville,4.1,2.9 ,4.1
+illinois,Humboldt Park Health,Chicago,3.0,2.9 ,3.0
+illinois,Advocate Christ Hospital & Medical Center,Oak Lawn,4.5,3.5 ,4.5
+illinois,Methodist Medical Center Of Illinois,Peoria,4.4,3.0 ,4.4
+illinois,Harrisburg Medical Center,Harrisburg,2.7,2.3 ,2.7
+illinois,Northwestern Medicine Delnor Community Hospital,Geneva,3.7,2.8 ,3.7
+illinois,Silver Cross Hospital  And Medical Centers,New Lenox,3.9,2.9 ,3.9
+illinois,Presence Saint Joseph Hospital - Elgin,Elgin,2.7,2.2 ,2.7
+illinois,Advocate Lutheran General Hospital,Park Ridge,4.1,3.3 ,4.1
+illinois,Presence Saint Joseph Hospital - Chicago,Chicago,2.5,2.4 ,2.5
+illinois,Swedish American Hospital,Rockford,3.5,2.7 ,3.5
+illinois,Edward Hospital,Naperville,3.0,1.9 ,3.0
+illinois,Saint Anthony Medical Center,Rockford,3.5,2.9 ,3.5
+illinois,St Margaret'S Health - Peru,Peru,2.0,1.8 ,2.0
+illinois,Javon Bea Hospital,Rockford,3.6,2.7 ,3.6
+illinois,Northwestern Medicine Central Dupage Hospital,Winfield,3.8,2.9 ,3.8
+illinois,Community First Medical Center,Chicago,3.8,3.3 ,3.8
+illinois,Northwest Community Hospital 1,Arlington Heights,3.1,2.4 ,3.1
+illinois,Alexian Brothers Medical Center 1,Elk Grove Village,3.7,2.9 ,3.7
+illinois,Genesis Hlth System Dba Genesis Mdl Ctr-Illini,Silvis,3.5,2.8 ,3.5
+illinois,Loyola University Medical Center,Maywood,6.0,4.3 ,6.0
+illinois,Trinity Rock Island,Rock Island,3.3,2.2 ,3.3
+illinois,Northwestern Memorial Hospital,Chicago,5.5,4.7 ,5.5
+illinois,Northwestern Medicine Kishwaukee Hospital,Dekalb,3.1,2.5 ,3.1
+illinois,Advocate Good Samaritan Hospital,Downers Grove,3.2,3.0 ,3.2
+illinois,Anderson Hospital,Maryville,3.3,2.5 ,3.3
+illinois,St Alexius Medical Center,Hoffman Estates,3.5,3.0 ,3.5
+illinois,Advocate Good Shepherd Hospital,Barrington,3.0,2.4 ,3.0
+illinois,Uchicago Medicine Adventhealth Glenoaks,Glendale Heights,2.9,1.9 ,2.9
+illinois,Crossroads Community Hospital,Mount Vernon,2.3,2.2 ,2.3
+illinois,Provident Hospital Of Chicago,Chicago,3.3,3.2 ,3.3
+illinois,Uchicago Medicine Adventhealth Bolingbrook,Bolingbrook,3.1,2.5 ,3.1
+illinois,Mercyhealth Hospital & Physician Clinic-Crystal La,Crystal Lake,-,-,-
+illinois,Thomas H Boyd Memorial Hospital,Carrollton,-,-,-
+illinois,Kirby Medical Center,Monticello,1.7,1.3 ,1.7
+illinois,Midwest Medical Center,Galena,-,-,-
+illinois,Warner Hospital And Health Services,Clinton,-,-,-
+illinois,"Genesis Medical Center, Aledo",Aledo,1.7,1.5 ,1.7
+illinois,Memorial Hospital,Carthage,2.3,1.9 ,2.3
+illinois,Community Hospital Of Staunton,Staunton,-,-,-
+illinois,Pinckneyville Community Hospital,Pinckneyville,3.0,2.2 ,3.0
+illinois,Washington County Hospital,Nashville,1.5,1.9 ,1.5
+illinois,Carle Eureka  Hospital,Eureka,1.7,2.0 ,1.7
+illinois,Osf Saint Paul Medical Center,Mendota,-,-,-
+illinois,Fairfield Memorial Hospital 1,Fairfield,2.2,2.2 ,2.2
+illinois,Rochelle Community Hospital,Rochelle,-,-,-
+illinois,Mason District Hospital,Havana,1.4,1.3 ,1.4
+illinois,Illini Community Hospital,Pittsfield,1.9,2.3 ,1.9
+illinois,Carle Hoopeston Regional Health Center,Hoopeston,-,-,-
+illinois,Gibson Community Hospital,Gibson City,-,-,-
+illinois,Osf Holy Family Medical Center,Monmouth,2.0,1.8 ,2.0
+illinois,Hammond Henry Hospital,Geneseo,2.2,-,2.2
+illinois,Paris Community Hospital,Paris,1.8,1.5 ,1.8
+illinois,Franklin Hospital,Benton,1.0,2.2 ,1.0
+illinois,Abraham Lincoln Memorial Hospital,Lincoln,-,1.9 ,-
+illinois,Massac Memorial Hospital,Metropolis,1.8,1.8 ,1.8
+illinois,Ferrell Hospital Community Foundations,Eldorado,-,-,-
+illinois,Osf Saint Luke Medical Center,Kewanee,2.1,1.7 ,2.1
+illinois,Hamilton Memorial Hospital,Mcleansboro,2.6,1.3 ,2.6
+illinois,Wabash General Hospital 1,Mount Carmel,1.3,1.8 ,1.3
+illinois,Hardin County General Hospital & Clinic,Rosiclare,-,-,-
+illinois,Morrison Community Hospital,Morrison,-,-,-
+illinois,Hopedale Hospital,Hopedale,0.8,-,0.8
+illinois,Marshall Browning Hospital,Du Quoin,-,1.7 ,-
+illinois,Hillsboro Area Hospital,Hillsboro,2.3,1.9 ,2.3
+illinois,Sarah D Culbertson Memorial Hospital,Rushville,-,-,-
+illinois,St Joseph Memorial Hospital,Murphysboro,2.1,2.2 ,2.1
+illinois,Mercy Harvard Hospital,Harvard,1.9,2.0 ,1.9
+illinois,St Joseph'S Hospital,Highland,-,-,-
+illinois,Osf Saint Clare Medical Center,Princeton,2.0,1.9 ,2.0
+illinois,Memorial Hospital,Chester,2.6,2.1 ,2.6
+illinois,Taylorville Memorial Hospital,Taylorville,2.2,1.8 ,2.2
+illinois,Valley West Community Hospital,Sandwich,2.2,2.0 ,2.2
+illinois,Pana Community Hospital,Pana,2.3,-,2.3
+illinois,Anna Hospital Corporation D/B/A Union County Hospital,Anna,2.0,2.0 ,2.0
+illinois,Crawford Memorial Hospital,Robinson,2.2,1.3 ,2.2
+illinois,Lawrence County Memorial Hospital,Lawrenceville,-,-,-
+illinois,Salem Township Hospital,Salem,2.3,-,2.3
+illinois,Fayette County Hospital,Vandalia,-,-,-
+illinois,Carlinville Area Hospital,Carlinville,2.2,-,2.2
+illinois,Red Bud Regional Hospital,Red Bud,1.9,1.6 ,1.9
+illinois,Sparta Community Hospital,Sparta,-,1.6 ,-
+illinois,St Francis Hospital,Litchfield,-,-,-
+illinois,Clay County Hospital,Flora,1.6,2.7 ,1.6
+illinois,Jacksonville Memorial Hospital,Jacksonville,3.2,-,3.2
+illinois,Iroquois Memorial Hospital,Watseka,2.2,-,2.2
+illinois,Ann & Robert H Lurie Childrens Hospital Of Chicago,Chicago,-,-,-
+illinois,Larabida Childrens Hospital I,Chicago,-,-,-
+illinois,Shriners Hospital For Children,Chicago,-,-,-
+indiana,Johnson Memorial Hospital,Franklin,2.3,2.2 ,2.3
+indiana,Methodist Hospitals Inc,Gary,2.4,2.7 ,2.4
+indiana,Hendricks Regional Health,Danville,2.8,2.5 ,2.8
+indiana,Northwest Health-La Porte,La Porte,2.8,2.1 ,2.8
+indiana,Community Howard Regional Health Inc.,Kokomo,2.9,2.1 ,2.9
+indiana,St Catherine Hospital Inc,East Chicago,3.0,2.3 ,3.0
+indiana,Clark Memorial Hospital,Jeffersonville,3.4,3.2 ,3.4
+indiana,Ascension St Vincent Kokomo,Kokomo,2.6,2.2 ,2.6
+indiana,Marion General Hospital,Marion,2.3,1.9 ,2.3
+indiana,Saint Joseph Regional Medical Center,Mishawaka,3.3,3.0 ,3.3
+indiana,Franciscan Health Michigan City,Michigan City,2.9,2.6 ,2.9
+indiana,Lutheran Hospital Of Indiana,Fort Wayne,3.0,2.5 ,3.0
+indiana,Elkhart General Hospital,Elkhart,3.5,2.5 ,3.5
+indiana,Parkview Regional Medical Center,Fort Wayne,2.6,2.6 ,2.6
+indiana,Franciscan Health Crawfordsville,Crawfordsville,1.8,1.7 ,1.8
+indiana,Union Hospital Inc,Terre Haute,3.1,3.1 ,3.1
+indiana,Eskenazi Health,Indianapolis,3.4,1.8 ,3.4
+indiana,Goshen Hospital,Goshen,2.7,2.3 ,2.7
+indiana,Henry County Memorial Hospital,New Castle,2.7,1.9 ,2.7
+indiana,St Mary Medical Center Inc,Hobart,2.8,2.6 ,2.8
+indiana,Northwest Health - Porter,Valparaiso,2.8,2.1 ,2.8
+indiana,Hancock Regional Hospital,Greenfield,2.8,2.4 ,2.8
+indiana,Good Samaritan Hospital,Vincennes,2.1,1.8 ,2.1
+indiana,Baptist Health Floyd,New Albany,3.2,3.0 ,3.2
+indiana,Parkview Dekalb Hospital,Auburn,2.3,2.1 ,2.3
+indiana,Terre Haute Regional Hospital,Terre Haute,2.7,2.4 ,2.7
+indiana,"St Joseph Health System, Llc",Fort Wayne,2.2,1.9 ,2.2
+indiana,Reid Health,Richmond,2.2,2.9 ,2.2
+indiana,Indiana University Health Bloomington Hospital,Bloomington,3.6,3.3 ,3.6
+indiana,Indiana University Health,Indianapolis,3.1,2.5 ,3.1
+indiana,Franciscan Health Mooresville,Mooresville,2.2,1.8 ,2.2
+indiana,Memorial Hospital Of South Bend,South Bend,3.0,3.1 ,3.0
+indiana,Riverview Health,Noblesville,1.9,1.7 ,1.9
+indiana,Daviess Community Hospital,Washington,1.9,2.1 ,1.9
+indiana,Schneck Medical Center,Seymour,2.4,1.9 ,2.4
+indiana,Norton-King'S Daughters' Health,Madison,2.9,2.3 ,2.9
+indiana,Memorial Hospital,Logansport,2.9,2.0 ,2.9
+indiana,Community Hospital East,Indianapolis,2.9,2.7 ,2.9
+indiana,Bluffton Regional Medical Center,Bluffton,1.9,1.9 ,1.9
+indiana,Saint Joseph Regional Medical Center - Plymouth,Plymouth,2.5,2.2 ,2.5
+indiana,Deaconess Hospital Inc,Evansville,2.8,2.3 ,2.8
+indiana,Ascension St Vincent Hospital,Indianapolis,2.1,3.0 ,2.1
+indiana,St Elizabeth Dearborn Hospital,Lawrenceburg,2.4,2.0 ,2.4
+indiana,Ascension St Vincent Anderson,Anderson,3.0,2.0 ,3.0
+indiana,Indiana University Health Ball Memorial Hospital,Muncie,3.3,2.9 ,3.3
+indiana,Franciscan Health Dyer,Dyer,2.8,2.5 ,2.8
+indiana,Parkview Huntington Hospital,Huntington,2.2,2.3 ,2.2
+indiana,Major Hospital,Shelbyville,2.3,2.0 ,2.3
+indiana,Ascension St Vincent Evansville,Evansville,2.7,2.3 ,2.7
+indiana,Parkview Whitley Hospital,Columbia City,2.1,2.0 ,2.1
+indiana,Northwest Health - Starke,Knox,2.1,1.7 ,2.1
+indiana,Witham Health Services,Lebanon,2.1,2.1 ,2.1
+indiana,Franciscan Health Lafayette,Lafayette,2.8,2.2 ,2.8
+indiana,Columbus Regional Hospital,Columbus,2.7,2.2 ,2.7
+indiana,Community Hospital Of Anderson And Madison County,Anderson,2.6,2.5 ,2.6
+indiana,Memorial Hospital And Health Care Center,Jasper,2.7,2.3 ,2.7
+indiana,Community Hospital,Munster,2.5,2.5 ,2.5
+indiana,Franciscan Health Crown Point,Crown Point,3.0,2.3 ,3.0
+indiana,"Community Hospital South, Inc.",Indianapolis,3.4,2.1 ,3.4
+indiana,Kosciusko Community Hospital,Warsaw,2.6,2.3 ,2.6
+indiana,Parkview Noble Hospital,Kendallville,2.0,1.8 ,2.0
+indiana,Women'S Hospital The,Newburgh,2.3,2.0 ,2.3
+indiana,Dupont Hospital Llc,Fort Wayne,2.1,2.1 ,2.1
+indiana,St Vincent Heart Center,Carmel,3.2,3.1 ,3.2
+indiana,Ascension St Vincent Carmel,Carmel,2.9,3.1 ,2.9
+indiana,Iu Health West Hospital,Avon,3.8,3.4 ,3.8
+indiana,Orthoindy Hospital,Indianapolis,-,-,-
+indiana,Indiana University Health North Hospital,Carmel,3.6,2.7 ,3.6
+indiana,Franciscan Health Indianapolis,Indianapolis,3.8,2.8 ,3.8
+indiana,Franciscan Health Munster,Munster,2.4,2.4 ,2.4
+indiana,Pinnacle Hospital,Crown Point,-,-,-
+indiana,Orthopaedic Hospital At Parkview North,Fort Wayne,-,-,-
+indiana,The Orthopaedic Hospital Of Lutheran Health Networ,Fort Wayne,-,-,-
+indiana,Community Hospital North,Indianapolis,3.3,2.7 ,3.3
+indiana,Physicians' Medical Center Llc,New Albany,-,-,-
+indiana,Indiana University Health Arnett Hospital,Lafayette,2.8,2.6 ,2.8
+indiana,Unity Physicians Hospital,Mishawaka,-,-,-
+indiana,Fairbanks,Indianapolis,-,-,-
+indiana,Ascension St Vincent Fishers,Fishers,2.3,2.5 ,2.3
+indiana,Monroe Hospital,Bloomington,1.9,1.5 ,1.9
+indiana,"Franciscan Beacon Hospital, Llc",La Porte,-,-,-
+indiana,Franciscan Health Orthopedic Hospital Carmel,Carmel,-,-,-
+indiana,Community Hospital Of Bremen Inc,Bremen,-,-,-
+indiana,Ascension St Vincent Randolph,Winchester,1.8,2.0 ,1.8
+indiana,Ascension St Vincent Jennings,North Vernon,1.9,1.9 ,1.9
+indiana,Rush Memorial Hospital,Rushville,1.6,2.1 ,1.6
+indiana,Pulaski Memorial Hospital,Winamac,2.0,1.9 ,2.0
+indiana,Indiana University Health Paoli Hospital,Paoli,2.2,2.1 ,2.2
+indiana,Ascension St Vincent Williamsport,Williamsport,1.9,1.7 ,1.9
+indiana,Ascension St Vincent Mercy,Elwood,1.6,2.2 ,1.6
+indiana,Ascension St Vincent Clay,Brazil,2.1,2.3 ,2.1
+indiana,"Parkview Wabash Hospital, Inc",Wabash,2.3,2.1 ,2.3
+indiana,Indiana University Health Tipton Hospital Inc,Tipton,1.7,1.6 ,1.7
+indiana,Indiana University Health White Memorial Hospital,Monticello,1.6,1.4 ,1.6
+indiana,Woodlawn Hospital,Rochester,-,-,-
+indiana,Ascension St Vincent Salem,Salem,1.8,1.9 ,1.8
+indiana,Cameron Memorial Community Hospital Inc,Angola,2.9,1.8 ,2.9
+indiana,Indiana University Health Frankfort Inc,Frankfort,1.5,1.6 ,1.5
+indiana,Greene County General Hospital,Linton,-,-,-
+indiana,Dukes Memorial Hospital,Peru,2.2,1.9 ,2.2
+indiana,Gibson General Hospital,Princeton,1.7,1.8 ,1.7
+indiana,"Indiana University Health Jay, Inc.",Portland,2.1,2.5 ,2.1
+indiana,Perry County Memorial Hospital,Tell City,2.2,-,2.2
+indiana,Parkview Lagrange Hospital,Lagrange,1.9,1.7 ,1.9
+indiana,"Franciscan Health Rensselaer, Inc",Rensselaer,1.7,1.6 ,1.7
+indiana,Ascension St Vincent Warrick,Boonville,1.5,1.5 ,1.5
+indiana,Union Hospital Clinton,Clinton,2.4,2.3 ,2.4
+indiana,Sullivan County Community Hospital,Sullivan,2.3,-,2.3
+indiana,Indiana University Health Bedford Hospital,Bedford,2.5,2.3 ,2.5
+indiana,Margaret Mary Community Hospital Inc,Batesville,1.8,1.8 ,1.8
+indiana,Adams Memorial Hospital,Decatur,1.9,1.9 ,1.9
+indiana,Harrison County Hospital,Corydon,3.0,2.7 ,3.0
+indiana,Decatur County Memorial Hospital,Greensburg,1.8,1.9 ,1.8
+indiana,Putnam County Hospital,Greencastle,2.0,1.6 ,2.0
+indiana,Scott Memorial Health,Scottsburg,2.1,1.5 ,2.1
+iowa,Unitypoint Health - Marshalltown,Marshalltown,2.6,2.5 ,2.6
+iowa,St Anthony Regional Hospital & Nursing Home,Carroll,2.0,1.4 ,2.0
+iowa,Trinity Muscatine,Muscatine,2.6,2.0 ,2.6
+iowa,Trinity Regional Medical Center,Fort Dodge,2.9,1.9 ,2.9
+iowa,Chi Health Mercy Council Bluffs,Council Bluffs,2.9,2.0 ,2.9
+iowa,University Of Iowa Health Care Medical Center Down,Iowa City,2.5,2.3 ,2.5
+iowa,Mary Greeley Medical Center,Ames,2.4,2.4 ,2.4
+iowa,Mercyone Newton Medical Center,Newton,2.4,1.6 ,2.4
+iowa,Genesis Medical Center-Davenport,Davenport,3.2,2.6 ,3.2
+iowa,"Sartori Memorial Hospital, Inc",Cedar Falls,1.8,2.1 ,1.8
+iowa,St Lukes Hospital,Cedar Rapids,3.2,2.9 ,3.2
+iowa,Methodist Jennie Edmundson,Council Bluffs,2.3,2.0 ,2.3
+iowa,Southeast Iowa Regional Medical Center,West Burlington,2.4,1.8 ,2.4
+iowa,University Of Iowa Hospital & Clinics,Iowa City,3.9,3.8 ,3.9
+iowa,Mercyone North Iowa Medical Center,Mason City,2.9,2.4 ,2.9
+iowa,Mercyone Waterloo Medical Center,Waterloo,3.6,2.8 ,3.6
+iowa,Mercyone Dubuque Medical Center,Dubuque,3.0,2.2 ,3.0
+iowa,Mercy Medical Center - Cedar Rapids,Cedar Rapids,2.8,1.8 ,2.8
+iowa,Mercyone Clinton Medical Center,Clinton,2.2,2.2 ,2.2
+iowa,Unitypoint Health - Des Moines Iowa Methodist Medi,Des Moines,3.3,2.5 ,3.3
+iowa,Mercyone Des Moines Medical Center,Des Moines,3.9,2.9 ,3.9
+iowa,Ottumwa Regional Health Center,Ottumwa,3.0,2.6 ,3.0
+iowa,Broadlawns Medical Center,Des Moines,3.3,2.6 ,3.3
+iowa,Trinity - Bettendorf,Bettendorf,3.0,2.2 ,3.0
+iowa,Allen Hospital,Waterloo,2.3,2.4 ,2.3
+iowa,Spencer Municipal Hospital,Spencer,1.9,1.9 ,1.9
+iowa,Finley Hospital,Dubuque,2.5,1.8 ,2.5
+iowa,Lakes Regional Healthcare,Spirit Lake,1.7,1.8 ,1.7
+iowa,St Lukes Regional Medical Center,Sioux City,3.0,2.6 ,3.0
+iowa,Grinnell Regional Medical Center,Grinnell,2.1,1.6 ,2.1
+iowa,Mercyone Siouxland Medical Center,Sioux City,3.2,2.3 ,3.2
+iowa,Mercyone Primghar Medical Center,Primghar,1.5,1.3 ,1.5
+iowa,Iowa Specialty Hospital - Belmond,Belmond,1.4,-,1.4
+iowa,Iowa Specialty Hospital - Clarion,Clarion,1.6,-,1.6
+iowa,Grundy County Memorial Hospital,Grundy Center,1.3,1.7 ,1.3
+iowa,Chi Health - Mercy Corning,Corning,2.3,1.4 ,2.3
+iowa,Pocahontas Community Hospital,Pocahontas,1.7,-,1.7
+iowa,Jones Regional Medical Center,Anamosa,1.7,2.0 ,1.7
+iowa,Hancock County Health System,Britt,1.8,1.6 ,1.8
+iowa,Franklin General Hospital,Hampton,1.7,1.5 ,1.7
+iowa,Chi Health Missouri Valley,Missouri Valley,1.8,1.4 ,1.8
+iowa,Adair County Memorial Hospital,Greenfield,2.1,1.8 ,2.1
+iowa,Hawarden Regional Healthcare,Hawarden,2.7,1.8 ,2.7
+iowa,Guttenberg Municipal Hospital,Guttenberg,1.7,1.9 ,1.7
+iowa,Genesis Medical Center-Dewitt,Dewitt,1.7,1.4 ,1.7
+iowa,Guthrie County Hospital,Guthrie Center,2.3,1.5 ,2.3
+iowa,Keokuk County Health Center,Sigourney,-,1.7 ,-
+iowa,Gundersen Palmer Lutheran Hospital And Clinics,West Union,1.7,2.1 ,1.7
+iowa,Compass Memorial Healthcare,Marengo,2.0,-,2.0
+iowa,Veterans Memorial Hospital,Waukon,-,-,-
+iowa,Mercyone Elkader Medical Center,Elkader,1.7,2.1 ,1.7
+iowa,Community Memorial Hospital Medical Center,Sumner,-,-,-
+iowa,Avera Merrill Pioneer Hospital,Rock Rapids,1.8,-,1.8
+iowa,Dallas County Hospital,Perry,1.9,1.6 ,1.9
+iowa,Mitchell County Regional Health,Osage,1.6,1.8 ,1.6
+iowa,George C Grape Community Hospital,Hamburg,1.8,1.5 ,1.8
+iowa,Greene County Medical Center,Jefferson,1.8,-,1.8
+iowa,Madison County Health Care System,Winterset,1.8,1.8 ,1.8
+iowa,Davis County Hospital,Bloomfield,1.7,-,1.7
+iowa,Regional Health Services Of Howard County,Cresco,1.5,1.7 ,1.5
+iowa,Jackson County Regional Health Center,Maquoketa,1.5,1.4 ,1.5
+iowa,Audubon County Memorial Hospital,Audubon,1.5,1.6 ,1.5
+iowa,Mercy Medical Center-New Hampton,New Hampton,1.6,-,1.6
+iowa,Manning Regional Healthcare Center,Manning,1.5,1.4 ,1.5
+iowa,Story County Hospital,Nevada,1.6,-,1.6
+iowa,Humboldt County Memorial Hospital,Humboldt,1.9,-,1.9
+iowa,Buchanan County Health Center,Independence,1.4,-,1.4
+iowa,Hegg Memorial Health Center,Rock Valley,1.6,1.7 ,1.6
+iowa,Van Buren County Hospital,Keosauqua,2.5,-,2.5
+iowa,Mercyone Oelwein Medical Center,Oelwein,-,-,-
+iowa,Waverly Health Center,Waverly,2.5,2.7 ,2.5
+iowa,Decatur County Hospital,Leon,1.7,1.8 ,1.7
+iowa,Lucas County Health Center,Chariton,1.8,2.2 ,1.8
+iowa,Monroe County Hospital,Albia,1.9,1.6 ,1.9
+iowa,Regional Medical Center,Manchester,2.2,2.1 ,2.2
+iowa,Washington County Hospital And Clinics,Washington,-,-,-
+iowa,Osceola Community Hospital,Sibley,1.9,-,1.9
+iowa,Sioux Center Health,Sioux Center,1.9,2.0 ,1.9
+iowa,Floyd County Medical Center,Charles City,2.0,1.6 ,2.0
+iowa,Clarke County Hospital,Osceola,1.7,1.7 ,1.7
+iowa,Virginia Gay Hospital,Vinton,1.5,1.6 ,1.5
+iowa,Stewart Memorial Community Hospital,Lake City,1.8,1.5 ,1.8
+iowa,Avera Holy Family Hospital,Estherville,2.3,2.0 ,2.3
+iowa,Clarinda Regional Health Center,Clarinda,2.4,1.6 ,2.4
+iowa,Kossuth Regional Health Center,Algona,1.6,1.3 ,1.6
+iowa,Horn Memorial Hospital,Ida Grove,1.8,1.6 ,1.8
+iowa,Knoxville Hospital & Clinics,Knoxville,2.1,1.9 ,2.1
+iowa,Henry County Health Center,Mount Pleasant,-,-,-
+iowa,Palo Alto County Hospital,Emmetsburg,1.8,2.2 ,1.8
+iowa,Wayne County Hospital,Corydon,-,-,-
+iowa,Burgess Health Center,Onawa,1.9,1.6 ,1.9
+iowa,Orange City Area Health System,Orange City,-,-,-
+iowa,Van Diest Medical Center,Webster City,1.8,1.7 ,1.8
+iowa,Cherokee Regional Medical Center,Cherokee,2.0,3.6 ,2.0
+iowa,Montgomery County Memorial Hospital,Red Oak,1.7,1.8 ,1.7
+iowa,Jefferson County Health Center,Fairfield,1.4,-,1.4
+iowa,Greater Regional Medical Center,Creston,1.5,1.8 ,1.5
+iowa,Shenandoah Medical Center,Shenandoah,1.8,1.8 ,1.8
+iowa,Pella Regional Health Center,Pella,2.7,-,2.7
+iowa,Floyd Valley Healthcare,Le Mars,2.1,1.9 ,2.1
+iowa,Crawford County Memorial Hospital,Denison,-,-,-
+iowa,Loring Hospital,Sac City,2.1,0.9 ,2.1
+iowa,Winnmed,Decorah,2.2,-,2.2
+iowa,Boone County Hospital,Boone,1.8,1.6 ,1.8
+iowa,Ringgold County Hospital,Mount Ayr,1.9,-,1.9
+iowa,Myrtue Medical Center,Harlan,1.2,-,1.2
+iowa,Buena Vista Regional Medical Center,Storm Lake,2.5,2.3 ,2.5
+iowa,Cass County Memorial Hospital,Atlantic,1.5,1.6 ,1.5
+iowa,Mercyone Centerville Medical Center,Centerville,2.3,2.2 ,2.3
+iowa,Mercyone Dyersville Medical Center,Dyersville,-,-,-
+iowa,Mahaska  Health Partnership,Oskaloosa,2.1,-,2.1
+iowa,Hansen Family Hospital,Iowa Falls,1.9,-,1.9
+iowa,Sanford Sheldon Medical Center,Sheldon,1.6,1.9 ,1.6
+kansas,Via Christi Hospital Pittsburg Inc,Pittsburg,1.8,2.1 ,1.8
+kansas,Saint John Hospital,Leavenworth,2.0,1.6 ,2.0
+kansas,Salina Regional Health Center,Salina,2.3,1.9 ,2.3
+kansas,Hays Medical Center,Hays,1.8,2.0 ,1.8
+kansas,Adventhealth Ottawa,Ottawa,1.6,1.9 ,1.6
+kansas,University Of Kansas Health System - St Francis Campus,Topeka,3.7,2.4 ,3.7
+kansas,Susan B Allen Memorial Hospital,El Dorado,2.1,1.4 ,2.1
+kansas,Hutchinson Regional Medical Center Inc,Hutchinson,3.0,2.4 ,3.0
+kansas,Centura St. Catherine Hospital-Garden City,Garden City,2.0,1.9 ,2.0
+kansas,Pratt Regional Medical Center,Pratt,1.6,1.3 ,1.6
+kansas,University Of Kansas Hospital,Kansas City,5.3,4.5 ,5.3
+kansas,Olathe Medical Center,Olathe,3.4,2.6 ,3.4
+kansas,Southwest Medical Center,Liberal,2.3,2.3 ,2.3
+kansas,"Stormont Vail Health Flint Hills, Llc",Junction City,2.2,1.9 ,2.2
+kansas,"Mercy Hospital, Inc",Moundridge,1.7,1.3 ,1.7
+kansas,Stormont Vail Hospital,Topeka,3.4,2.8 ,3.4
+kansas,Nmc Health,Newton,2.2,2.2 ,2.2
+kansas,Adventhealth Shawnee Mission,Shawnee Mission,2.7,2.5 ,2.7
+kansas,Mcpherson Hospital,Mcpherson,1.7,2.0 ,1.7
+kansas,Miami County Medical Center,Paola,1.7,1.7 ,1.7
+kansas,Bob Wilson Memorial Grant County Hospital,Ulysses,1.7,1.4 ,1.7
+kansas,Labette Health,Parsons,1.8,1.4 ,1.8
+kansas,"Ascension Via Christi Hospitals Wichita, Inc.",Wichita,2.7,2.8 ,2.7
+kansas,Wesley Medical Center,Wichita,2.1,1.6 ,2.1
+kansas,Lmh,Lawrence,3.6,2.6 ,3.6
+kansas,"Ascension Via Christi Hospital Manhattan, Inc",Manhattan,2.3,2.2 ,2.3
+kansas,"Coffeyville Regional Medical Center, Inc",Coffeyville,1.4,2.3 ,1.4
+kansas,Providence Medical Center,Kansas City,2.7,2.1 ,2.7
+kansas,Centura St. Catherine-Dodge City,Dodge City,2.3,1.7 ,2.3
+kansas,Overland Park Reg Med Ctr,Overland Park,2.0,1.8 ,2.0
+kansas,Menorah Medical Center,Overland Park,2.6,2.6 ,2.6
+kansas,Kansas Surgery & Recovery Center,Wichita,-,-,-
+kansas,Saint Luke'S South Hospital,Overland Park,1.6,2.4 ,1.6
+kansas,Kansas Heart Hospital,Wichita,-,-,-
+kansas,Salina Surgical Hospital,Salina,-,-,-
+kansas,Kansas City Orthopaedic Institute,Leawood,-,-,-
+kansas,Manhattan Surgical Hospital Llc,Manhattan,-,-,-
+kansas,University  Of Ks Hlth System Great Bend Campus,Great Bend,1.9,1.9 ,1.9
+kansas,Doctors Hospital Llc,Leawood,-,-,-
+kansas,"Kansas Spine & Specialty Hospital, Llc",Wichita,-,-,-
+kansas,Kansas Medical Center Llc,Andover,3.0,1.4 ,3.0
+kansas,"Summit Surgical, Llc",Hutchinson,-,-,-
+kansas,Minimally Invasive Surgery Hospital,Lenexa,-,-,-
+kansas,"Via Christi Hospital Wichita St Teresa, Inc",Wichita,2.6,2.1 ,2.6
+kansas,Mercy Specialty Hospital Southeast Kansas,Galena,-,-,-
+kansas,"Rock Regional Hospital, Llc",Derby,1.7,-,1.7
+kansas,Grisell Memorial Hospital,Ransom,1.7,1.5 ,1.7
+kansas,Ellinwood District Hospital,Ellinwood,1.8,1.6 ,1.8
+kansas,Lane County Hospital,Dighton,1.2,1.4 ,1.2
+kansas,Ashland Health Center,Ashland,2.1,1.7 ,2.1
+kansas,Wichita County Health Center,Leoti,2.0,1.7 ,2.0
+kansas,Rawlins County Health Center,Atwood,2.1,1.8 ,2.1
+kansas,Mercy Hospital Columbus,Columbus,1.4,1.5 ,1.4
+kansas,Jewell County Hospital,Mankato,1.5,1.2 ,1.5
+kansas,Cheyenne County Hospital,St Francis,1.8,1.7 ,1.8
+kansas,Rooks County Health Center,Plainville,1.5,2.4 ,1.5
+kansas,Comanche County Hospital,Coldwater,1.2,1.0 ,1.2
+kansas,Kearny County Hospital,Lakin,2.1,2.1 ,2.1
+kansas,F W Huston Medical Center,Winchester,2.8,3.3 ,2.8
+kansas,Nemaha Valley Community Hospital,Seneca,1.7,1.8 ,1.7
+kansas,Anderson County Hospital,Garnett,1.6,1.8 ,1.6
+kansas,Edwards County Medical Center,Kinsley,2.2,1.8 ,2.2
+kansas,Sedan City Hospital,Sedan,-,1.3 ,-
+kansas,Holton Community Hospital,Holton,1.9,1.8 ,1.9
+kansas,Meade District Hospital,Meade,1.8,1.6 ,1.8
+kansas,Hamilton County Hospital,Syracuse,1.4,1.8 ,1.4
+kansas,Stafford County Hospital,Stafford,1.9,1.2 ,1.9
+kansas,"Satanta District Hospital, Clinics, & Ltcu",Satanta,1.6,1.7 ,1.6
+kansas,Graham County Hospital,Hill City,1.8,1.7 ,1.8
+kansas,Logan County Hospital,Oakley,2.2,1.8 ,2.2
+kansas,Ellsworth County Medical Center,Ellsworth,2.1,2.0 ,2.1
+kansas,Ottawa County Health Center,Minneapolis,1.6,1.5 ,1.6
+kansas,Caldwell Regional Medical Center,Caldwell,2.2,1.4 ,2.2
+kansas,Hospital District #1 Of Rice County,Lyons,1.3,1.3 ,1.3
+kansas,Kiowa District Hospital,Kiowa,1.2,1.2 ,1.2
+kansas,Kiowa County Memorial Hospital,Greensburg,1.8,1.3 ,1.8
+kansas,Clara Barton Hospital,Hoisington,2.4,2.2 ,2.4
+kansas,Medicine Lodge Memorial Hospital,Medicine Lodge,1.4,1.2 ,1.4
+kansas,Stevens County Hospital,Hugoton,2.0,-,2.0
+kansas,Ness County Hospital District #2,Ness City,1.8,1.3 ,1.8
+kansas,Wamego Health Center,Wamego,2.1,3.4 ,2.1
+kansas,Great Plains Of Sabetha,Sabetha,1.9,1.4 ,1.9
+kansas,Greenwood County Hospital,Eureka,1.9,2.2 ,1.9
+kansas,Herington Hospital,Herington,-,1.9 ,-
+kansas,Hiawatha Community Hospital,Hiawatha,1.5,1.4 ,1.5
+kansas,Rush County Memorial Hospital,La Crosse,1.5,1.8 ,1.5
+kansas,Stanton County Hospital,Johnson,2.2,1.5 ,2.2
+kansas,Wilson Medical Center,Neodesha,1.6,1.4 ,1.6
+kansas,Pawnee Valley Community Hospital,Larned,1.8,1.6 ,1.8
+kansas,Hospital District #6 Patterson Health Center,Anthony,1.6,1.5 ,1.6
+kansas,Sheridan County Hospital,Hoxie,2.1,1.5 ,2.1
+kansas,Norton County Hospital,Norton,1.8,1.9 ,1.8
+kansas,Cloud County Health Center,Concordia,1.9,2.2 ,1.9
+kansas,Russell Regional Hospital,Russell,1.2,1.1 ,1.2
+kansas,Washington County Hospital,Washington,1.7,1.5 ,1.7
+kansas,Decatur Health,Oberlin,1.9,1.9 ,1.9
+kansas,Phillips County Hospital,Phillipsburg,1.8,1.9 ,1.8
+kansas,"Community Hospital, Onaga And St Marys Campus",Onaga,2.1,1.7 ,2.1
+kansas,Trego County Lemke Memorial Hospital,Wa Keeney,2.1,1.8 ,2.1
+kansas,St Luke Hospital & Living Center,Marion,2.1,1.6 ,2.1
+kansas,Hillsboro Community Hospital,Hillsboro,2.0,-,2.0
+kansas,Lindsborg Community Hospital,Lindsborg,2.1,1.6 ,2.1
+kansas,Greeley County Health Services,Tribune,2.1,1.7 ,2.1
+kansas,Lincoln County Hospital,Lincoln,2.1,2.3 ,2.1
+kansas,Republic County Hospital,Belleville,1.9,1.3 ,1.9
+kansas,Citizens Medical Center,Colby,2.2,2.8 ,2.2
+kansas,"Community Memorial Healthcare, Inc.",Marysville,1.7,1.4 ,1.7
+kansas,Osborne County Memorial Hospital,Osborne,1.7,1.1 ,1.7
+kansas,Hanover Hospital,Hanover,1.3,1.1 ,1.3
+kansas,Gove County Medical Center,Quinter,1.5,1.2 ,1.5
+kansas,Minneola District Hospital,Minneola,2.2,1.7 ,2.2
+kansas,Hodgeman County Health Center,Jetmore,1.7,1.5 ,1.7
+kansas,Goodland Regional Medical Center,Goodland,1.8,1.7 ,1.8
+kansas,Clay County Medical Center,Clay Center,2.1,1.9 ,2.1
+kansas,Scott County Hospital,Scott City,1.8,1.8 ,1.8
+kansas,Allen County Regional Hospital,Iola,2.4,1.8 ,2.4
+kansas,Fredonia Regional Hospital,Fredonia,2.0,1.9 ,2.0
+kansas,Mitchell County Hospital Health Systems,Beloit,2.5,2.0 ,2.5
+kansas,Girard Medical Center,Girard,1.8,1.9 ,1.8
+kansas,Smith County Memorial Hospital,Smith Center,1.8,1.5 ,1.8
+kansas,Kingman Healthcare Center,Kingman,1.6,1.1 ,1.6
+kansas,Morris County Hospital,Council Grove,2.0,1.6 ,2.0
+kansas,Neosho Memorial Regional Medical Center,Chanute,2.1,1.8 ,2.1
+kansas,Memorial Hospital,Abilene,2.2,1.7 ,2.2
+kansas,Amberwell Atchison Association,Atchison,1.6,-,1.6
+kansas,William Newton Hospital,Winfield,2.2,2.1 ,2.2
+kansas,Newman Regional Health,Emporia,2.1,1.8 ,2.1
+kansas,Coffey County Hospital,Burlington,1.5,-,1.5
+kansas,Children'S Mercy South,Overland Park,-,-,-
+kansas,Irwin Ach (Ft Riley),Fort Riley,2.4,-,2.4
+michigan,St Joe Mercy Hospital System Livonia,Livonia,4.4,3.5 ,4.4
+michigan,Corewell Health Zeeland Hospital,Zeeland,2.3,1.9 ,2.3
+michigan,Promedica Charles And Virginia Hickman Hospital,Adrian,3.1,2.2 ,3.1
+michigan,Pontiac General Hospital,Pontiac,-,-,-
+michigan,Three Rivers Health,Three Rivers,2.3,2.0 ,2.3
+michigan,Bronson Methodist Hospital,Kalamazoo,4.0,3.2 ,4.0
+michigan,"Ascension Providence Hospital, Southfield And Novi",Southfield,3.5,3.0 ,3.5
+michigan,Beaumont Hospital - Dearborn,Dearborn,3.8,3.9 ,3.8
+michigan,"Lakeland Hospital, St Joseph",St Joseph,2.8,1.9 ,2.8
+michigan,Promedica Coldwater Regional Hospital,Coldwater,2.5,2.2 ,2.5
+michigan,Sinai-Grace Hospital,Detroit,4.1,2.5 ,4.1
+michigan,Trinity Health Oakland Hospital,Pontiac,3.1,2.7 ,3.1
+michigan,Mymichigan Medical Center Alma,Alma,3.4,2.2 ,3.4
+michigan,Lake Huron Medical Center,Port Huron,2.4,1.6 ,2.4
+michigan,Spectrum Health United Hospital,Greenville,2.8,2.1 ,2.8
+michigan,Mymichigan Medical Center Alpena,Alpena,3.3,2.6 ,3.3
+michigan,Hillsdale Hospital,Hillsdale,3.1,2.4 ,3.1
+michigan,Spectrum Health,Grand Rapids,2.8,2.4 ,2.8
+michigan,Mclaren Bay Region,Bay City,2.2,2.8 ,2.2
+michigan,University Of Michigan Health System,Ann Arbor,6.0,4.8 ,6.0
+michigan,Henry Ford Macomb Hospital,Clinton Township,4.6,3.3 ,4.6
+michigan,Henry Ford Health Hospital,Detroit,3.5,2.9 ,3.5
+michigan,Uphs Marquette Dlp Hospital,Marquette,3.1,2.4 ,3.1
+michigan,Dickinson County Memorial Hospital,Iron Mountain,2.1,2.4 ,2.1
+michigan,Munson Healthcare Grayling Hospital,Grayling,3.3,3.2 ,3.3
+michigan,Mercy Health Saint Mary'S,Grand Rapids,2.6,2.4 ,2.6
+michigan,Trinity Health Muskegon Hospital,Muskegon,3.2,2.0 ,3.2
+michigan,Saint Joseph Mercy Livingston Hospital,Howell,2.8,2.0 ,2.8
+michigan,Covenant Medical Center,Saginaw,3.5,3.0 ,3.5
+michigan,Straith Hospital For Special Surgery,Southfield,-,-,-
+michigan,Holland Community Hospital,Holland,2.7,2.2 ,2.7
+michigan,Bronson Battle Creek Hospital,Battle Creek,3.4,2.5 ,3.4
+michigan,Ascension St Mary'S Hospital,Saginaw,2.7,2.1 ,2.7
+michigan,Corewell Health Watervliet Hospital,Watervliet,1.7,1.2 ,1.7
+michigan,Mclaren Central Michigan,Mount Pleasant,2.4,2.1 ,2.4
+michigan,Munson Healthcare Cadillac Hospital,Cadillac,3.1,2.7 ,3.1
+michigan,Bronson South Haven Hospital,South Haven,2.1,2.0 ,2.1
+michigan,Beaumont Hospital - Grosse Pointe,Grosse Pointe,3.0,3.4 ,3.0
+michigan,Henry Ford Allegiance Health,Jackson,3.3,3.0 ,3.3
+michigan,Corwell Health Big Rapids Hospital,Big Rapids,2.2,2.2 ,2.2
+michigan,Mymichigan Medical Center West Branch,West Branch,3.3,2.5 ,3.3
+michigan,Munson Medical Center,Traverse City,4.4,3.1 ,4.4
+michigan,Promedica Monroe Regional Hospital,Monroe,2.4,2.2 ,2.4
+michigan,Tawas St Joseph Hospital,Tawas City,1.8,1.8 ,1.8
+michigan,Harper University Hospital,Detroit,3.4,2.4 ,3.4
+michigan,Mclaren Northern Michigan,Petoskey,2.9,2.3 ,2.9
+michigan,Up Health System Portage,Hancock,2.5,1.7 ,2.5
+michigan,Corewell Health Ludington Hospital,Ludington,2.2,2.3 ,2.2
+michigan,Borgess Medical Center,Kalamazoo,3.5,2.7 ,3.5
+michigan,Memorial Healthcare,Owosso,3.1,2.1 ,3.1
+michigan,Beaumont Hospital Royal Oak,Royal Oak,4.6,3.8 ,4.6
+michigan,Hurley Medical Center,Flint,3.9,4.5 ,3.9
+michigan,Munson Healthcare Otsego Memorial Hospital,Gaylord,2.7,2.3 ,2.7
+michigan,Mclaren Flint,Flint,3.4,2.5 ,3.4
+michigan,Beaumont Hospital - Wayne,Wayne,3.1,2.8 ,3.1
+michigan,Forest Health Medical Center,Ypsilanti,-,-,-
+michigan,Henry Ford Health Wyandotte Hospital,Wyandotte,2.6,2.4 ,2.6
+michigan,Beaumont Hospital - Farmington Hills,Farmington Hills,3.1,2.7 ,3.1
+michigan,Trinity Health Ann Arbor Hospital,Ann Arbor,4.2,3.2 ,4.2
+michigan,Ascension St John Hospital,Detroit,3.5,3.0 ,3.5
+michigan,Mclaren Greater Lansing,Lansing,4.2,3.4 ,4.2
+michigan,Trinity Health Grand Haven Hospital,Grand Haven,2.7,1.9 ,2.7
+michigan,Beaumont Hospital - Trenton,Trenton,3.4,2.8 ,3.4
+michigan,Mymichigan Medical Center Clare,Clare,3.0,2.4 ,3.0
+michigan,Mclaren Lapeer Region,Lapeer,3.2,2.9 ,3.2
+michigan,Ascension Macomb Oakland Hosp-Warren Campus,Warren,4.3,3.3 ,4.3
+michigan,Ascension Genesys Hospital,Grand Blanc,3.3,3.1 ,3.3
+michigan,Mclaren Oakland,Pontiac,1.8,1.4 ,1.8
+michigan,Sparrow Carson Hospital,Carson City,1.5,1.4 ,1.5
+michigan,Mclaren Port Huron,Port Huron,3.3,2.4 ,3.3
+michigan,Oaklawn Hospital,Marshall,2.4,2.5 ,2.4
+michigan,Mymichigan Medical Center Midland,Midland,2.6,2.9 ,2.6
+michigan,Mclaren Macomb,Mount Clemens,2.8,2.9 ,2.8
+michigan,Edward W Sparrow Hospital,Lansing,4.5,4.0 ,4.5
+michigan,University Of Michigan Health - West,Wyoming,2.7,2.1 ,2.7
+michigan,Chippewa County War Memorial Hospital,Sault Sainte Marie,2.6,2.5 ,2.6
+michigan,Ascension River District Hospital,East China,2.3,2.1 ,2.3
+michigan,Garden City Hospital,Garden City,2.0,2.6 ,2.0
+michigan,Ascension Providence Rochester Hospital,Rochester,3.4,2.8 ,3.4
+michigan,Chelsea Hospital,Chelsea,3.8,3.0 ,3.8
+michigan,Southeast Michigan Surgical Hospital Llc,Warren,-,-,-
+michigan,"Beaumont Hospital, Troy",Troy,3.7,3.0 ,3.7
+michigan,Beaumont Hospital - Taylor,Taylor,2.8,2.9 ,2.8
+michigan,Detroit Receiving Hospital,Detroit,3.7,2.2 ,3.7
+michigan,Healthsource Saginaw,Saginaw,-,-,-
+michigan,Huron Valley-Sinai Hospital,Commerce Township,2.9,2.4 ,2.9
+michigan,Ascension Brighton Center For Recovery,Brighton,-,-,-
+michigan,Karmanos Cancer Center,Detroit,-,-,-
+michigan,Surgeons Choice Medical Center,Southfield,-,-,-
+michigan,Henry Ford Health West Bloomfield Hospital,West Bloomfield,4.5,3.2 ,4.5
+michigan,Munson Healthcare Manistee Hospital,Manistee,2.2,1.9 ,2.2
+michigan,Paul Oliver Memorial Hospital,Frankfort,1.7,1.3 ,1.7
+michigan,Kalkaska Memorial Health Center,Kalkaska,1.7,1.8 ,1.7
+michigan,Schoolcraft Memorial Hospital,Manistique,2.5,2.6 ,2.5
+michigan,Helen Newberry Joy Hospital,Newberry,2.0,2.5 ,2.0
+michigan,Saint Mary'S Standish Community Hospital,Standish,1.7,1.4 ,1.7
+michigan,Mackinac Straits Hospital And Health Center,Saint Ignace,2.0,1.9 ,2.0
+michigan,Baraga County Memorial Hospital,L' Anse,1.9,1.7 ,1.9
+michigan,Munising Memorial Hospital,Munising,1.9,2.2 ,1.9
+michigan,Aspirus Ontonagon Hospital Inc,Ontonagon,1.5,2.0 ,1.5
+michigan,Scheurer Hospital,Pigeon,1.7,1.7 ,1.7
+michigan,Deckerville Community Hospital,Deckerville,1.3,1.8 ,1.3
+michigan,Sheridan Community Hospital,Sheridan,1.6,2.7 ,1.6
+michigan,Harbor Beach Community Hospital,Harbor Beach,2.0,2.3 ,2.0
+michigan,Mckenzie Health System,Sandusky,1.7,1.6 ,1.7
+michigan,Ascension Borgess Lee Hospital,Dowagiac,1.5,1.6 ,1.5
+michigan,Hills & Dales General Hospital,Cass City,1.4,1.8 ,1.4
+michigan,Spectrum Health Kelsey Hospital,Lakeview,1.4,1.8 ,1.4
+michigan,"Aspirus Iron River Hospital & Clinics, Inc",Iron River,1.9,2.0 ,1.9
+michigan,Aspirus Keweenaw Hospital And Clinics,Laurium,2.0,1.9 ,2.0
+michigan,Mercy Health Lakeshore Campus,Shelby,1.7,1.2 ,1.7
+michigan,Bell Hospital,Ishpeming,2.5,2.1 ,2.5
+michigan,Charlevoix Area Hospital,Charlevoix,2.7,2.4 ,2.7
+michigan,Corewell Health Reed City Hospital,Reed City,1.7,1.8 ,1.7
+michigan,Eaton Rapids Medical Center,Eaton Rapids,2.0,1.9 ,2.0
+michigan,Mymichigan Medical Center Gladwin,Gladwin,2.4,2.1 ,2.4
+michigan,Sparrow Clinton Hospital,Saint Johns,2.6,2.3 ,2.6
+michigan,Sparrow Eaton Hospital,Charlotte,2.4,2.7 ,2.4
+michigan,Ascension Borgess Allegan Hospital,Allegan,1.8,2.5 ,1.8
+michigan,Mclaren Caro Region,Caro,1.1,1.4 ,1.1
+michigan,Marlette Regional Hospital,Marlette,1.6,1.5 ,1.6
+michigan,Sparrow Ionia Hospital,Ionia,2.5,2.2 ,2.5
+michigan,Bronson Lakeview Hospital,Paw Paw,2.6,2.1 ,2.6
+michigan,Aspirus Ironwood Hospital,Ironwood,2.2,2.0 ,2.2
+michigan,Osf St Francis Hospital And Medical Group,Escanaba,3.1,3.0 ,3.1
+michigan,Corewell Health Gerber Hospital,Fremont,2.7,2.2 ,2.7
+michigan,Corewell Health Pennock Hospital,Hastings,2.1,-,2.1
+michigan,Mclaren Thumb Region,Bad Axe,2.0,-,2.0
+michigan,Children'S Hospital Of Michigan,Detroit,-,-,-
+minnesota,North Memorial Health Hospital,Robbinsdale,3.2,2.6 ,3.2
+minnesota,Essentia Health St Mary'S Medical Center,Duluth,3.8,3.0 ,3.8
+minnesota,Hennepin County Medical Center,Minneapolis,3.9,2.8 ,3.9
+minnesota,Olmsted Medical Center,Rochester,2.0,1.5 ,2.0
+minnesota,Mayo Clinic Hospital Rochester,Rochester,4.0,3.3 ,4.0
+minnesota,Northfield Hospital,Northfield,2.3,2.2 ,2.3
+minnesota,Mayo Clinic Health System In Red Wing,Red Wing,2.4,2.1 ,2.4
+minnesota,Essentia Health Duluth,Duluth,-,-,-
+minnesota,Cambridge Medical Center,Cambridge,2.7,2.3 ,2.7
+minnesota,Sanford Worthington Medical Center,Worthington,2.2,1.6 ,2.2
+minnesota,Alomere Health,Alexandria,2.1,1.9 ,2.1
+minnesota,St Cloud Hospital,Saint Cloud,4.0,3.2 ,4.0
+minnesota,Allina United Hospital,Saint Paul,3.2,3.3 ,3.2
+minnesota,University Medical Center-Mesabi/ Mesaba Clinics,Hibbing,2.7,2.6 ,2.7
+minnesota,Mayo Clinic Health System - Albert Lea And Austin,Albert Lea,2.4,2.3 ,2.4
+minnesota,Winona Health Services,Winona,2.4,1.9 ,2.4
+minnesota,St Lukes Hospital,Duluth,3.2,2.7 ,3.2
+minnesota,Fairview Lakes Health Services,Wyoming,3.4,2.7 ,3.4
+minnesota,Lake Region Healthcare Corporation,Fergus Falls,2.6,2.1 ,2.6
+minnesota,Park Nicollet Methodist Hospital,Saint Louis Park,4.3,3.4 ,4.3
+minnesota,Ridgeview Medical Center,Waconia,2.2,2.5 ,2.2
+minnesota,Abbott Northwestern Hospital,Minneapolis,3.4,3.1 ,3.4
+minnesota,Grand Itasca Clinic And Hospital,Grand Rapids,2.9,2.3 ,2.9
+minnesota,Lakeview Memorial Hospital,Stillwater,2.6,2.2 ,2.6
+minnesota,Owatonna Hospital,Owatonna,2.1,2.3 ,2.1
+minnesota,Allina Health Faribault Medical Center,Faribault,2.4,2.2 ,2.4
+minnesota,Essentia Health St Joseph'S Medical Center,Brainerd,1.9,2.0 ,1.9
+minnesota,Buffalo Hospital,Buffalo,2.3,2.0 ,2.3
+minnesota,M Health Fairview Southdale Hospital,Edina,3.6,2.5 ,3.6
+minnesota,M Health Fairview University Of Mn,Minneapolis,3.2,3.0 ,3.2
+minnesota,Essentia Health Virginia,Virginia,2.7,2.4 ,2.7
+minnesota,Centracare- Rice Memorial Hospital,Willmar,2.6,2.3 ,2.6
+minnesota,Mayo Clinic Health System - Mankato,Mankato,3.5,2.5 ,3.5
+minnesota,Sanford Bemidji Medical Center,Bemidji,3.2,2.6 ,3.2
+minnesota,Essentia Health St Marys - Detroit Lakes,Detroit Lakes,2.6,2.2 ,2.6
+minnesota,St Francis Regional Medical Center,Shakopee,2.9,2.6 ,2.9
+minnesota,Regions Hospital,Saint Paul,3.8,3.1 ,3.8
+minnesota,Mercy Hospital,Coon Rapids,2.9,2.8 ,2.9
+minnesota,Fairview Northland Regional Hospital,Princeton,2.4,2.1 ,2.4
+minnesota,Mayo Clinic Health System - Fairmont,Fairmont,1.7,1.3 ,1.7
+minnesota,Hutchinson Health,Hutchinson,2.4,2.3 ,2.4
+minnesota,Red Lake Hospital A,Redlake,1.4,2.5 ,1.4
+minnesota,M Health Fairview Ridges Hospital,Burnsville,3.5,2.6 ,3.5
+minnesota,M Health Fairview St John'S Hospital,Maplewood,3.2,2.9 ,3.2
+minnesota,M Health Fairview Woodwinds Hospital,Woodbury,2.7,2.8 ,2.7
+minnesota,Maple Grove Hospital,Maple Grove,2.7,2.1 ,2.7
+minnesota,Mahnomen Health Center,Mahnomen,-,1.2 ,-
+minnesota,Lakewood Health Center,Baudette,2.1,1.2 ,2.1
+minnesota,Sanford Westbrook Medical Center,Westbrook,1.7,1.2 ,1.7
+minnesota,Sanford Tracy Medical Center,Tracy,1.7,1.7 ,1.7
+minnesota,Sanford Wheaton Medical Center,Wheaton,1.7,1.4 ,1.7
+minnesota,Riverwood Healthcare Center,Aitkin,2.0,1.8 ,2.0
+minnesota,Olivia Hospital & Clinic,Olivia,2.1,2.0 ,2.1
+minnesota,Lake View Memorial Hospital,Two Harbors,2.3,2.1 ,2.3
+minnesota,Essentia Health Sandstone,Sandstone,2.1,1.9 ,2.1
+minnesota,Ridgeview Sibley Medical Center,Arlington,2.2,3.9 ,2.2
+minnesota,Cook Hospital,Cook,1.8,2.1 ,1.8
+minnesota,Essentia Health Ada,Ada,1.5,1.4 ,1.5
+minnesota,Johnson Memorial Hospital,Dawson,1.9,1.6 ,1.9
+minnesota,Sanford Jackson Medical Center,Jackson,2.1,2.0 ,2.1
+minnesota,Bigfork Valley Hospital,Bigfork,2.0,1.5 ,2.0
+minnesota,North Shore Health,Grand Marais,1.8,2.1 ,1.8
+minnesota,Ely Bloomenson Community Hospital,Ely,2.5,2.2 ,2.5
+minnesota,Murray County Memorial Hospital,Slayton,1.9,1.7 ,1.9
+minnesota,Riverview Hospital,Crookston,1.8,1.4 ,1.8
+minnesota,Essentia Health Holy Trinity Hospital,Graceville,1.7,1.8 ,1.7
+minnesota,Rainy Lake Medical Center,International Falls,2.4,2.1 ,2.4
+minnesota,Madelia Health,Madelia,2.3,2.5 ,2.3
+minnesota,Chippewa County Hospital,Montevideo,2.5,2.0 ,2.5
+minnesota,Centracare Health System - Long Prairie,Long Prairie,2.0,1.9 ,2.0
+minnesota,Sleepy Eye Medical Center,Sleepy Eye,1.7,1.7 ,1.7
+minnesota,Sanford Bagley Medical Center,Bagley,2.5,1.4 ,2.5
+minnesota,Lakewood Health System,Staples,1.9,1.8 ,1.9
+minnesota,Centracare Health System - Melrose Hospital,Melrose,2.3,1.9 ,2.3
+minnesota,Windom Area Health,Windom,2.0,1.9 ,2.0
+minnesota,Mayo Clinic Health System St. James,St James,1.7,1.5 ,1.7
+minnesota,River'S Edge Hospital & Clinic,St Peter,2.4,1.9 ,2.4
+minnesota,St Elizabeth Medical Center,Wabasha,1.5,2.0 ,1.5
+minnesota,Kittson Healthcare,Hallock,-,1.6 ,-
+minnesota,North Valley Health Center,Warren,1.8,1.4 ,1.8
+minnesota,Mayo Clinic Health System - Lake City,Lake City,1.7,1.8 ,1.7
+minnesota,Hendricks Community Hospital,Hendricks,1.8,1.8 ,1.8
+minnesota,Essentia Health Northern Pines Medical Center,Aurora,1.8,1.8 ,1.8
+minnesota,Appleton Area Health,Appleton,2.1,-,2.1
+minnesota,Ortonville Area Health Services,Ortonville,1.9,1.5 ,1.9
+minnesota,Avera Granite Falls,Granite Falls,1.7,2.0 ,1.7
+minnesota,Lifecare Medical Center,Roseau,1.9,1.9 ,1.9
+minnesota,Mayo Clinic Health System - Waseca,Waseca,1.7,1.5 ,1.7
+minnesota,Mayo Clinic Health System - Cannon Falls,Cannon Falls,1.4,1.5 ,1.4
+minnesota,Sanford Canby Medical Center,Canby,2.0,1.6 ,2.0
+minnesota,Avera Tyler Hospital,Tyler,1.6,1.7 ,1.6
+minnesota,Centracare Health Paynesville Hospital,Paynesville,2.3,1.6 ,2.3
+minnesota,Essentia Health Moose Lake,Moose Lake,1.7,1.5 ,1.7
+minnesota,Centracare - Redwood,Redwood Falls,2.5,1.9 ,2.5
+minnesota,Cuyuna Regional Medical Center,Crosby,1.8,1.7 ,1.8
+minnesota,Astera Health,Wadena,2.3,2.0 ,2.3
+minnesota,Glencoe Regional Health,Glencoe,2.4,2.5 ,2.4
+minnesota,Mille Lacs Health System,Onamia,1.0,1.2 ,1.0
+minnesota,Essentia Health Fosston,Fosston,1.4,1.4 ,1.4
+minnesota,Cass Lake Indian Health Services Hospital,Cass Lake,1.2,1.2 ,1.2
+minnesota,Avera Marshall Regional Medical Ctr,Marshall,1.9,1.4 ,1.9
+minnesota,Essentia Health Deer River,Deer River,1.7,1.8 ,1.7
+minnesota,Mayo Clinic Health System New Prague,New Prague,2.3,2.1 ,2.3
+minnesota,Centracare Health - Monticello,Monticello,2.1,1.8 ,2.1
+minnesota,Stevens Community Medical Center,Morris,3.0,2.0 ,3.0
+minnesota,Community Memorial Hospital,Cloquet,2.0,1.6 ,2.0
+minnesota,Centracare - Benson,Benson,2.1,1.8 ,2.1
+minnesota,Meeker Memorial Hospital,Litchfield,1.6,1.5 ,1.6
+minnesota,Welia Health,Mora,2.4,2.2 ,2.4
+minnesota,Centracare Health System - Sauk Centre,Sauk Centre,2.0,1.6 ,2.0
+minnesota,United Hospital District,Blue Earth,1.7,2.3 ,1.7
+minnesota,St Gabriels Hospital,Little Falls,1.9,1.9 ,1.9
+minnesota,Sanford Luverne Medical Center,Luverne,2.0,1.8 ,2.0
+minnesota,Madison Hospital,Madison,1.8,1.6 ,1.8
+minnesota,Perham Health,Perham,2.4,1.6 ,2.4
+minnesota,Pipestone County  Medical Center,Pipestone,2.1,2.1 ,2.1
+minnesota,Minnesota Valley Health Center  Inc,Le Sueur,1.8,1.8 ,1.8
+minnesota,Glacial Ridge Hospital,Glenwood,2.7,1.9 ,2.7
+minnesota,St Francis Medical Center,Breckenridge,2.1,1.8 ,2.1
+minnesota,New Ulm Medical Center,New Ulm,1.8,1.9 ,1.8
+minnesota,Prairie Ridge Hospital And Health Services,Elbow Lake,1.9,1.8 ,1.9
+minnesota,St Josephs Area  Health Services,Park Rapids,2.4,1.9 ,2.4
+minnesota,Sanford Thief River Falls Medical Center,Thief River Falls,1.7,1.8 ,1.7
+minnesota,Gillette Childrens Specialty Hospital,Saint Paul,-,-,-
+minnesota,Children'S Hospitals & Clinics Of Mn,Minneapolis,-,-,-
+missouri,Mercy Hospital Joplin,Joplin,4.3,2.7 ,4.3
+missouri,Ssm St Joseph Health Center,Saint Charles,2.7,2.6 ,2.7
+missouri,Mosaic Life Care At St Joseph,Saint Joseph,3.0,3.2 ,3.0
+missouri,Bothwell Regional Health Center,Sedalia,3.0,2.9 ,3.0
+missouri,Ssm Health St Mary'S Hospital Jefferson City,Jefferson City,2.8,2.3 ,2.8
+missouri,Phelps County Regional Medical Center,Rolla,3.7,3.0 ,3.7
+missouri,Mercy Hospital St Louis,Saint Louis,3.9,3.1 ,3.9
+missouri,Northeast Regional Medical Center,Kirksville,2.7,2.3 ,2.7
+missouri,Mercy Hospital Jefferson,Festus,2.9,2.8 ,2.9
+missouri,Texas County Memorial Hospital,Houston,1.9,2.3 ,1.9
+missouri,Hannibal Regional Hospital,Hannibal,2.6,2.1 ,2.6
+missouri,Research Medical Center,Kansas City,1.5,1.4 ,1.5
+missouri,Barnes Jewish Hospital,Saint Louis,5.2,5.3 ,5.2
+missouri,Bates County Memorial Hospital,Butler,1.4,1.7 ,1.4
+missouri,Cox Medical Centers,Springfield,3.8,3.4 ,3.8
+missouri,Capital Region Medical Center,Jefferson City,3.0,2.1 ,3.0
+missouri,Truman Medical Center Hospital Hill,Kansas City,3.8,3.4 ,3.8
+missouri,Mosaic Medical Center - Maryville,Maryville,2.1,2.0 ,2.1
+missouri,Mercy Hospital Washington,Washington,2.7,2.0 ,2.7
+missouri,Cameron Regional Medical Center,Cameron,1.8,1.5 ,1.8
+missouri,Mercy Hospital Lebanon,Lebanon,2.9,2.0 ,2.9
+missouri,Nevada Regional Medical Center,Nevada,1.7,1.6 ,1.7
+missouri,Saint Lukes North Hospital,Kansas City,2.7,2.5 ,2.7
+missouri,Mercy Hospital Springfield,Springfield,4.6,3.9 ,4.6
+missouri,Boone Hospital Center,Columbia,3.2,3.0 ,3.2
+missouri,Pemiscot County Memorial Hospital,Hayti,2.6,2.4 ,2.6
+missouri,Moberly Regional Medical Center,Moberly,2.0,1.8 ,2.0
+missouri,Mercy Hospital South,Saint Louis,3.9,3.3 ,3.9
+missouri,Ozarks Healthcare,West Plains,2.8,2.6 ,2.8
+missouri,Ssm St Clare Health Center,Fenton,3.9,3.4 ,3.9
+missouri,St Joseph Medical Center,Kansas City,2.6,2.3 ,2.6
+missouri,Ssm Health St Mary'S Hospital - St Louis,Richmond Heights,3.1,2.4 ,3.1
+missouri,Cox Medical Center Branson,Branson,3.6,2.3 ,3.6
+missouri,Centerpoint Medical Center,Independence,2.8,2.4 ,2.8
+missouri,North Kansas City Hospital,North Kansas City,3.2,2.4 ,3.2
+missouri,Western Missouri Medical Center,Warrensburg,2.7,1.9 ,2.7
+missouri,University Health Lakewood Medical Center,Kansas City,2.9,2.5 ,2.9
+missouri,Ssm Health Depaul Hospital St Louis,Bridgeton,3.7,3.8 ,3.7
+missouri,Ssm Health Saint Louis University Hospital,Saint Louis,6.0,4.9 ,6.0
+missouri,Missouri Baptist Medical Center,Town And Country,4.4,3.3 ,4.4
+missouri,Mercy Hospital Southeast,Cape Girardeau,3.2,2.5 ,3.2
+missouri,Missouri Delta Medical Center,Sikeston,3.4,2.5 ,3.4
+missouri,Poplar Bluff Regional Medical Center,Poplar Bluff,3.3,2.4 ,3.3
+missouri,Freeman Health System - Freeman West,Joplin,4.7,2.9 ,4.7
+missouri,St Lukes Hospital Of Kansas City,Kansas City,3.8,2.7 ,3.8
+missouri,University Of Missouri Health Care,Columbia,2.9,2.3 ,2.9
+missouri,Fitzgibbon Hospital,Marshall,1.4,1.4 ,1.4
+missouri,Mercy Hospital Stoddard,Dexter,2.0,2.6 ,2.0
+missouri,Barnes-Jewish West County Hospital,Creve Coeur,3.6,2.9 ,3.6
+missouri,Parkland Health Center,Farmington,3.4,3.0 ,3.4
+missouri,Golden Valley Memorial Hospital,Clinton,2.5,2.8 ,2.5
+missouri,St Luke'S Des Peres Hospital,Saint Louis,2.7,2.5 ,2.7
+missouri,New Liberty Hospital District,Liberty,3.0,2.4 ,3.0
+missouri,St Lukes Hospital,Chesterfield,3.5,3.0 ,3.5
+missouri,Christian Hospital Northeast,Saint Louis,3.8,2.2 ,3.8
+missouri,Saint Francis Medical Center,Cape Girardeau,3.5,2.5 ,3.5
+missouri,Lake Regional Health System,Osage Beach,2.6,2.3 ,2.6
+missouri,Lee'S Summit Medical Center,Lees Summit,2.7,2.0 ,2.7
+missouri,Barnes-Jewish St Peters Hospital,Saint Peters,4.1,3.0 ,4.1
+missouri,St Mary'S Medical Center,Blue Springs,2.3,1.6 ,2.3
+missouri,Citizens Memorial Hospital,Bolivar,3.0,2.6 ,3.0
+missouri,Ssm St Joseph Hospital West,Lake Saint Louis,3.8,3.0 ,3.8
+missouri,South City Hospital,Saint Louis,2.3,2.5 ,2.3
+missouri,Belton Regional Medical Center,Belton,1.8,1.4 ,1.8
+missouri,Saint Luke'S East  Hospital,Lees Summit,4.2,3.0 ,4.2
+missouri,Progress West Hospital,O Fallon,3.3,2.6 ,3.3
+missouri,Ellett Memorial Hospital,Appleton City,1.9,1.7 ,1.9
+missouri,Madison Medical Center,Fredericktown,1.2,-,1.2
+missouri,Community Hospital Association,Fairfax,1.5,-,1.5
+missouri,Putnam County Memorial Hospital,Unionville,2.1,1.6 ,2.1
+missouri,Sullivan County Memorial Hospital,Milan,1.8,1.4 ,1.8
+missouri,Pershing Memorial Hospital,Brookfield,1.6,1.7 ,1.6
+missouri,Washington County Memorial Hospital,Potosi,2.3,2.0 ,2.3
+missouri,Wright Memorial Hospital,Trenton,2.1,2.0 ,2.1
+missouri,Scotland County  Hospital,Memphis,1.8,1.7 ,1.8
+missouri,Mercy Hospital Perry,Perryville,2.3,2.0 ,2.3
+missouri,Harrison County Community Hospital,Bethany,2.2,1.9 ,2.2
+missouri,Macon County Samaritan Memorial Hospital,Macon,-,-,-
+missouri,Hermann Area District Hospital,Hermann,1.6,1.4 ,1.6
+missouri,Parkland Health Center - Bonne Terre,Bonne Terre,-,-,-
+missouri,Mercy Hospital Aurora,Aurora,2.4,1.9 ,2.4
+missouri,Mercy Hospital - Cassville,Cassville,1.7,1.8 ,1.7
+missouri,Salem Memorial District Hospital,Salem,2.2,2.5 ,2.2
+missouri,Mercy Hospital Lincoln,Troy,2.5,1.8 ,2.5
+missouri,Lafayette Regional Health Center,Lexington,2.2,1.7 ,2.2
+missouri,Hedrick Medical Center,Chillicothe,2.3,1.9 ,2.3
+missouri,Excelsior Springs Hospital,Excelsior Springs,1.7,-,1.7
+missouri,Cedar County Memorial Hospital,El Dorado Springs,1.6,1.5 ,1.6
+missouri,Cass Regional Medical Center,Harrisonville,2.0,1.9 ,2.0
+missouri,Cox Barton County Hospital,Lamar,1.2,1.1 ,1.2
+missouri,Ray County Memorial Hospital,Richmond,1.7,1.8 ,1.7
+missouri,Mosaic Medical Center Albany,Albany,-,2.0 ,-
+missouri,Cox Monett Hospital,Monett,2.0,1.8 ,2.0
+missouri,Ste Genevieve County Memorial Hospital,Sainte Genevieve,1.8,1.7 ,1.8
+missouri,Freeman Neosho Hospital,Neosho,2.6,1.7 ,2.6
+missouri,Carroll County Memorial Hospital,Carrollton,1.7,1.5 ,1.7
+missouri,Pike County Memorial Hospital,Louisiana,2.2,1.7 ,2.2
+missouri,Mercy St Francis Hospital,Mountain View,1.7,2.0 ,1.7
+missouri,Iron County Medical Center,Pilot Knob,2.4,1.9 ,2.4
+missouri,Missouri Baptist Sullivan Hospital,Sullivan,2.7,2.2 ,2.7
+missouri,Mercy Hospital Carthage,Carthage,1.4,1.5 ,1.4
+missouri,St Louis Childrens Hospital,Saint Louis,-,-,-
+missouri,The Children'S Mercy Hospital,Kansas City,-,-,-
+missouri,Ranken Jordan Pediatric Bridge Hospital,Maryland Heights,-,-,-
+missouri,General Leonard Wood Ach (Ft Leonard Wood),Fort Leonard Wood,2.4,-,2.4
+nebraska,Bryan Medical Center,Lincoln,2.2,2.2 ,2.2
+nebraska,Chi Health Good Samaritan,Kearney,2.3,1.5 ,2.3
+nebraska,The Nebraska Medical Center,Omaha,4.2,3.1 ,4.2
+nebraska,Chi Health St. Elizabeth,Lincoln,2.3,2.5 ,2.3
+nebraska,Chi Health St. Francis,Grand Island,2.5,2.1 ,2.5
+nebraska,Mary Lanning Healthcare,Hastings,2.1,2.0 ,2.1
+nebraska,The Nebraska Methodist Hospital,Omaha,2.6,2.5 ,2.6
+nebraska,Twelve Clans Unity Hospital,Winnebago,-,-,-
+nebraska,Chi Health Bergan Mercy,Omaha,2.4,2.5 ,2.4
+nebraska,Regional West Medical Center,Scottsbluff,3.0,3.2 ,3.0
+nebraska,Great Plains Health,North Platte,2.3,2.1 ,2.3
+nebraska,Methodist Fremont Health,Fremont,2.5,2.0 ,2.5
+nebraska,Chi Health Immanuel,Omaha,2.7,2.0 ,2.7
+nebraska,Chi Health Midlands,Papillion,2.1,1.8 ,2.1
+nebraska,"Columbus Community Hospital, Inc",Columbus,2.0,1.8 ,2.0
+nebraska,Faith Regional Health Services,Norfolk,1.7,1.9 ,1.7
+nebraska,Lincoln Surgical Hospital,Lincoln,-,-,-
+nebraska,Chi Health Nebraska Heart,Lincoln,-,-,-
+nebraska,Nebraska Orthopaedic Hospital,Omaha,1.5,1.4 ,1.5
+nebraska,Chi Health Lakeside,Omaha,3.1,2.4 ,3.1
+nebraska,Midwest Surgical Hospital Llc,Omaha,-,-,-
+nebraska,"Bellevue Medical Center, Llc",Bellevue,2.6,2.3 ,2.6
+nebraska,"Nebraska Spine Hospital, Llc",Omaha,-,-,-
+nebraska,Kearney Regional Medical Center,Kearney,1.9,1.9 ,1.9
+nebraska,Grand Island Regional Medical Center,Grand Island,1.9,-,1.9
+nebraska,Harlan County Health System,Alma,1.8,1.5 ,1.8
+nebraska,Fillmore County Hospital,Geneva,1.6,1.5 ,1.6
+nebraska,Pawnee County Memorial Hospital,Pawnee City,1.8,1.9 ,1.8
+nebraska,Niobrara Valley Hospital,Lynch,-,1.1 ,-
+nebraska,Thayer County Health Services,Hebron,1.4,1.3 ,1.4
+nebraska,Kimball Health Services,Kimball,2.2,1.8 ,2.2
+nebraska,Kearney County Health Services Hospital,Minden,2.2,1.7 ,2.2
+nebraska,Saunders Medical Center,Wahoo,1.5,1.6 ,1.5
+nebraska,Henderson Community Hospital,Henderson,1.9,1.7 ,1.9
+nebraska,Syracuse Area Health,Syracuse,1.9,2.0 ,1.9
+nebraska,Regional West Garden County Hospital,Oshkosh,2.2,1.6 ,2.2
+nebraska,Franklin County Memorial Hospital,Franklin,1.4,1.2 ,1.4
+nebraska,Genoa Community Hospital,Genoa,1.2,1.1 ,1.2
+nebraska,Gothenburg Health,Gothenburg,1.7,1.7 ,1.7
+nebraska,Annie Jeffrey Memorial County Health Center,Osceola,1.4,1.2 ,1.4
+nebraska,Brodstone Healthcare,Superior,1.6,1.5 ,1.6
+nebraska,Webster County Community Hospital,Red Cloud,1.4,1.3 ,1.4
+nebraska,Morrill County Community Hospital,Bridgeport,2.5,1.9 ,2.5
+nebraska,Jefferson Community Health & Life,Fairbury,1.6,1.3 ,1.6
+nebraska,Memorial Hospital,Aurora,1.6,1.5 ,1.6
+nebraska,St Francis Memorial Hospital,West Point,1.8,1.8 ,1.8
+nebraska,Chi Health Schuyler,Schuyler,2.2,2.0 ,2.2
+nebraska,Nemaha County Hospital,Auburn,2.1,1.7 ,2.1
+nebraska,Brown County Hospital,Ainsworth,2.1,-,2.1
+nebraska,Antelope Memorial Hospital,Neligh,1.8,1.7 ,1.8
+nebraska,Cozad Community Hospital,Cozad,1.8,1.6 ,1.8
+nebraska,Merrick Medical Center,Central City,1.9,1.3 ,1.9
+nebraska,Avera St Anthony'S Hospital,O' Neill,1.7,1.6 ,1.7
+nebraska,Friend Community Healthcare System,Friend,1.4,1.5 ,1.4
+nebraska,Avera Creighton Hospital,Creighton,1.6,1.7 ,1.6
+nebraska,Butler County Health,David City,1.6,1.3 ,1.6
+nebraska,Rock County Hospital,Bassett,1.7,1.5 ,1.7
+nebraska,Boone County Health Center,Albion,1.7,1.4 ,1.7
+nebraska,Callaway District Hospital,Callaway,2.4,1.5 ,2.4
+nebraska,York General Hospital,York,-,1.3 ,-
+nebraska,Howard County Medical Center,St Paul,1.4,1.6 ,1.4
+nebraska,Memorial Health Care Systems,Seward,1.5,1.8 ,1.5
+nebraska,Dundy County Hospital,Benkelman,2.0,1.7 ,2.0
+nebraska,Chadron Community Hospital And Health Services,Chadron,1.7,1.6 ,1.7
+nebraska,Chi Health St. Mary'S,Nebraska City,1.9,1.6 ,1.9
+nebraska,West Holt Memorial Hospital,Atkinson,1.8,1.8 ,1.8
+nebraska,Cherry County Hospital,Valentine,2.3,2.1 ,2.3
+nebraska,Providence Medical Center,Wayne,2.4,1.6 ,2.4
+nebraska,Chi Health Plainview Hospital,Plainview,1.7,1.3 ,1.7
+nebraska,Osmond General Hospital,Osmond,1.9,2.1 ,1.9
+nebraska,Tri Valley Health System,Cambridge,2.4,1.7 ,2.4
+nebraska,Pender Community Hospital,Pender,1.9,1.4 ,1.9
+nebraska,Johnson County Hospital,Tecumseh,1.6,1.5 ,1.6
+nebraska,Chase County Community Hospital,Imperial,1.9,1.6 ,1.9
+nebraska,"Community Medical Center, Inc.",Falls City,1.5,1.4 ,1.5
+nebraska,Valley County Health System,Ord,2.1,1.9 ,2.1
+nebraska,Crete Area Medical Center,Crete,1.8,1.6 ,1.8
+nebraska,Ogallala Community Hospital,Ogallala,1.9,-,1.9
+nebraska,Perkins County Health Services,Grant,-,1.7 ,-
+nebraska,Sidney Regional Medical Center,Sidney,2.1,1.9 ,2.1
+nebraska,Gordon Memorial Hospital District,Gordon,2.3,1.6 ,2.3
+nebraska,Memorial Community Hospital & Health System,Blair,2.0,1.6 ,2.0
+nebraska,Box Butte General Hospital,Alliance,2.4,2.0 ,2.4
+nebraska,Lexington Regional Health Center,Lexington,1.5,1.5 ,1.5
+nebraska,Phelps Memorial Health Center,Holdrege,2.0,1.7 ,2.0
+nebraska,Community Hospital,Mccook,2.2,1.7 ,2.2
+nebraska,"Beatrice Community Hospital & Health Center, Inc",Beatrice,1.6,1.7 ,1.6
+nebraska,Jennie M Melham Memorial Medical Center,Broken Bow,2.1,1.7 ,2.1
+nebraska,Boys Town National Research Hospital,Boys Town,-,-,-
+nebraska,Children'S Nebraska,Omaha,-,-,-
+north-dakota,Chi St Alexius Health,Bismarck,2.6,2.5 ,2.6
+north-dakota,Trinity Hospitals,Minot,4.1,3.0 ,4.1
+north-dakota,Sanford Medical Center Fargo,Fargo,3.4,2.8 ,3.4
+north-dakota,Sanford Medical Center Bismarck,Bismarck,2.6,2.0 ,2.6
+north-dakota,Altru Hospital,Grand Forks,2.6,2.7 ,2.6
+north-dakota,P H S Indian Hosp At Belcourt-Quentin N Burdick,Belcourt,-,-,-
+north-dakota,Essentia Health,Fargo,2.0,2.0 ,2.0
+north-dakota,Tioga Medical Center,Tioga,1.1,-,1.1
+north-dakota,Mountrail County Medical Center Inc,Stanley,1.6,1.3 ,1.6
+north-dakota,Mckenzie County Healthcare Systems Inc,Watford City,2.1,1.8 ,2.1
+north-dakota,Garrison Memorial Hospital,Garrison,1.7,1.6 ,1.7
+north-dakota,Chi St Alexius Health Turtle Lake,Turtle Lake,1.7,1.4 ,1.7
+north-dakota,Trinity Kenmare Community Hospital,Kenmare,-,1.3 ,-
+north-dakota,Cooperstown Medical Center,Cooperstown,1.8,1.4 ,1.8
+north-dakota,St Andrew'S Hospital,Bottineau,1.2,1.2 ,1.2
+north-dakota,Nelson County Health System,Mcville,1.9,1.8 ,1.9
+north-dakota,Sanford Mayville,Mayville,1.5,1.6 ,1.5
+north-dakota,Sakakawea Medical Center - Cah,Hazen,2.3,-,2.3
+north-dakota,Lisbon Area Health Services,Lisbon,2.0,1.6 ,2.0
+north-dakota,Northwood Deaconess Health Center,Northwood,1.3,1.2 ,1.3
+north-dakota,Southwest Healthcare Services,Bowman,2.3,1.8 ,2.3
+north-dakota,Jacobson Memorial Hospital Care Center,Elgin,1.9,1.7 ,1.9
+north-dakota,Chi Oakes Hospital,Oakes,1.8,-,1.8
+north-dakota,Presentation Medical Center,Rolla,1.2,1.5 ,1.2
+north-dakota,Carrington Health Center,Carrington,1.6,1.4 ,1.6
+north-dakota,Pembina County Memorial Hospital,Cavalier,1.2,1.0 ,1.2
+north-dakota,Unity Medical Center,Grafton,2.1,1.5 ,2.1
+north-dakota,South Central Health,Wishek,1.9,1.3 ,1.9
+north-dakota,Ashley Medical Center,Ashley,1.5,-,1.5
+north-dakota,Cavalier County Memorial Hospital Association,Langdon,1.6,1.4 ,1.6
+north-dakota,Chi Mercy Health,Valley City,1.6,-,1.6
+north-dakota,St Luke'S Hospital,Crosby,1.2,1.1 ,1.2
+north-dakota,First Care Health Center,Park River,1.8,1.8 ,1.8
+north-dakota,Smp Health St Aloisius,Harvey,1.2,1.5 ,1.2
+north-dakota,Linton Hospital - Cah,Linton,1.9,1.4 ,1.9
+north-dakota,Sanford Hillsboro,Hillsboro,1.2,-,1.2
+north-dakota,West River Regional Medical Center,Hettinger,1.8,0.9 ,1.8
+north-dakota,Towner County Medical Center,Cando,1.2,1.1 ,1.2
+north-dakota,Heart Of America Medical Center,Rugby,1.9,1.8 ,1.9
+north-dakota,Chi St Alexius Health Devils Lake,Devils Lake,2.0,1.8 ,2.0
+north-dakota,Chi St Alexius Health Williston,Williston,2.5,1.6 ,2.5
+north-dakota,Jamestown Regional Medical Center,Jamestown,1.6,1.6 ,1.6
+north-dakota,Chi St Alexius Health Dickinson,Dickinson,2.9,-,2.9
+north-dakota,Standing Rock Service Unit,Fort Yates,1.3,-,1.3
+ohio,Mercy Health-Anderson Hospital,Cincinnati,2.8,2.9 ,2.8
+ohio,University Hospitals Samaritan Medical Center,Ashland,2.7,2.1 ,2.7
+ohio,"University Of Cincinnati Medical Center, Llc",Cincinnati,4.8,3.4 ,4.8
+ohio,Riverside Methodist Hospital,Columbus,3.7,3.3 ,3.7
+ohio,Southern Ohio Medical Center,Portsmouth,4.1,2.9 ,4.1
+ohio,Lima Memorial Health System,Lima,2.7,2.1 ,2.7
+ohio,Union Hospital,Dover,3.2,2.5 ,3.2
+ohio,Marion General Hospital,Marion,2.9,2.1 ,2.9
+ohio,Mount Carmel St Ann'S,Westerville,3.1,2.5 ,3.1
+ohio,Wilson Memorial Hospital,Sidney,2.6,1.8 ,2.6
+ohio,Ohiohealth O'Bleness Hospital,Athens,3.5,2.9 ,3.5
+ohio,The Jewish Hospital-Mercy Health,Cincinnati,2.9,2.4 ,2.9
+ohio,Grant Medical Center,Columbus,2.4,2.7 ,2.4
+ohio,Summa Health System,Akron,4.0,2.8 ,4.0
+ohio,Firelands Regional Medical Center,Sandusky,2.5,1.9 ,2.5
+ohio,Kettering Health Greene Memorial,Xenia,2.5,2.4 ,2.5
+ohio,Akron General Medical Center,Akron,2.7,2.3 ,2.7
+ohio,Wood County Hospital,Bowling Green,2.8,2.1 ,2.8
+ohio,Grand Lake Health System,Saint Marys,2.3,1.8 ,2.3
+ohio,Mount Carmel East & West,Columbus,2.6,2.5 ,2.6
+ohio,Wooster Community Hospital,Wooster,2.8,2.2 ,2.8
+ohio,Genesis Hospital,Zanesville,3.4,2.3 ,3.4
+ohio,Knox Community Hospital,Mount Vernon,2.9,2.3 ,2.9
+ohio,Parma Community General Hospital,Parma,3.7,3.2 ,3.7
+ohio,Wayne Hospital,Greenville,2.4,1.9 ,2.4
+ohio,Mccullough-Hyde Memorial Hospital,Oxford,1.8,1.9 ,1.8
+ohio,University Of Toledo Medical Center,Toledo,2.8,1.9 ,2.8
+ohio,Miami Valley Hospital,Dayton,2.4,2.3 ,2.4
+ohio,Holzer Medical Center,Gallipolis,2.3,2.1 ,2.3
+ohio,Trumbull Regional Medical Center,Warren,3.9,2.5 ,3.9
+ohio,Mercy Health - Fairfield Hospital,Fairfield,3.0,2.6 ,3.0
+ohio,Mercer County Joint Township Community Hospital,Coldwater,2.0,2.0 ,2.0
+ohio,Metrohealth System,Cleveland,2.9,2.4 ,2.9
+ohio,St Elizabeth Youngstown Hospital,Youngstown,3.3,2.3 ,3.3
+ohio,Fisher-Titus Hospital,Norwalk,2.0,2.3 ,2.0
+ohio,Mercy Health-St Rita'S Medical Center,Lima,2.4,2.5 ,2.4
+ohio,Promedica Toledo Hospital,Toledo,2.8,2.1 ,2.8
+ohio,Mercy Medical Center,Canton,4.6,3.5 ,4.6
+ohio,Van Wert County Hospital,Van Wert,2.3,2.0 ,2.3
+ohio,Fairfield Medical Center,Lancaster,2.7,3.1 ,2.7
+ohio,Uh Regional Hospitals,Chardon,3.2,2.2 ,3.2
+ohio,Atrium Medical Center,Franklin,3.0,2.2 ,3.0
+ohio,Fairview Hospital,Cleveland,3.9,2.7 ,3.9
+ohio,University Hospitals Portage Medical Center,Ravenna,3.8,2.4 ,3.8
+ohio,Kettering Health Main Campus,Kettering,2.9,2.7 ,2.9
+ohio,East Ohio Regional Hospital,Martins Ferry,2.7,1.8 ,2.7
+ohio,Euclid Hospital,Euclid,2.7,2.0 ,2.7
+ohio,Aultman Hospital,Canton,3.1,2.4 ,3.1
+ohio,Ohio State University State Health System,Columbus,5.2,3.3 ,5.2
+ohio,Springfield Regional Medical Center,Springfield,2.5,2.9 ,2.5
+ohio,Lutheran Hospital,Cleveland,2.6,2.0 ,2.6
+ohio,Mercy Health - Tiffin Hospital,Tiffin,2.5,2.0 ,2.5
+ohio,Medina Hospital,Medina,3.1,2.5 ,3.1
+ohio,Memorial Hospital,Marysville,3.0,2.0 ,3.0
+ohio,Blanchard Valley Hospital,Findlay,2.7,2.2 ,2.7
+ohio,East Liverpool City Hospital,East Liverpool,2.3,1.8 ,2.3
+ohio,Lake Health,Concord,3.8,2.7 ,3.8
+ohio,Bellevue Hospital,Bellevue,2.1,1.9 ,2.1
+ohio,Coshocton Regional Medical Center,Coshocton,2.8,1.3 ,2.8
+ohio,Mercy St Vincent Medical Center,Toledo,2.5,2.0 ,2.5
+ohio,Ohiohealth Mansfield Hospital,Mansfield,1.9,2.6 ,1.9
+ohio,Community Hospitals And Wellness Centers,Bryan,1.7,1.6 ,1.7
+ohio,Uh St John Medical Center,Westlake,3.6,3.1 ,3.6
+ohio,Ashtabula County Medical Center,Ashtabula,2.5,2.0 ,2.5
+ohio,Alliance Community Hospital,Alliance,2.8,2.0 ,2.8
+ohio,Fort Hamilton Hughes Memorial Hospital,Hamilton,2.4,2.0 ,2.4
+ohio,Kettering Health Dayton,Dayton,2.4,2.0 ,2.4
+ohio,Good Samaritan Hospital,Cincinnati,2.5,2.4 ,2.5
+ohio,Uh Cleveland Medical Center,Cleveland,4.4,3.3 ,4.4
+ohio,Marymount Hospital,Garfield Heights,3.6,2.4 ,3.6
+ohio,South Pointe Hospital,Warrensville Heights,3.3,2.2 ,3.3
+ohio,University Hospitals - Elyria Medical Center,Elyria,3.0,2.3 ,3.0
+ohio,Marietta Memorial Hospital,Marietta,2.4,2.2 ,2.4
+ohio,Pomerene Hospital,Millersburg,2.6,2.0 ,2.6
+ohio,Summa Western Reserve Hospital,Cuyahoga Falls,2.7,2.1 ,2.7
+ohio,Doctors Hospital,Columbus,3.1,2.5 ,3.1
+ohio,Southwest General Health Center,Middleburg Heights,3.3,2.9 ,3.3
+ohio,Memorial Hospital,Fremont,2.3,1.6 ,2.3
+ohio,Adena Regional Medical Center,Chillicothe,3.8,2.7 ,3.8
+ohio,Mh St Joseph Warren Hospital,Warren,2.4,2.0 ,2.4
+ohio,Christ Hospital,Cincinnati,3.2,3.0 ,3.2
+ohio,Berger Hospital,Circleville,2.7,2.0 ,2.7
+ohio,Mercy Regional Medical Center,Lorain,2.6,2.0 ,2.6
+ohio,Upper Valley Medical Center,Troy,2.8,2.0 ,2.8
+ohio,Clinton Memorial Hospital,Wilmington,2.5,2.1 ,2.5
+ohio,Bethesda North,Cincinnati,2.6,2.3 ,2.6
+ohio,Cleveland Clinic,Cleveland,3.0,2.5 ,3.0
+ohio,Salem Regional Medical Center,Salem,3.6,2.7 ,3.6
+ohio,Madison Health,London,2.3,1.6 ,2.3
+ohio,Mary Rutan Hospital,Bellefontaine,2.9,2.0 ,2.9
+ohio,Southeastern Ohio Regional Medical Center,Cambridge,2.6,1.9 ,2.6
+ohio,Grady Memorial Hospital,Delaware,2.5,2.1 ,2.5
+ohio,Trinity Medical Ctr East &Trinity Medical Ctr West,Steubenville,3.6,2.7 ,3.6
+ohio,Licking Memorial Hospital,Newark,3.3,3.2 ,3.3
+ohio,Hillcrest Hospital,Mayfield Heights,3.5,3.0 ,3.5
+ohio,Mercy Health - West Hospital,Cincinnati,2.6,2.4 ,2.6
+ohio,Mercy Health - Clermont Hospital,Batavia,2.4,2.1 ,2.4
+ohio,Kettering Health Miamisburg,Miamisburg,2.2,1.9 ,2.2
+ohio,Glenbeigh Health Sources,Rock Creek,-,-,-
+ohio,"Woods At Parkside,The",Columbus,-,-,-
+ohio,Bay Park Community Hospital,Oregon,2.0,1.8 ,2.0
+ohio,Institute For Orthopaedic Surgery,Lima,-,-,-
+ohio,Mount Carmel New Albany Surgical Hospital,New Albany,-,-,-
+ohio,Mercy Health - Defiance Hospital,Defiance,2.1,1.6 ,2.1
+ohio,Hmhp St Elizabeth Boardman Health Center,Boardman,3.8,2.7 ,3.8
+ohio,Dublin Methodist Hospital,Dublin,3.6,2.7 ,3.6
+ohio,Crystal Clinic Orthopaedic Center,Akron,-,-,-
+ohio,Surgical Hospital At Southwoods,Youngstown,-,-,-
+ohio,West Chester Hospital,West Chester,3.8,2.8 ,3.8
+ohio,Ohio Valley Surgical Hospital,Springfield,-,-,-
+ohio,Diley Ridge Medical Center,Canal Winchester,1.9,1.6 ,1.9
+ohio,University Hospitals Ahuja Medical Center,Beachwood,4.2,2.7 ,4.2
+ohio,Soin Medical Center,Beaver Creek,3.1,2.7 ,3.1
+ohio,Kings Daughters Medical Center Ohio,Portsmouth,2.2,2.0 ,2.2
+ohio,Cleveland Clinic Avon Hospital,Avon,3.6,2.4 ,3.6
+ohio,Avita Ontario,Ontario,2.1,1.7 ,2.1
+ohio,Lake Health Beachwood Medical Center,Beachwood,2.1,-,2.1
+ohio,Kettering Health Troy,Troy,2.4,-,2.4
+ohio,Paulding County Hospital,Paulding,1.2,1.8 ,1.2
+ohio,Community Memorial Hospital,Hicksville,-,-,-
+ohio,Twin City Medical Center,Dennison,-,-,-
+ohio,Lodi Community Hospital,Lodi,2.1,1.4 ,2.1
+ohio,Greenfield Area Medical Center,Greenfield,1.6,1.5 ,1.6
+ohio,Mercy Allen Hospital,Oberlin,1.6,-,1.6
+ohio,Uhhs Memorial Hospital Of Geneva,Geneva,3.1,-,3.1
+ohio,University Hospitals Conneaut Medical Center,Conneaut,2.4,2.1 ,2.4
+ohio,"Henry County Hospital, Inc",Napoleon,1.8,1.7 ,1.8
+ohio,Mercy Health - Willard Hospital,Willard,1.5,1.8 ,1.5
+ohio,Harrison Community Hospital,Cadiz,1.7,2.3 ,1.7
+ohio,Mercy Health - Urbana Hospital,Urbana,2.0,1.8 ,2.0
+ohio,Morrow County Hospital,Mount Gilead,-,-,-
+ohio,Magruder Hospital,Port Clinton,2.3,1.9 ,2.3
+ohio,Hardin Memorial Hospital,Kenton,-,-,-
+ohio,Bucyrus Community Hospital,Bucyrus,1.9,1.8 ,1.9
+ohio,Fostoria Community Hospital,Fostoria,-,-,-
+ohio,Selby General Hospital,Marietta,1.7,1.6 ,1.7
+ohio,Holzer Medical Center Jackson,Jackson,2.5,2.1 ,2.5
+ohio,"Barnesville Hospital Association, Inc",Barnesville,2.2,-,2.2
+ohio,Bluffton Hospital,Bluffton,1.8,1.6 ,1.8
+ohio,Aultman Orrville Hospital,Orrville,1.7,1.2 ,1.7
+ohio,Ohiohealth Shelby Hospital,Shelby,-,-,-
+ohio,Galion Community Hospital,Galion,2.1,2.2 ,2.1
+ohio,Adams County Regional Medical Center,Seaman,3.1,2.0 ,3.1
+ohio,Community Hospitals And Wellness Centers,Montpelier,-,-,-
+ohio,Promedica Defiance Regional Hospital,Defiance,-,-,-
+ohio,Wyandot Memorial Hospital,Upper Sandusky,2.2,-,2.2
+ohio,Hocking Valley Community Hospital,Logan,-,-,-
+ohio,Adena Fayette Medical Center,Washington Ch,2.4,2.6 ,2.4
+ohio,Highland District Hospital,Hillsboro,2.1,2.0 ,2.1
+ohio,Fulton County Health Center,Wauseon,2.1,1.8 ,2.1
+ohio,Adena Pike Medical Center,Waverly,1.9,1.4 ,1.9
+ohio,Cincinnati Children'S Hospital Medical Center,Cincinnati,-,-,-
+ohio,Rainbow Babies And Childrens Hospital,Cleveland,-,-,-
+ohio,Akron Children'S Hospital,Akron,-,-,-
+ohio,Cleveland Clinic Children'S Hospital For Rehab,Cleveland,-,-,-
+ohio,Nationwide Children'S Hospital,Columbus,-,-,-
+ohio,Dayton Childrens Hospital,Dayton,-,-,-
+ohio,Shriners Hospitals For Children,Dayton,-,-,-
+ohio,"Nationwide Children'S Hospital Toledo, Llc",Toledo,-,-,-
+ohio,88Th Medical Group (Wright-Patterson Afb),Wright-Patterson Afb,2.1,-,2.1
+south-dakota,"Prairie Lakes Healthcare System, Inc",Watertown,2.0,1.7 ,2.0
+south-dakota,Brookings Health System,Brookings,1.8,1.3 ,1.8
+south-dakota,Avera Sacred Heart Hospital,Yankton,2.0,2.0 ,2.0
+south-dakota,Avera St Lukes,Aberdeen,2.0,1.8 ,2.0
+south-dakota,Avera St Mary'S Hospital,Pierre,1.9,1.3 ,1.9
+south-dakota,Avera Mckennan Hospital & University Health Center,Sioux Falls,2.2,1.9 ,2.2
+south-dakota,Sanford Usd Medical Center,Sioux Falls,3.8,2.7 ,3.8
+south-dakota,Monument Health Spearfish Hospital,Spearfish,2.0,2.1 ,2.0
+south-dakota,Monument Health Rapid City Hospital,Rapid City,3.3,2.3 ,3.3
+south-dakota,Phs Indian Hospital At Rosebud,Rosebud,-,-,-
+south-dakota,Dunes Surgical Hospital,Dakota Dunes,-,-,-
+south-dakota,Sioux Falls Specialty Hospital,Sioux Falls,-,-,-
+south-dakota,Black Hills Surgical Hospital Llp,Rapid City,-,-,-
+south-dakota,Same Day Surgery Center Llc,Rapid City,-,-,-
+south-dakota,Avera Heart Hospital Of South Dakota,Sioux Falls,1.8,1.6 ,1.8
+south-dakota,Sanford Medical Center Aberdeen,Aberdeen,1.9,1.7 ,1.9
+south-dakota,Pine Ridge Ihs Hospital,Pine Ridge,-,-,-
+south-dakota,Madison Regional Health System,Madison,1.9,1.6 ,1.9
+south-dakota,Faulkton Area Medical Center,Faulkton,1.9,1.5 ,1.9
+south-dakota,Avera Missouri River Health Center,Gettysburg,2.0,-,2.0
+south-dakota,Douglas County Memorial Hospital-Cah,Armour,-,-,-
+south-dakota,Platte Health Center,Platte,2.0,2.3 ,2.0
+south-dakota,Sanford Clear Lake Medical Center,Clear Lake,1.4,-,1.4
+south-dakota,Eureka Community Health Services - Cah,Eureka,2.1,1.4 ,2.1
+south-dakota,Community Memorial Hospital,Burke,1.9,-,1.9
+south-dakota,Avera Flandreau Hospital - Cah,Flandreau,1.9,2.1 ,1.9
+south-dakota,Sanford Hospital Webster - Cah,Webster,-,-,-
+south-dakota,Marshall County Healthcare Center - Cah,Britton,1.8,1.8 ,1.8
+south-dakota,Freeman Medical Center - Cah,Freeman,2.3,2.2 ,2.3
+south-dakota,Bennett County Hospital And Nursing Home - Cah,Martin,-,-,-
+south-dakota,Wagner Community Memorial Hospital - Cah,Wagner,1.8,1.7 ,1.8
+south-dakota,Community Memorial Hospital,Redfield,1.7,1.6 ,1.7
+south-dakota,Landmann-Jungman Memorial Hospital - Cah,Scotland,1.7,1.6 ,1.7
+south-dakota,Bowdle Hospital - Cah,Bowdle,1.9,1.6 ,1.9
+south-dakota,Hans P Peterson Memorial Hospital - Cah,Philip,-,-,-
+south-dakota,Monument Health Lead-Deadwood Hospital,Deadwood,-,1.5 ,-
+south-dakota,Monument Health Sturgis Hospital,Sturgis,-,1.9 ,-
+south-dakota,Fall River Hospital - Cah,Hot Springs,1.8,2.0 ,1.8
+south-dakota,Monument Health Custer Hospital,Custer,-,1.9 ,-
+south-dakota,Avera Weskota Memorial Medical Center - Cah,Wessington Springs,2.2,1.8 ,2.2
+south-dakota,Mobridge Regional Hospital - Cah,Mobridge,1.4,1.4 ,1.4
+south-dakota,Milbank Area Hospital/Avera Health,Milbank,2.2,2.3 ,2.2
+south-dakota,St Michael'S Hospital - Cah,Tyndall,1.9,2.3 ,1.9
+south-dakota,Pioneer Memorial Hospital - Cah,Viborg,-,-,-
+south-dakota,Sanford Chamberlain Medical Center,Chamberlain,-,-,-
+south-dakota,Avera St Benedict Health Center - Cah,Parkston,1.7,1.5 ,1.7
+south-dakota,Avera Dells Area Hospital  - Cah,Dell Rapids,1.8,1.4 ,1.8
+south-dakota,Avera De Smet Memorial Hospital - Cah,De Smet,2.1,1.9 ,2.1
+south-dakota,Sanford Canton-Inwood Medical Center - Cah,Canton,-,-,-
+south-dakota,Winner Regional Healthcare Center - Cah,Winner,-,-,-
+south-dakota,Huron Regional Medical Center,Huron,1.9,-,1.9
+south-dakota,Sanford Vermillion Hospital,Vermillion,1.8,-,1.8
+south-dakota,Avera Hand County Memorial Hospital And Clinic,Miller,1.9,1.7 ,1.9
+south-dakota,Avera Gregory Hospital,Gregory,2.3,1.9 ,2.3
+south-dakota,Coteau Des Prairies Health Care System,Sisseton,1.2,1.4 ,1.2
+south-dakota,Avera Queen Of Peace,Mitchell,1.7,-,1.7
+south-dakota,Eagle Butte Indian Health Service Hospital,Eagle Butte,1.7,-,1.7
+south-dakota,Lifescape,Sioux Falls,-,-,-
+wisconsin,"Aspirus Stevens Point Hospital & Clinics, Inc.",Stevens Point,2.3,2.3 ,2.3
+wisconsin,Mayo Clinic Health System-Franciscan Medical Center Inc,La Crosse,1.9,1.8 ,1.9
+wisconsin,Waukesha Memorial Hospital,Waukesha,2.6,2.5 ,2.6
+wisconsin,Ascension Ne Wisconsin - St Elizabeth Campus,Appleton,2.4,1.8 ,2.4
+wisconsin,Marshfield Medical Center - Rice Lake,Rice Lake,2.3,2.4 ,2.3
+wisconsin,Sacred Heart Hospital,Eau Claire,2.8,2.3 ,2.8
+wisconsin,St Joseph'S Hospital,Chippewa Falls,1.9,1.8 ,1.9
+wisconsin,Aspirus Rhinelander Hospital,Rhinelander,2.4,2.2 ,2.4
+wisconsin,Froedtert South Inc.,Pleasant Prairie,3.2,2.3 ,3.2
+wisconsin,The Monroe Clinic,Monroe,2.2,2.4 ,2.2
+wisconsin,Aspirus Wausau Hospital,Wausau,2.5,2.3 ,2.5
+wisconsin,Aspirus Riverview Hospital & Clinics Inc,Wisconsin Rapids,3.9,2.6 ,3.9
+wisconsin,Aurora Medical Ctr Manitowoc County,Two Rivers,1.9,2.0 ,1.9
+wisconsin,Aurora Health Care Central Inc,Sheboygan,3.0,2.3 ,3.0
+wisconsin,Marshfield Medical Center,Marshfield,2.9,2.4 ,2.9
+wisconsin,Aurora Medical Ctr Washington County,Hartford,2.0,2.1 ,2.0
+wisconsin,Divine Savior Healthcare,Portage,2.5,1.8 ,2.5
+wisconsin,St Nicholas Hospital,Sheboygan,2.8,2.2 ,2.8
+wisconsin,Thedacare Regional Med Ctr - Neenah,Neenah,2.4,1.9 ,2.4
+wisconsin,Bellin Memorial Hospital,Green Bay,2.6,2.5 ,2.6
+wisconsin,Ascension Columbia St Mary'S Hospital Milwaukee,Milwaukee,2.9,2.3 ,2.9
+wisconsin,Ssm Health St Clare Hospital - Baraboo,Baraboo,1.9,1.8 ,1.9
+wisconsin,Aurora Memorial Hospital Burlington,Burlington,3.0,2.5 ,3.0
+wisconsin,Oconomowoc Memorial Hospital,Oconomowoc,2.5,2.3 ,2.5
+wisconsin,St Josephs Community Hospital West Bend,West Bend,3.3,2.6 ,3.3
+wisconsin,Mercy Health System Corp,Janesville,2.5,2.3 ,2.5
+wisconsin,Mayo Clinic Health System Eau Claire Hospital,Eau Claire,3.0,2.5 ,3.0
+wisconsin,Fort Memorial Hospital,Fort Atkinson,2.3,2.3 ,2.3
+wisconsin,St Vincent Hospital,Green Bay,2.0,2.2 ,2.0
+wisconsin,Marshfield Medical Center - Beaver Dam (Mmc-Bd),Beaver Dam,3.2,2.6 ,3.2
+wisconsin,Ascension St Francis Hospital,Milwaukee,2.1,1.8 ,2.1
+wisconsin,Ssm Health St Mary'S Hospital - Madison,Madison,3.0,2.5 ,3.0
+wisconsin,Gundersen Lutheran Medical Center,La Crosse,2.6,2.8 ,2.6
+wisconsin,St. Agnes Hospital Hospice,Fond Du Lac,2.8,2.4 ,2.8
+wisconsin,Unitypoint Health - Meriter,Madison,2.4,1.9 ,2.4
+wisconsin,Howard Young Medical Center,Woodruff,2.8,2.4 ,2.8
+wisconsin,Sauk Prairie Hospital,Prairie Du Sac,2.5,2.1 ,2.5
+wisconsin,Ascension All Saints Hospital,Racine,2.4,2.0 ,2.4
+wisconsin,St Mary'S Hospital Medical Center,Green Bay,1.9,1.7 ,1.9
+wisconsin,University Of Wi  Hospitals & Clinics Authority,Madison,3.8,3.2 ,3.8
+wisconsin,Beloit Health System,Beloit,2.4,2.0 ,2.4
+wisconsin,Aurora Lakeland Medical Center,Elkhorn,2.5,2.1 ,2.5
+wisconsin,Community Memorial Hospital,Menomonee Falls,3.8,2.9 ,3.8
+wisconsin,Holy Family Memorial,Manitowoc,2.1,1.6 ,2.1
+wisconsin,Mile Bluff Medical Center,Mauston,2.4,2.0 ,2.4
+wisconsin,Bay Area Medical Center,Marinette,2.5,1.9 ,2.5
+wisconsin,Watertown Memorial Hospital,Watertown,2.1,1.9 ,2.1
+wisconsin,Ascension Se Wisconsin Hospital,Milwaukee,2.4,2.0 ,2.4
+wisconsin,Aurora St Lukes Medical Center,Milwaukee,3.0,2.5 ,3.0
+wisconsin,West Allis Memorial Hospital,West Allis,3.4,2.6 ,3.4
+wisconsin,Thedacare Regional Medical Center - Appleton Inc,Appleton,2.6,2.0 ,2.6
+wisconsin,Froedtert Memorial Lutheran Hospital,Milwaukee,4.3,3.6 ,4.3
+wisconsin,Aurora Medical Center Kenosha,Kenosha,2.9,2.3 ,2.9
+wisconsin,Aurora Baycare Medical Ctr,Green Bay,2.4,2.1 ,2.4
+wisconsin,Orthopaedic Hospital Of Wisconsin,Glendale,-,-,-
+wisconsin,Oakleaf Surgical Hospital,Altoona,-,-,-
+wisconsin,Aurora Medical Ctr Oshkosh,Oshkosh,2.2,2.2 ,2.2
+wisconsin,Marshfield Medical Center - Weston,Weston,2.4,1.9 ,2.4
+wisconsin,Midwest Orthopedic Specialty Hospital,Franklin,-,-,-
+wisconsin,Aurora Medical Center - Summit,Summit,2.3,1.9 ,2.3
+wisconsin,Aurora Medical Center,Grafton,2.7,2.3 ,2.7
+wisconsin,Ssm Health St Mary'S Hospital - Janesville,Janesville,2.1,1.9 ,2.1
+wisconsin,Marshfield Medical Center - Eau Claire,Eau Claire,2.7,-,2.7
+wisconsin,Marshfield Medical Center - Minocqua,Minocqua,2.7,-,2.7
+wisconsin,Froedtert Community Hospital,New Berlin,2.2,-,2.2
+wisconsin,Ascension Wisconsin Hosp Menomonee Falls Campus,Menomonee Falls,1.2,-,1.2
+wisconsin,Marshfield Medical Center - River Region,Stevens Point,2.8,-,2.8
+wisconsin,Aspirus Eagle River Hospital,Eagle River,1.6,1.5 ,1.6
+wisconsin,Mayo Clinic Health System Oakridge,Osseo,2.1,2.0 ,2.1
+wisconsin,Thedacare Medical Center - Wild Rose,Wild Rose,2.1,2.0 ,2.1
+wisconsin,Gundersen St Josephs Hospital And Clinics,Hillsboro,1.9,1.4 ,1.9
+wisconsin,Mayo Clinic Hlth Systm Franciscan Hlthcare Sparta,Sparta,1.3,1.2 ,1.3
+wisconsin,Chippewa Valley Hospital,Durand,1.5,1.5 ,1.5
+wisconsin,Amery Hospital & Clinic,Amery,1.7,1.6 ,1.7
+wisconsin,Moundview Memorial Hospital And Clinics,Friendship,1.3,1.5 ,1.3
+wisconsin,Hshs St Clare Memorial Hospital,Oconto Falls,1.8,1.7 ,1.8
+wisconsin,Aspirus Stanley Hospital,Stanley,2.1,2.2 ,2.1
+wisconsin,Memorial Hospital Of Lafayette County,Darlington,1.6,1.9 ,1.6
+wisconsin,Aspirus Tomahawk Hospital,Tomahawk,1.6,1.4 ,1.6
+wisconsin,Mayo Clinic Health System Chippewa Valley,Bloomer,2.4,2.0 ,2.4
+wisconsin,Mayo Clinic Health System-Northland,Barron,1.7,2.0 ,1.7
+wisconsin,Gundersen Tri-County Hospital & Clinics,Whitehall,1.6,1.6 ,1.6
+wisconsin,Ascension Calumet Hospital,Chilton,1.3,1.8 ,1.3
+wisconsin,Ladd Memorial Hospital,Osceola,2.2,1.8 ,2.2
+wisconsin,Edgerton Hospital And Health Services,Edgerton,1.5,2.3 ,1.5
+wisconsin,Tomah Memorial Hospital,Tomah,1.9,2.1 ,1.9
+wisconsin,Ripon Medical Center,Ripon,2.4,2.5 ,2.4
+wisconsin,Grant Regional Health Center,Lancaster,2.5,2.0 ,2.5
+wisconsin,Marshfield Medical Center - Neillsville,Neillsville,2.1,2.7 ,2.1
+wisconsin,"Aspirus Medford Hospital & Clinics, Inc",Medford,2.1,-,2.1
+wisconsin,Flambeau Hospital,Park Falls,2.3,2.0 ,2.3
+wisconsin,Thedacare Medical Center - New London,New London,1.4,1.6 ,1.4
+wisconsin,Waupun Memorial Hospital,Waupun,2.4,2.5 ,2.4
+wisconsin,Marshfield Medical Center - Ladysmith,Ladysmith,1.8,1.9 ,1.8
+wisconsin,St Marys Hospital Superior,Superior,2.0,1.9 ,2.0
+wisconsin,Crossing Rivers Health Medical Center,Prairie Du Chien,2.8,2.0 ,2.8
+wisconsin,Burnett Medical Center,Grantsburg,-,-,-
+wisconsin,Spooner Health System,Spooner,1.9,1.8 ,1.9
+wisconsin,Black River Memorial Hospital,Black River Falls,1.5,2.4 ,1.5
+wisconsin,Thedacare Medical Center-Waupaca,Waupaca,1.8,1.8 ,1.8
+wisconsin,Hudson Hospital,Hudson,2.0,1.8 ,2.0
+wisconsin,Tamarack Health Hayward Medical Center,Hayward,2.3,2.5 ,2.3
+wisconsin,St Croix Regional Medical Center,Saint Croix Falls,2.1,-,2.1
+wisconsin,Columbus Community Hospital,Columbus,2.3,2.2 ,2.3
+wisconsin,Aspirus Merrill Hospital,Merrill,2.3,2.2 ,2.3
+wisconsin,Mayo Clinic Health System-Red Cedar Inc,Menomonie,2.2,2.1 ,2.2
+wisconsin,Richland Hospital,Richland Center,1.3,1.7 ,1.3
+wisconsin,Indianhead Medical Ctr,Shell Lake,-,1.2 ,-
+wisconsin,Stoughton Hospital,Stoughton,2.4,2.3 ,2.4
+wisconsin,Gundersen Boscobel Area Hospital And Clinics,Boscobel,1.8,1.7 ,1.8
+wisconsin,Westfields Hospital And Clinic,New Richmond,1.6,1.7 ,1.6
+wisconsin,Thedacare Medical Center - Shawano,Shawano,1.6,1.7 ,1.6
+wisconsin,Western Wisconsin Health,Baldwin,1.8,1.5 ,1.8
+wisconsin,Vernon Memorial Hospital,Viroqua,2.3,2.1 ,2.3
+wisconsin,River Falls Area Hospital,River Falls,2.0,1.7 ,2.0
+wisconsin,Langlade Hospital,Antigo,2.5,2.2 ,2.5
+wisconsin,Reedsburg Area Medical Center,Reedsburg,2.0,2.2 ,2.0
+wisconsin,Upland Hills Health,Dodgeville,2.0,1.7 ,2.0
+wisconsin,Cumberland Memorial Hospital,Cumberland,2.1,1.3 ,2.1
+wisconsin,Southwest Health Center,Platteville,1.7,1.5 ,1.7
+wisconsin,Berlin Memorial Hospital,Berlin,1.9,1.8 ,1.9
+wisconsin,Bellin Health Oconto Hospital,Oconto,1.7,1.9 ,1.7
+wisconsin,Mercy Walworth Hospital & Medical Center,Lake Geneva,2.1,2.5 ,2.1
+wisconsin,Door County Medical Center,Sturgeon Bay,2.5,2.3 ,2.5
+wisconsin,Tamarack Health Ashland Medical Center,Ashland,2.5,2.3 ,2.5
+wisconsin,Childrens Hospital Of Wisconsin,Milwaukee,-,-,-
+wisconsin,Childrens Hospital Of Wisconsin Fox Valley,Neenah,-,-,-

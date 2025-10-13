@@ -1,0 +1,1001 @@
+geo_level,geo_code,geo_description,service_level,apc_code,apc_description,hcpcs_code,hcpcs_description,beneficiary_count,apc_services,average_total_submitted_charges,average_medicare_allowed_amount,average_medicare_payment_amount,outlier_services,average_medicare_outlier_amount
+National,,National,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,316770,334117,10679.63,1476.38,1170.01,1246,5783.28
+National,,National,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,116917,130348,19660.38,2539.55,2015.59,2279,4981.07
+National,,National,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,49031,50944,25917.24,3440.52,2732.32,760,4247.11
+National,,National,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,52080,52305,43370.74,5906.32,4695.79,2595,3765.36
+National,,National,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,4547,4670,65914.67,8801.57,7205.64,689,4897.28
+National,,National,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,2985,3076,107119.68,16571.78,14971.0,339,4077.95
+National,,National,APC,5112,Level 2 Musculoskeletal Procedures,,,76275,79810,11720.22,1398.39,1106.15,176,5504.0
+National,,National,APC,5113,Level 3 Musculoskeletal Procedures,,,114487,116931,22380.96,2870.31,2273.18,1293,4801.65
+National,,National,APC,5114,Level 4 Musculoskeletal Procedures,,,171951,174110,43414.34,6439.71,5118.07,5430,3825.6
+National,,National,APC,5115,Level 5 Musculoskeletal Procedures,,,414182,429097,71283.29,12720.94,11121.27,10583,2626.93
+National,,National,APC,5116,Level 6 Musculoskeletal Procedures,,,18851,19081,112448.69,20933.79,19333.43,807,4887.43
+National,,National,APC,5153,Level 3 Airway Endoscopy,,,33901,39342,12270.16,1566.97,1243.1,188,5742.54
+National,,National,APC,5154,Level 4 Airway Endoscopy,,,54075,57996,25194.3,3293.97,2614.06,1062,4359.27
+National,,National,APC,5155,Level 5 Airway Endoscopy,,,32446,32837,43285.23,6111.63,4861.18,1883,3673.37
+National,,National,APC,5163,Level 3 ENT Procedures,,,6832,8014,9264.15,1323.62,1047.05,34,6961.48
+National,,National,APC,5164,Level 4 ENT Procedures,,,12896,13293,20908.31,2731.49,2164.1,205,5111.32
+National,,National,APC,5165,Level 5 ENT Procedures,,,36895,37233,38686.88,5277.86,4189.98,1952,4407.69
+National,,National,APC,5166,Cochlear Implant Procedure,,,4021,4083,129460.95,32337.4,30709.57,40,9032.42
+National,,National,APC,5182,Level 2 Vascular Procedures,,,63607,66834,9687.64,1456.96,1153.74,657,6680.02
+National,,National,APC,5183,Level 3 Vascular Procedures,,,177041,187143,20316.46,2924.06,2319.91,2282,5718.23
+National,,National,APC,5184,Level 4 Vascular Procedures,,,50164,55061,38889.16,4856.59,3854.03,3119,5035.53
+National,,National,APC,5191,Level 1 Endovascular Procedures,,,288427,290031,27162.78,2901.01,2028.58,2192,4515.7
+National,,National,APC,5192,Level 2 Endovascular Procedures,,,62615,70846,35439.88,5159.3,4094.0,1782,4030.54
+National,,National,APC,5193,Level 3 Endovascular Procedures,,,134599,145147,75564.17,10359.4,8770.69,13516,3028.55
+National,,National,APC,5194,Level 4 Endovascular Procedures,,,34519,35899,104747.28,16873.91,15279.67,2107,3929.14
+National,,National,APC,5200,Implantation Wireless PA Pressure Monitor,,,2527,2532,141465.5,27437.53,25837.02,26,6684.59
+National,,National,APC,5211,Level 1 Electrophysiologic Procedures,,,238,239,14619.72,1085.71,859.57,0,
+National,,National,APC,5212,Level 2 Electrophysiologic Procedures,,,6773,6834,50089.5,6612.46,5263.1,407,4412.78
+National,,National,APC,5213,Level 3 Electrophysiologic Procedures,,,95133,96827,145945.44,23348.73,21746.36,3078,3202.14
+National,,National,APC,5222,Level 2 Pacemaker and Similar Procedures,,,35086,35182,42655.59,8079.78,6517.4,406,3675.92
+National,,National,APC,5223,Level 3 Pacemaker and Similar Procedures,,,67979,68039,58049.87,10207.7,8605.58,1587,2755.13
+National,,National,APC,5224,Level 4 Pacemaker and Similar Procedures,,,11325,11337,100981.6,18255.46,16653.97,341,2596.07
+National,,National,APC,5231,Level 1 ICD and Similar Procedures,,,5905,5913,116425.95,22416.84,20812.87,128,4517.22
+National,,National,APC,5232,Level 2 ICD and Similar Procedures,,,29229,29303,163692.4,31338.77,29736.17,653,5582.71
+National,,National,APC,5244,Level 4 Blood Product Exchange and Related Services,,,62,62,198833.63,47000.11,45400.11,0,
+National,,National,APC,5302,Level 2 Upper GI Procedures,,,184868,206005,12751.37,1718.54,1366.83,544,5564.67
+National,,National,APC,5303,Level 3 Upper GI Procedures,,,24135,26031,21793.26,3090.12,2452.97,313,4243.61
+National,,National,APC,5313,Level 3 Lower GI Procedures,,,35936,36825,18116.0,2555.28,2050.48,138,5058.72
+National,,National,APC,5331,Complex GI Procedures,,,21190,25012,32047.39,5120.16,4067.37,702,3927.1
+National,,National,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,73242,78369,25561.04,3515.34,2786.29,1636,4781.22
+National,,National,APC,5361,Level 1 Laparoscopy and Related Services,,,156115,157072,38039.54,5115.26,4054.73,4472,3926.19
+National,,National,APC,5362,Level 2 Laparoscopy and Related Services,,,84487,84720,64420.14,8954.03,7352.78,7934,3092.32
+National,,National,APC,5372,Level 2 Urology and Related Services,,,128532,195699,3121.26,605.68,476.18,228,6617.9
+National,,National,APC,5373,Level 3 Urology and Related Services,,,144685,174983,12473.49,1812.68,1436.28,386,5942.3
+National,,National,APC,5374,Level 4 Urology and Related Services,,,143919,162735,22225.32,3148.2,2498.1,878,4572.67
+National,,National,APC,5375,Level 5 Urology and Related Services,,,141797,149830,31005.41,4649.29,3690.52,2143,4397.37
+National,,National,APC,5376,Level 6 Urology and Related Services,,,19695,19924,46671.75,8490.84,6901.8,506,3375.6
+National,,National,APC,5377,Level 7 Urology and Related Services,,,1009,1018,62371.76,11698.02,10098.11,13,1387.91
+National,,National,APC,5378,Level 8 Urology and Related Services,,,7176,7262,95901.24,18788.81,17188.15,74,3334.58
+National,,National,APC,5414,Level 4 Gynecologic Procedures,,,41230,41729,19941.68,2805.79,2222.91,113,4587.98
+National,,National,APC,5415,Level 5 Gynecologic Procedures,,,20460,21231,33076.4,4566.24,3619.11,565,4638.87
+National,,National,APC,5416,Level 6 Gynecologic Procedures,,,8889,8985,48284.04,6895.47,5486.0,406,4234.2
+National,,National,APC,5431,Level 1 Nerve Procedures,,,113495,132601,11993.82,1712.84,1355.6,523,5530.32
+National,,National,APC,5432,Level 2 Nerve Procedures,,,2644,2751,41225.23,5928.89,4704.37,234,4768.34
+National,,National,APC,5461,Level 1 Neurostimulator and Related Procedures,,,5138,5245,27209.58,3069.74,2429.66,237,5919.97
+National,,National,APC,5462,Level 2 Neurostimulator and Related Procedures,,,13587,15659,30790.34,5848.84,4651.32,484,4725.92
+National,,National,APC,5463,Level 3 Neurostimulator and Related Procedures,,,1841,1873,83403.94,11842.11,10258.99,388,4770.42
+National,,National,APC,5464,Level 4 Neurostimulator and Related Procedures,,,14634,15126,92612.13,20582.17,18981.08,339,6030.84
+National,,National,APC,5465,Level 5 Neurostimulator and Related Procedures,,,21410,21620,133522.3,28052.72,26450.14,450,9591.55
+National,,National,APC,5471,Implantation of Drug Infusion Device,,,3289,3322,80776.35,16111.57,14510.3,53,3609.65
+National,,National,APC,5491,Level 1 Intraocular Procedures,,,202203,301272,12639.88,2122.3,1683.11,235,5116.32
+National,,National,APC,5492,Level 2 Intraocular Procedures,,,50816,55697,25133.02,3982.79,3160.9,665,4149.27
+National,,National,APC,5493,Level 3 Intraocular Procedures,,,396,417,41418.9,7281.83,5845.03,45,4801.33
+National,,National,APC,5494,Level 4 Intraocular Procedures,,,59,65,60100.68,16767.54,15192.15,0,
+National,,National,APC,5495,Level 5 Intraocular Procedures,,,33,33,28902.28,17580.36,16003.05,0,0.0
+National,,National,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,24090,34841,10843.58,1509.05,1197.63,183,5319.91
+National,,National,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,4417,4579,24604.87,3512.49,2788.8,101,4557.89
+National,,National,APC,5627,Level 7 Radiation Therapy,,,8205,9045,76150.02,7730.54,6223.47,2623,5199.87
+National,,National,APC,5881,Ancillary Outpatient Services When Patient Dies,,,287,287,102675.47,11808.68,10220.06,82,6283.54
+National,,National,APC,8011,Comprehensive Observation Services,,,795392,864077,22845.99,2421.76,1972.84,8734,4893.34
+State,01,Alabama,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,4562,5086,10637.42,1287.64,1017.44,0,
+State,01,Alabama,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,1260,1302,19515.62,2172.61,1714.33,0,
+State,01,Alabama,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,689,702,26702.45,2958.82,2340.89,0,
+State,01,Alabama,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,699,701,46774.2,5090.26,4023.59,0,
+State,01,Alabama,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,55,56,55557.28,7486.1,5924.61,0,
+State,01,Alabama,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,40,42,137374.74,13104.38,11496.86,0,
+State,01,Alabama,APC,5112,Level 2 Musculoskeletal Procedures,,,1062,1094,17751.15,1216.03,956.85,0,0.0
+State,01,Alabama,APC,5113,Level 3 Musculoskeletal Procedures,,,2202,2242,31341.75,2438.88,1918.47,0,
+State,01,Alabama,APC,5114,Level 4 Musculoskeletal Procedures,,,3511,3560,49974.4,5566.13,4388.47,12,4499.84
+State,01,Alabama,APC,5115,Level 5 Musculoskeletal Procedures,,,6891,7081,77728.88,11119.86,9518.29,18,1385.31
+State,01,Alabama,APC,5116,Level 6 Musculoskeletal Procedures,,,441,448,102726.73,18337.67,16737.13,0,
+State,01,Alabama,APC,5153,Level 3 Airway Endoscopy,,,721,887,12110.2,1376.31,1089.26,0,
+State,01,Alabama,APC,5154,Level 4 Airway Endoscopy,,,759,817,27907.14,2812.34,2218.14,22,5048.86
+State,01,Alabama,APC,5155,Level 5 Airway Endoscopy,,,451,455,48426.14,5183.84,4091.61,0,
+State,01,Alabama,APC,5163,Level 3 ENT Procedures,,,113,119,15351.64,1136.05,884.01,0,0.0
+State,01,Alabama,APC,5164,Level 4 ENT Procedures,,,231,245,28884.56,2415.09,1908.84,0,
+State,01,Alabama,APC,5165,Level 5 ENT Procedures,,,612,620,39197.58,4567.12,3613.81,0,
+State,01,Alabama,APC,5166,Cochlear Implant Procedure,,,55,56,123671.46,29051.03,27451.03,0,0.0
+State,01,Alabama,APC,5182,Level 2 Vascular Procedures,,,1206,1310,9053.38,1279.76,1009.2,0,
+State,01,Alabama,APC,5183,Level 3 Vascular Procedures,,,2789,3036,22243.36,2534.54,2000.35,19,4710.6
+State,01,Alabama,APC,5184,Level 4 Vascular Procedures,,,1065,1173,33541.86,4347.67,3437.63,0,
+State,01,Alabama,APC,5191,Level 1 Endovascular Procedures,,,6155,6186,27846.49,2546.49,1768.12,12,7128.22
+State,01,Alabama,APC,5192,Level 2 Endovascular Procedures,,,857,912,36638.16,4482.91,3546.28,0,
+State,01,Alabama,APC,5193,Level 3 Endovascular Procedures,,,2524,2702,77944.3,9008.4,7418.59,77,2611.44
+State,01,Alabama,APC,5194,Level 4 Endovascular Procedures,,,510,525,100892.64,14697.73,13101.34,19,1625.48
+State,01,Alabama,APC,5200,Implantation Wireless PA Pressure Monitor,,,0,0,,,,0,
+State,01,Alabama,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,01,Alabama,APC,5212,Level 2 Electrophysiologic Procedures,,,76,76,60628.45,5620.55,4424.88,0,
+State,01,Alabama,APC,5213,Level 3 Electrophysiologic Procedures,,,1644,1685,175029.83,19901.61,18298.69,96,3631.38
+State,01,Alabama,APC,5222,Level 2 Pacemaker and Similar Procedures,,,444,447,51801.24,7025.86,5556.22,0,
+State,01,Alabama,APC,5223,Level 3 Pacemaker and Similar Procedures,,,1306,1307,69504.75,8903.27,7300.25,0,
+State,01,Alabama,APC,5224,Level 4 Pacemaker and Similar Procedures,,,214,214,116342.88,16168.96,14570.62,13,4095.4
+State,01,Alabama,APC,5231,Level 1 ICD and Similar Procedures,,,110,110,140445.83,19111.18,17505.66,0,
+State,01,Alabama,APC,5232,Level 2 ICD and Similar Procedures,,,481,482,194778.15,27101.2,25496.33,0,
+State,01,Alabama,APC,5302,Level 2 Upper GI Procedures,,,4082,4475,15616.54,1494.71,1181.92,0,
+State,01,Alabama,APC,5303,Level 3 Upper GI Procedures,,,303,307,28652.38,2756.01,2177.59,0,
+State,01,Alabama,APC,5313,Level 3 Lower GI Procedures,,,428,439,23239.35,2167.13,1718.94,0,0.0
+State,01,Alabama,APC,5331,Complex GI Procedures,,,251,283,41329.46,4346.23,3441.75,0,
+State,01,Alabama,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,851,884,31122.68,3026.5,2392.8,0,
+State,01,Alabama,APC,5361,Level 1 Laparoscopy and Related Services,,,2682,2698,41448.02,4397.97,3461.85,15,7009.99
+State,01,Alabama,APC,5362,Level 2 Laparoscopy and Related Services,,,1174,1179,68784.18,7710.45,6108.7,32,2426.92
+State,01,Alabama,APC,5372,Level 2 Urology and Related Services,,,1461,1829,2969.98,518.56,408.49,0,
+State,01,Alabama,APC,5373,Level 3 Urology and Related Services,,,1888,2155,15013.33,1579.03,1245.72,0,0.0
+State,01,Alabama,APC,5374,Level 4 Urology and Related Services,,,2510,2793,30141.25,2730.95,2153.74,0,0.0
+State,01,Alabama,APC,5375,Level 5 Urology and Related Services,,,1907,2016,31542.5,4047.03,3199.64,0,
+State,01,Alabama,APC,5376,Level 6 Urology and Related Services,,,227,235,44816.41,7419.54,5879.68,0,
+State,01,Alabama,APC,5377,Level 7 Urology and Related Services,,,27,27,85403.53,9566.22,7959.76,0,0.0
+State,01,Alabama,APC,5378,Level 8 Urology and Related Services,,,164,165,106239.43,15599.68,14002.84,0,
+State,01,Alabama,APC,5414,Level 4 Gynecologic Procedures,,,410,414,24391.85,2411.51,1897.45,0,
+State,01,Alabama,APC,5415,Level 5 Gynecologic Procedures,,,321,322,36286.26,3939.96,3105.33,0,
+State,01,Alabama,APC,5416,Level 6 Gynecologic Procedures,,,179,180,44422.05,6026.77,4771.81,0,
+State,01,Alabama,APC,5431,Level 1 Nerve Procedures,,,1610,1775,16615.91,1501.32,1180.61,0,
+State,01,Alabama,APC,5432,Level 2 Nerve Procedures,,,29,29,41932.18,5024.82,3914.77,0,
+State,01,Alabama,APC,5461,Level 1 Neurostimulator and Related Procedures,,,84,85,44386.25,2755.79,2177.19,0,
+State,01,Alabama,APC,5462,Level 2 Neurostimulator and Related Procedures,,,224,254,29739.54,5232.31,4137.86,0,0.0
+State,01,Alabama,APC,5463,Level 3 Neurostimulator and Related Procedures,,,11,11,56492.57,9966.77,8439.49,0,
+State,01,Alabama,APC,5464,Level 4 Neurostimulator and Related Procedures,,,296,308,89242.68,18361.72,16761.72,0,
+State,01,Alabama,APC,5465,Level 5 Neurostimulator and Related Procedures,,,347,352,156348.61,24441.29,22839.1,0,0.0
+State,01,Alabama,APC,5471,Implantation of Drug Infusion Device,,,24,24,86854.56,12946.89,11346.89,0,0.0
+State,01,Alabama,APC,5491,Level 1 Intraocular Procedures,,,3837,5941,9326.34,1813.79,1432.04,0,0.0
+State,01,Alabama,APC,5492,Level 2 Intraocular Procedures,,,1291,1451,18237.4,3396.16,2687.12,0,0.0
+State,01,Alabama,APC,5493,Level 3 Intraocular Procedures,,,0,0,,,,0,
+State,01,Alabama,APC,5494,Level 4 Intraocular Procedures,,,0,0,,,,0,
+State,01,Alabama,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,551,561,8989.55,1832.9,1453.71,0,0.0
+State,01,Alabama,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,84,84,11281.85,3002.25,2379.21,0,0.0
+State,01,Alabama,APC,5627,Level 7 Radiation Therapy,,,103,110,44959.28,6654.62,5282.22,0,
+State,01,Alabama,APC,5881,Ancillary Outpatient Services When Patient Dies,,,0,0,,,,0,
+State,01,Alabama,APC,8011,Comprehensive Observation Services,,,8404,8910,16376.73,2080.8,1652.1,11,4461.52
+State,02,Alaska,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,728,753,11389.25,1650.7,1308.07,0,
+State,02,Alaska,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,140,141,20302.62,2874.91,2280.23,0,0.0
+State,02,Alaska,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,94,95,25326.54,3847.94,3065.83,0,0.0
+State,02,Alaska,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,125,126,45466.54,6614.0,5261.3,0,
+State,02,Alaska,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5112,Level 2 Musculoskeletal Procedures,,,178,185,11662.33,1600.3,1266.4,0,
+State,02,Alaska,APC,5113,Level 3 Musculoskeletal Procedures,,,232,232,21765.98,3334.28,2647.18,0,
+State,02,Alaska,APC,5114,Level 4 Musculoskeletal Procedures,,,372,373,60550.29,7521.04,5970.57,11,2404.74
+State,02,Alaska,APC,5115,Level 5 Musculoskeletal Procedures,,,1145,1188,150349.39,14534.65,12934.44,161,6262.82
+State,02,Alaska,APC,5116,Level 6 Musculoskeletal Procedures,,,30,30,195585.36,24221.58,22621.58,0,
+State,02,Alaska,APC,5153,Level 3 Airway Endoscopy,,,40,42,17165.24,1730.96,1361.2,0,0.0
+State,02,Alaska,APC,5154,Level 4 Airway Endoscopy,,,98,101,34265.69,3545.83,2819.26,0,0.0
+State,02,Alaska,APC,5155,Level 5 Airway Endoscopy,,,24,24,49880.96,6402.56,5055.35,0,0.0
+State,02,Alaska,APC,5163,Level 3 ENT Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5164,Level 4 ENT Procedures,,,28,28,23142.38,2955.15,2330.79,0,0.0
+State,02,Alaska,APC,5165,Level 5 ENT Procedures,,,39,42,46819.38,5882.46,4686.83,0,
+State,02,Alaska,APC,5166,Cochlear Implant Procedure,,,26,26,89463.97,36512.95,34912.95,0,0.0
+State,02,Alaska,APC,5182,Level 2 Vascular Procedures,,,109,113,10445.44,1633.54,1296.52,0,
+State,02,Alaska,APC,5183,Level 3 Vascular Procedures,,,488,514,25080.72,3309.5,2630.05,12,4881.51
+State,02,Alaska,APC,5184,Level 4 Vascular Procedures,,,85,88,58423.31,5674.86,4517.06,0,
+State,02,Alaska,APC,5191,Level 1 Endovascular Procedures,,,593,595,45976.81,3312.12,2324.17,59,4663.68
+State,02,Alaska,APC,5192,Level 2 Endovascular Procedures,,,293,377,42524.85,5771.44,4587.68,21,6178.81
+State,02,Alaska,APC,5193,Level 3 Endovascular Procedures,,,312,332,111602.18,11586.57,10011.81,78,3821.75
+State,02,Alaska,APC,5194,Level 4 Endovascular Procedures,,,48,48,133516.16,18940.89,17336.41,0,
+State,02,Alaska,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5212,Level 2 Electrophysiologic Procedures,,,18,18,51999.8,7397.77,5894.16,0,0.0
+State,02,Alaska,APC,5213,Level 3 Electrophysiologic Procedures,,,289,295,158547.22,25645.98,24045.21,0,0.0
+State,02,Alaska,APC,5222,Level 2 Pacemaker and Similar Procedures,,,26,26,41415.67,8988.97,7388.97,0,0.0
+State,02,Alaska,APC,5223,Level 3 Pacemaker and Similar Procedures,,,82,82,55477.86,11323.8,9723.19,0,
+State,02,Alaska,APC,5224,Level 4 Pacemaker and Similar Procedures,,,66,66,79469.87,20464.98,18861.55,0,0.0
+State,02,Alaska,APC,5231,Level 1 ICD and Similar Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5232,Level 2 ICD and Similar Procedures,,,38,38,99479.13,35133.36,33533.36,0,0.0
+State,02,Alaska,APC,5302,Level 2 Upper GI Procedures,,,283,311,15082.82,1940.51,1542.48,0,
+State,02,Alaska,APC,5303,Level 3 Upper GI Procedures,,,31,31,30143.61,3437.25,2696.55,0,
+State,02,Alaska,APC,5313,Level 3 Lower GI Procedures,,,40,42,22316.47,2837.43,2252.2,0,0.0
+State,02,Alaska,APC,5331,Complex GI Procedures,,,32,35,41606.97,5816.78,4634.5,0,0.0
+State,02,Alaska,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,150,154,25536.72,3945.97,3126.91,0,
+State,02,Alaska,APC,5361,Level 1 Laparoscopy and Related Services,,,397,401,39847.11,5818.85,4615.32,0,
+State,02,Alaska,APC,5362,Level 2 Laparoscopy and Related Services,,,237,239,62316.99,10045.46,8445.2,0,
+State,02,Alaska,APC,5372,Level 2 Urology and Related Services,,,110,152,3142.56,731.46,579.75,0,0.0
+State,02,Alaska,APC,5373,Level 3 Urology and Related Services,,,195,240,12039.44,2080.52,1652.54,0,0.0
+State,02,Alaska,APC,5374,Level 4 Urology and Related Services,,,292,325,19332.43,3590.92,2855.45,0,
+State,02,Alaska,APC,5375,Level 5 Urology and Related Services,,,304,325,27860.57,5276.26,4197.6,0,
+State,02,Alaska,APC,5376,Level 6 Urology and Related Services,,,0,0,,,,0,
+State,02,Alaska,APC,5378,Level 8 Urology and Related Services,,,0,0,,,,0,
+State,02,Alaska,APC,5414,Level 4 Gynecologic Procedures,,,67,67,20848.57,3172.5,2519.64,0,
+State,02,Alaska,APC,5415,Level 5 Gynecologic Procedures,,,51,51,29058.12,5082.7,4017.28,0,0.0
+State,02,Alaska,APC,5416,Level 6 Gynecologic Procedures,,,21,21,29065.85,7815.28,6235.13,0,0.0
+State,02,Alaska,APC,5431,Level 1 Nerve Procedures,,,120,132,13474.03,2054.66,1623.69,0,0.0
+State,02,Alaska,APC,5432,Level 2 Nerve Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5461,Level 1 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5462,Level 2 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5464,Level 4 Neurostimulator and Related Procedures,,,16,16,72573.05,24098.8,22498.8,0,0.0
+State,02,Alaska,APC,5465,Level 5 Neurostimulator and Related Procedures,,,39,40,164084.03,32364.65,30764.65,0,0.0
+State,02,Alaska,APC,5471,Implantation of Drug Infusion Device,,,19,19,141650.28,18567.89,16967.19,0,0.0
+State,02,Alaska,APC,5491,Level 1 Intraocular Procedures,,,363,578,8254.64,2191.91,1745.38,0,0.0
+State,02,Alaska,APC,5492,Level 2 Intraocular Procedures,,,0,0,,,,0,
+State,02,Alaska,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,0,0,,,,0,
+State,02,Alaska,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,0,0,,,,0,
+State,02,Alaska,APC,5627,Level 7 Radiation Therapy,,,12,14,87945.57,8447.85,6847.85,0,
+State,02,Alaska,APC,8011,Comprehensive Observation Services,,,1419,1584,28726.91,2761.37,2298.32,69,5671.93
+State,04,Arizona,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,5857,6264,11741.31,1516.24,1203.41,0,
+State,04,Arizona,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,2808,3102,19562.87,2576.97,2048.06,19,4970.83
+State,04,Arizona,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,1202,1246,30705.12,3461.0,2750.03,0,
+State,04,Arizona,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,1350,1356,53495.86,6015.61,4787.99,52,3296.8
+State,04,Arizona,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,164,168,94228.87,8807.38,7203.76,40,4564.22
+State,04,Arizona,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,81,84,138235.31,16886.78,15281.48,0,
+State,04,Arizona,APC,5112,Level 2 Musculoskeletal Procedures,,,1523,1580,13241.03,1450.43,1148.44,0,
+State,04,Arizona,APC,5113,Level 3 Musculoskeletal Procedures,,,2312,2357,27385.89,3004.08,2383.9,25,4395.93
+State,04,Arizona,APC,5114,Level 4 Musculoskeletal Procedures,,,3318,3344,55958.6,6696.18,5318.19,117,3327.46
+State,04,Arizona,APC,5115,Level 5 Musculoskeletal Procedures,,,11024,11450,86647.78,13156.95,11556.05,121,1935.58
+State,04,Arizona,APC,5116,Level 6 Musculoskeletal Procedures,,,624,630,142288.68,21905.56,20304.2,22,4159.74
+State,04,Arizona,APC,5153,Level 3 Airway Endoscopy,,,921,1137,10733.96,1301.46,1034.96,0,
+State,04,Arizona,APC,5154,Level 4 Airway Endoscopy,,,1262,1422,24870.9,3323.71,2640.31,0,
+State,04,Arizona,APC,5155,Level 5 Airway Endoscopy,,,740,751,42326.23,6205.6,4934.54,0,
+State,04,Arizona,APC,5163,Level 3 ENT Procedures,,,69,79,9529.16,1096.56,873.23,0,0.0
+State,04,Arizona,APC,5164,Level 4 ENT Procedures,,,188,189,25082.09,2790.08,2214.13,0,
+State,04,Arizona,APC,5165,Level 5 ENT Procedures,,,961,967,40748.07,5362.47,4264.15,26,4166.54
+State,04,Arizona,APC,5166,Cochlear Implant Procedure,,,141,144,110014.91,32905.69,31305.18,0,0.0
+State,04,Arizona,APC,5182,Level 2 Vascular Procedures,,,1312,1349,10176.8,1504.16,1192.36,0,
+State,04,Arizona,APC,5183,Level 3 Vascular Procedures,,,3781,3950,21702.05,3017.93,2398.08,27,5688.65
+State,04,Arizona,APC,5184,Level 4 Vascular Procedures,,,867,1024,41219.0,4686.93,3728.8,22,6866.79
+State,04,Arizona,APC,5191,Level 1 Endovascular Procedures,,,5859,5882,32684.23,2992.01,2094.77,42,4302.81
+State,04,Arizona,APC,5192,Level 2 Endovascular Procedures,,,1010,1077,49492.78,5288.14,4196.1,22,3626.62
+State,04,Arizona,APC,5193,Level 3 Endovascular Procedures,,,2780,3014,87191.56,10634.31,9049.95,223,2395.86
+State,04,Arizona,APC,5194,Level 4 Endovascular Procedures,,,709,726,111356.13,17444.86,15846.92,13,2785.54
+State,04,Arizona,APC,5200,Implantation Wireless PA Pressure Monitor,,,49,49,198017.56,27520.74,25920.74,0,0.0
+State,04,Arizona,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,04,Arizona,APC,5212,Level 2 Electrophysiologic Procedures,,,262,267,48422.82,6805.35,5421.23,0,
+State,04,Arizona,APC,5213,Level 3 Electrophysiologic Procedures,,,3214,3289,139968.66,23547.14,21944.53,0,
+State,04,Arizona,APC,5222,Level 2 Pacemaker and Similar Procedures,,,612,612,47745.04,8282.8,6680.55,0,
+State,04,Arizona,APC,5223,Level 3 Pacemaker and Similar Procedures,,,1412,1415,62383.98,10454.02,8852.44,0,
+State,04,Arizona,APC,5224,Level 4 Pacemaker and Similar Procedures,,,258,259,113803.43,18818.57,17218.57,11,1198.09
+State,04,Arizona,APC,5231,Level 1 ICD and Similar Procedures,,,101,101,121949.83,22922.51,21318.88,0,0.0
+State,04,Arizona,APC,5232,Level 2 ICD and Similar Procedures,,,527,529,165653.35,32035.41,30433.03,0,
+State,04,Arizona,APC,5302,Level 2 Upper GI Procedures,,,3727,4199,13752.98,1761.72,1402.26,0,
+State,04,Arizona,APC,5303,Level 3 Upper GI Procedures,,,577,590,20813.44,3239.68,2569.02,0,
+State,04,Arizona,APC,5313,Level 3 Lower GI Procedures,,,551,560,22896.07,2588.01,2074.63,0,
+State,04,Arizona,APC,5331,Complex GI Procedures,,,656,849,26719.11,4947.8,3931.69,0,
+State,04,Arizona,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,1611,1661,36390.85,3594.62,2854.49,47,5192.97
+State,04,Arizona,APC,5361,Level 1 Laparoscopy and Related Services,,,3947,3967,45716.69,5241.26,4158.94,68,3810.81
+State,04,Arizona,APC,5362,Level 2 Laparoscopy and Related Services,,,2252,2262,79482.43,9082.97,7479.11,232,2058.53
+State,04,Arizona,APC,5372,Level 2 Urology and Related Services,,,1191,1464,4469.33,449.54,353.23,0,
+State,04,Arizona,APC,5373,Level 3 Urology and Related Services,,,2412,3112,14660.44,1773.15,1407.41,0,
+State,04,Arizona,APC,5374,Level 4 Urology and Related Services,,,3735,4272,27846.3,3226.3,2564.74,0,
+State,04,Arizona,APC,5375,Level 5 Urology and Related Services,,,4080,4272,37193.85,4750.07,3774.65,27,3496.91
+State,04,Arizona,APC,5376,Level 6 Urology and Related Services,,,686,690,51457.55,8623.53,7021.16,0,
+State,04,Arizona,APC,5377,Level 7 Urology and Related Services,,,28,28,50594.15,11730.02,10126.43,0,0.0
+State,04,Arizona,APC,5378,Level 8 Urology and Related Services,,,216,218,108485.88,19347.08,17745.02,0,
+State,04,Arizona,APC,5414,Level 4 Gynecologic Procedures,,,724,731,24570.39,2818.02,2232.47,0,
+State,04,Arizona,APC,5415,Level 5 Gynecologic Procedures,,,593,598,44275.87,4634.53,3675.74,0,
+State,04,Arizona,APC,5416,Level 6 Gynecologic Procedures,,,310,311,58806.05,6908.39,5467.52,0,
+State,04,Arizona,APC,5431,Level 1 Nerve Procedures,,,1725,2124,12750.76,1675.8,1331.33,0,
+State,04,Arizona,APC,5432,Level 2 Nerve Procedures,,,40,41,50838.9,5949.54,4673.41,0,
+State,04,Arizona,APC,5461,Level 1 Neurostimulator and Related Procedures,,,107,108,36126.81,3215.12,2540.35,0,
+State,04,Arizona,APC,5462,Level 2 Neurostimulator and Related Procedures,,,165,197,36328.8,5641.86,4483.91,0,
+State,04,Arizona,APC,5463,Level 3 Neurostimulator and Related Procedures,,,43,44,51021.18,11907.26,10325.44,0,
+State,04,Arizona,APC,5464,Level 4 Neurostimulator and Related Procedures,,,265,282,113126.66,21659.16,20056.47,0,
+State,04,Arizona,APC,5465,Level 5 Neurostimulator and Related Procedures,,,550,552,151821.14,29520.72,27920.04,0,
+State,04,Arizona,APC,5471,Implantation of Drug Infusion Device,,,47,49,73324.88,17176.52,15576.52,0,0.0
+State,04,Arizona,APC,5491,Level 1 Intraocular Procedures,,,833,1198,12110.52,2232.71,1773.0,0,0.0
+State,04,Arizona,APC,5492,Level 2 Intraocular Procedures,,,347,369,34119.56,4009.52,3187.23,0,
+State,04,Arizona,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,193,195,16301.86,2134.82,1697.4,0,
+State,04,Arizona,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,61,64,32794.16,3488.14,2769.57,0,
+State,04,Arizona,APC,5627,Level 7 Radiation Therapy,,,80,83,39705.35,7307.78,5811.49,0,
+State,04,Arizona,APC,5881,Ancillary Outpatient Services When Patient Dies,,,11,11,138688.7,11361.33,9740.78,0,
+State,04,Arizona,APC,8011,Comprehensive Observation Services,,,22830,24960,24636.91,2469.21,1986.43,125,5961.61
+State,05,Arkansas,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,3513,3723,8084.51,1315.02,1043.16,0,
+State,05,Arkansas,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,2096,2757,13574.46,2229.04,1772.27,0,
+State,05,Arkansas,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,381,382,16198.63,3049.94,2419.43,0,0.0
+State,05,Arkansas,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,487,487,27140.83,5255.03,4174.27,0,
+State,05,Arkansas,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,35,36,38374.98,7691.79,6102.68,0,
+State,05,Arkansas,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,21,21,73735.79,14733.26,13133.26,0,
+State,05,Arkansas,APC,5112,Level 2 Musculoskeletal Procedures,,,1230,1284,8239.27,1266.97,1003.24,0,0.0
+State,05,Arkansas,APC,5113,Level 3 Musculoskeletal Procedures,,,2236,2300,14348.54,2593.35,2053.83,0,0.0
+State,05,Arkansas,APC,5114,Level 4 Musculoskeletal Procedures,,,3289,3333,25679.36,5839.69,4630.92,0,
+State,05,Arkansas,APC,5115,Level 5 Musculoskeletal Procedures,,,5782,5984,42884.26,11479.59,9878.96,0,
+State,05,Arkansas,APC,5116,Level 6 Musculoskeletal Procedures,,,424,427,61643.05,19224.06,17625.19,0,0.0
+State,05,Arkansas,APC,5153,Level 3 Airway Endoscopy,,,430,450,9013.97,1409.49,1116.6,0,0.0
+State,05,Arkansas,APC,5154,Level 4 Airway Endoscopy,,,714,746,13743.07,2944.47,2338.58,0,
+State,05,Arkansas,APC,5155,Level 5 Airway Endoscopy,,,235,236,20144.4,5460.24,4337.94,0,0.0
+State,05,Arkansas,APC,5163,Level 3 ENT Procedures,,,54,54,7527.23,1252.67,998.06,0,0.0
+State,05,Arkansas,APC,5164,Level 4 ENT Procedures,,,156,156,14847.12,2456.34,1939.34,0,0.0
+State,05,Arkansas,APC,5165,Level 5 ENT Procedures,,,369,373,21524.71,4678.9,3715.93,0,0.0
+State,05,Arkansas,APC,5166,Cochlear Implant Procedure,,,58,59,84738.78,29263.18,27663.18,0,0.0
+State,05,Arkansas,APC,5182,Level 2 Vascular Procedures,,,845,890,6848.06,1310.53,1036.87,0,
+State,05,Arkansas,APC,5183,Level 3 Vascular Procedures,,,2390,2559,14671.52,2604.18,2064.99,15,6521.45
+State,05,Arkansas,APC,5184,Level 4 Vascular Procedures,,,525,561,28384.29,4300.24,3388.54,0,
+State,05,Arkansas,APC,5191,Level 1 Endovascular Procedures,,,7858,7900,14296.4,2632.05,1842.07,0,
+State,05,Arkansas,APC,5192,Level 2 Endovascular Procedures,,,882,954,24860.34,4575.29,3622.06,0,
+State,05,Arkansas,APC,5193,Level 3 Endovascular Procedures,,,3331,3538,50970.83,9364.55,7769.27,117,2598.13
+State,05,Arkansas,APC,5194,Level 4 Endovascular Procedures,,,784,822,68498.65,15179.63,13587.25,15,2213.54
+State,05,Arkansas,APC,5200,Implantation Wireless PA Pressure Monitor,,,13,13,87283.32,20539.06,18939.06,0,0.0
+State,05,Arkansas,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,05,Arkansas,APC,5212,Level 2 Electrophysiologic Procedures,,,183,185,24127.79,5965.05,4732.5,0,
+State,05,Arkansas,APC,5213,Level 3 Electrophysiologic Procedures,,,1128,1141,85817.46,20807.61,19205.01,0,0.0
+State,05,Arkansas,APC,5222,Level 2 Pacemaker and Similar Procedures,,,462,465,30794.09,7292.44,5801.35,0,
+State,05,Arkansas,APC,5223,Level 3 Pacemaker and Similar Procedures,,,1360,1360,34595.29,9232.72,7630.85,0,
+State,05,Arkansas,APC,5224,Level 4 Pacemaker and Similar Procedures,,,125,125,61682.44,16519.65,14918.85,0,0.0
+State,05,Arkansas,APC,5231,Level 1 ICD and Similar Procedures,,,96,96,77380.53,20144.28,18541.93,0,0.0
+State,05,Arkansas,APC,5232,Level 2 ICD and Similar Procedures,,,540,540,110394.33,27948.02,26344.04,0,
+State,05,Arkansas,APC,5302,Level 2 Upper GI Procedures,,,1570,1724,8981.17,1535.29,1220.74,0,0.0
+State,05,Arkansas,APC,5303,Level 3 Upper GI Procedures,,,200,203,14974.81,2820.16,2232.17,0,0.0
+State,05,Arkansas,APC,5313,Level 3 Lower GI Procedures,,,372,376,14708.91,2284.8,1825.45,0,0.0
+State,05,Arkansas,APC,5331,Complex GI Procedures,,,205,226,20722.09,4568.57,3625.01,0,0.0
+State,05,Arkansas,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,849,881,18802.41,3147.54,2499.51,0,
+State,05,Arkansas,APC,5361,Level 1 Laparoscopy and Related Services,,,2098,2108,22519.04,4585.4,3631.56,0,
+State,05,Arkansas,APC,5362,Level 2 Laparoscopy and Related Services,,,1067,1069,41224.38,8030.89,6429.88,0,
+State,05,Arkansas,APC,5372,Level 2 Urology and Related Services,,,1049,1423,2283.79,552.97,431.17,0,
+State,05,Arkansas,APC,5373,Level 3 Urology and Related Services,,,1745,1945,9380.74,1652.46,1310.28,0,
+State,05,Arkansas,APC,5374,Level 4 Urology and Related Services,,,2120,2377,14581.9,2857.84,2268.88,0,
+State,05,Arkansas,APC,5375,Level 5 Urology and Related Services,,,1633,1693,17758.72,4191.42,3328.87,0,0.0
+State,05,Arkansas,APC,5376,Level 6 Urology and Related Services,,,239,243,28981.57,7585.58,6022.22,0,
+State,05,Arkansas,APC,5377,Level 7 Urology and Related Services,,,20,20,41486.25,10743.65,9142.35,0,0.0
+State,05,Arkansas,APC,5378,Level 8 Urology and Related Services,,,114,117,57416.49,17125.03,15518.68,0,0.0
+State,05,Arkansas,APC,5414,Level 4 Gynecologic Procedures,,,413,416,13409.23,2490.08,1972.99,0,0.0
+State,05,Arkansas,APC,5415,Level 5 Gynecologic Procedures,,,261,261,21015.51,4102.47,3253.74,0,0.0
+State,05,Arkansas,APC,5416,Level 6 Gynecologic Procedures,,,124,124,26703.09,6141.43,4858.27,0,0.0
+State,05,Arkansas,APC,5431,Level 1 Nerve Procedures,,,2210,2671,7730.45,1599.8,1267.37,0,0.0
+State,05,Arkansas,APC,5432,Level 2 Nerve Procedures,,,40,44,20455.59,4886.39,3870.24,0,0.0
+State,05,Arkansas,APC,5461,Level 1 Neurostimulator and Related Procedures,,,99,99,14630.16,2853.31,2259.28,0,0.0
+State,05,Arkansas,APC,5462,Level 2 Neurostimulator and Related Procedures,,,325,418,17629.44,4820.9,3829.43,0,
+State,05,Arkansas,APC,5463,Level 3 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,05,Arkansas,APC,5464,Level 4 Neurostimulator and Related Procedures,,,289,310,61482.15,19211.68,17609.68,0,0.0
+State,05,Arkansas,APC,5465,Level 5 Neurostimulator and Related Procedures,,,294,298,80191.66,25719.82,24118.15,0,0.0
+State,05,Arkansas,APC,5471,Implantation of Drug Infusion Device,,,59,59,41481.34,14775.82,13175.82,0,0.0
+State,05,Arkansas,APC,5491,Level 1 Intraocular Procedures,,,1673,2507,8709.51,1911.42,1518.52,0,
+State,05,Arkansas,APC,5492,Level 2 Intraocular Procedures,,,840,892,16736.4,3486.32,2762.83,0,
+State,05,Arkansas,APC,5493,Level 3 Intraocular Procedures,,,11,11,20593.84,5890.39,4598.33,0,0.0
+State,05,Arkansas,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,303,309,11342.36,1857.31,1474.13,0,0.0
+State,05,Arkansas,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,40,40,15623.9,3093.21,2464.51,0,0.0
+State,05,Arkansas,APC,5627,Level 7 Radiation Therapy,,,17,18,35149.12,6550.28,5153.84,0,
+State,05,Arkansas,APC,5881,Ancillary Outpatient Services When Patient Dies,,,0,0,,,,0,
+State,05,Arkansas,APC,8011,Comprehensive Observation Services,,,10619,11409,13771.18,2165.96,1732.63,0,
+State,06,California,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,25341,27776,13854.49,1872.58,1487.55,201,5755.14
+State,06,California,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,9547,10843,26536.36,3234.67,2573.05,315,4963.58
+State,06,California,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,4173,4323,38875.68,4315.47,3430.8,201,3955.21
+State,06,California,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,4706,4729,64558.44,7481.35,6002.05,539,3734.41
+State,06,California,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,483,495,86057.78,11074.32,9472.04,93,5019.18
+State,06,California,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,267,272,142846.9,20767.09,19166.26,20,3196.43
+State,06,California,APC,5112,Level 2 Musculoskeletal Procedures,,,5676,5810,17808.52,1802.05,1429.38,61,5871.4
+State,06,California,APC,5113,Level 3 Musculoskeletal Procedures,,,7849,7999,33093.5,3723.68,2957.2,263,4671.51
+State,06,California,APC,5114,Level 4 Musculoskeletal Procedures,,,12314,12455,63280.62,8342.89,6767.32,872,3727.11
+State,06,California,APC,5115,Level 5 Musculoskeletal Procedures,,,28251,29182,106852.57,16271.84,14671.01,773,2663.12
+State,06,California,APC,5116,Level 6 Musculoskeletal Procedures,,,891,904,160704.1,27313.06,25713.27,50,7733.3
+State,06,California,APC,5153,Level 3 Airway Endoscopy,,,3434,4192,15745.32,2018.99,1605.24,52,6224.25
+State,06,California,APC,5154,Level 4 Airway Endoscopy,,,4009,4414,40372.44,4262.35,3388.21,333,4787.55
+State,06,California,APC,5155,Level 5 Airway Endoscopy,,,2635,2671,68583.23,7822.08,6298.57,414,3163.0
+State,06,California,APC,5163,Level 3 ENT Procedures,,,479,595,12214.06,1778.16,1413.57,0,
+State,06,California,APC,5164,Level 4 ENT Procedures,,,1046,1142,31103.94,3426.86,2721.1,55,4841.56
+State,06,California,APC,5165,Level 5 ENT Procedures,,,3281,3323,59870.83,6791.77,5406.77,429,4254.67
+State,06,California,APC,5166,Cochlear Implant Procedure,,,284,287,164380.02,42685.54,41083.55,0,0.0
+State,06,California,APC,5182,Level 2 Vascular Procedures,,,5548,5795,14213.0,1833.34,1456.04,112,5861.19
+State,06,California,APC,5183,Level 3 Vascular Procedures,,,14656,15496,29324.33,3721.28,2957.88,339,5128.86
+State,06,California,APC,5184,Level 4 Vascular Procedures,,,5147,5529,54228.51,6235.93,4957.47,574,4559.2
+State,06,California,APC,5191,Level 1 Endovascular Procedures,,,21375,21479,39264.16,3670.33,2572.71,663,4071.52
+State,06,California,APC,5192,Level 2 Endovascular Procedures,,,5476,6270,46494.3,6591.83,5241.6,257,3911.29
+State,06,California,APC,5193,Level 3 Endovascular Procedures,,,11116,12205,101972.95,13058.57,11476.34,1171,3320.68
+State,06,California,APC,5194,Level 4 Endovascular Procedures,,,3133,3264,134796.14,21464.47,19873.26,100,4157.68
+State,06,California,APC,5200,Implantation Wireless PA Pressure Monitor,,,216,216,188881.42,34567.66,32967.32,0,0.0
+State,06,California,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,06,California,APC,5212,Level 2 Electrophysiologic Procedures,,,418,424,77951.59,8469.64,6889.25,63,3655.59
+State,06,California,APC,5213,Level 3 Electrophysiologic Procedures,,,8959,9123,188815.98,30116.09,28514.29,99,4478.34
+State,06,California,APC,5222,Level 2 Pacemaker and Similar Procedures,,,1962,1964,55810.62,10362.89,8758.2,35,4549.74
+State,06,California,APC,5223,Level 3 Pacemaker and Similar Procedures,,,5706,5711,73774.82,12941.74,11339.35,109,2447.71
+State,06,California,APC,5224,Level 4 Pacemaker and Similar Procedures,,,610,610,132639.19,23685.09,22083.63,0,
+State,06,California,APC,5231,Level 1 ICD and Similar Procedures,,,475,475,158926.69,28389.61,26785.32,22,2848.24
+State,06,California,APC,5232,Level 2 ICD and Similar Procedures,,,2027,2032,203706.63,40215.0,38613.19,33,5559.91
+State,06,California,APC,5244,Level 4 Blood Product Exchange and Related Services,,,0,0,,,,0,
+State,06,California,APC,5302,Level 2 Upper GI Procedures,,,15001,16462,18077.34,2193.27,1748.35,113,5249.66
+State,06,California,APC,5303,Level 3 Upper GI Procedures,,,2188,2283,31741.51,4118.4,3275.86,62,4094.28
+State,06,California,APC,5313,Level 3 Lower GI Procedures,,,3493,3610,21798.72,3219.0,2592.97,34,4922.34
+State,06,California,APC,5331,Complex GI Procedures,,,1908,2379,45201.47,6558.88,5220.38,65,3947.82
+State,06,California,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,6198,6622,36969.3,4423.74,3515.4,372,5082.77
+State,06,California,APC,5361,Level 1 Laparoscopy and Related Services,,,12189,12288,57586.22,6512.08,5173.28,1128,3891.01
+State,06,California,APC,5362,Level 2 Laparoscopy and Related Services,,,7007,7042,100594.87,11455.94,9856.75,1721,3217.77
+State,06,California,APC,5372,Level 2 Urology and Related Services,,,10983,16379,4423.95,781.02,617.08,30,8926.0
+State,06,California,APC,5373,Level 3 Urology and Related Services,,,11495,13847,16580.19,2334.71,1855.42,91,4797.09
+State,06,California,APC,5374,Level 4 Urology and Related Services,,,9667,10594,33811.58,4037.44,3211.13,205,4276.77
+State,06,California,APC,5375,Level 5 Urology and Related Services,,,10701,11226,47561.01,5957.89,4737.02,565,3535.01
+State,06,California,APC,5376,Level 6 Urology and Related Services,,,1940,1976,59167.09,10634.41,9033.64,125,2721.45
+State,06,California,APC,5377,Level 7 Urology and Related Services,,,82,83,72227.63,15082.23,13479.5,0,0.0
+State,06,California,APC,5378,Level 8 Urology and Related Services,,,640,653,116041.62,24174.54,22579.78,0,
+State,06,California,APC,5414,Level 4 Gynecologic Procedures,,,3182,3213,28295.32,3533.03,2805.28,43,4674.17
+State,06,California,APC,5415,Level 5 Gynecologic Procedures,,,1855,1956,51908.31,5873.73,4669.68,165,4789.29
+State,06,California,APC,5416,Level 6 Gynecologic Procedures,,,837,873,72139.46,8926.41,7324.45,101,4431.91
+State,06,California,APC,5431,Level 1 Nerve Procedures,,,6977,7745,18654.91,2235.22,1776.48,146,5268.09
+State,06,California,APC,5432,Level 2 Nerve Procedures,,,244,258,69767.35,7755.29,6250.68,51,4741.13
+State,06,California,APC,5461,Level 1 Neurostimulator and Related Procedures,,,294,302,35022.38,4046.72,3219.13,26,4977.04
+State,06,California,APC,5462,Level 2 Neurostimulator and Related Procedures,,,711,794,44548.38,7667.1,6212.97,38,3337.34
+State,06,California,APC,5463,Level 3 Neurostimulator and Related Procedures,,,122,125,116007.08,15587.49,13983.84,11,4050.23
+State,06,California,APC,5464,Level 4 Neurostimulator and Related Procedures,,,587,601,101863.9,27078.35,25477.45,0,
+State,06,California,APC,5465,Level 5 Neurostimulator and Related Procedures,,,1109,1124,148644.13,36783.73,35181.57,0,
+State,06,California,APC,5471,Implantation of Drug Infusion Device,,,304,306,95937.14,20843.05,19242.07,0,
+State,06,California,APC,5491,Level 1 Intraocular Procedures,,,20973,28915,19200.94,2748.21,2183.81,116,4435.1
+State,06,California,APC,5492,Level 2 Intraocular Procedures,,,5957,6414,42090.62,5101.9,4057.95,196,3764.02
+State,06,California,APC,5493,Level 3 Intraocular Procedures,,,58,58,70386.61,9096.53,7496.53,17,6106.8
+State,06,California,APC,5494,Level 4 Intraocular Procedures,,,18,21,43146.65,20371.13,18771.13,0,0.0
+State,06,California,APC,5495,Level 5 Intraocular Procedures,,,0,0,,,,0,
+State,06,California,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,2926,3040,21223.65,2697.89,2144.43,39,5432.95
+State,06,California,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,510,525,35037.62,4468.35,3554.06,24,4120.92
+State,06,California,APC,5627,Level 7 Radiation Therapy,,,803,890,81390.79,9820.81,8231.96,242,2108.98
+State,06,California,APC,5881,Ancillary Outpatient Services When Patient Dies,,,18,18,159442.71,15021.52,13421.52,0,
+State,06,California,APC,8011,Comprehensive Observation Services,,,68558,73571,39413.97,3067.15,2541.96,2402,4559.73
+State,08,Colorado,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,4136,4312,13237.19,1483.22,1178.01,17,6489.58
+State,08,Colorado,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,1784,2009,26899.64,2560.54,2036.44,40,5119.27
+State,08,Colorado,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,655,673,30250.61,3414.28,2716.38,12,5503.39
+State,08,Colorado,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,665,667,52925.58,5922.34,4707.92,38,5057.95
+State,08,Colorado,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,83,84,137723.8,8684.63,7084.63,21,5298.1
+State,08,Colorado,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,59,60,154873.81,16618.35,15018.35,13,3072.21
+State,08,Colorado,APC,5112,Level 2 Musculoskeletal Procedures,,,881,910,14783.13,1420.67,1125.15,0,
+State,08,Colorado,APC,5113,Level 3 Musculoskeletal Procedures,,,1525,1552,28491.02,2945.94,2338.53,48,4519.86
+State,08,Colorado,APC,5114,Level 4 Musculoskeletal Procedures,,,3076,3114,51302.56,6546.12,5198.8,178,3954.08
+State,08,Colorado,APC,5115,Level 5 Musculoskeletal Procedures,,,9525,9887,88476.83,12973.42,11373.39,479,2461.14
+State,08,Colorado,APC,5116,Level 6 Musculoskeletal Procedures,,,456,461,138167.8,21749.58,20147.71,17,2463.2
+State,08,Colorado,APC,5153,Level 3 Airway Endoscopy,,,460,497,13024.19,1585.52,1260.6,0,
+State,08,Colorado,APC,5154,Level 4 Airway Endoscopy,,,930,1009,24065.3,3296.32,2620.23,17,4116.55
+State,08,Colorado,APC,5155,Level 5 Airway Endoscopy,,,440,442,49773.88,6071.99,4815.31,0,
+State,08,Colorado,APC,5163,Level 3 ENT Procedures,,,61,65,16927.44,1384.36,1102.99,0,0.0
+State,08,Colorado,APC,5164,Level 4 ENT Procedures,,,168,168,26225.9,2836.52,2253.68,0,
+State,08,Colorado,APC,5165,Level 5 ENT Procedures,,,593,599,50333.31,5282.77,4197.95,22,4161.68
+State,08,Colorado,APC,5166,Cochlear Implant Procedure,,,127,128,305634.55,32554.48,30950.95,0,0.0
+State,08,Colorado,APC,5182,Level 2 Vascular Procedures,,,1025,1073,10041.72,1466.36,1162.5,13,5864.29
+State,08,Colorado,APC,5183,Level 3 Vascular Procedures,,,2494,2725,25715.73,2948.26,2342.13,26,6209.2
+State,08,Colorado,APC,5184,Level 4 Vascular Procedures,,,560,605,57509.86,4939.93,3918.72,42,4211.69
+State,08,Colorado,APC,5191,Level 1 Endovascular Procedures,,,3487,3498,31061.36,2957.08,2074.39,37,4092.71
+State,08,Colorado,APC,5192,Level 2 Endovascular Procedures,,,740,943,39887.65,5174.28,4113.99,22,4456.13
+State,08,Colorado,APC,5193,Level 3 Endovascular Procedures,,,1730,1862,96809.85,10474.3,8881.07,221,2890.38
+State,08,Colorado,APC,5194,Level 4 Endovascular Procedures,,,548,565,128550.35,16825.09,15227.57,22,2795.92
+State,08,Colorado,APC,5200,Implantation Wireless PA Pressure Monitor,,,0,0,,,,0,
+State,08,Colorado,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,08,Colorado,APC,5212,Level 2 Electrophysiologic Procedures,,,106,107,54089.59,6681.65,5316.41,0,
+State,08,Colorado,APC,5213,Level 3 Electrophysiologic Procedures,,,1822,1850,170370.99,23210.0,21607.79,97,6243.3
+State,08,Colorado,APC,5222,Level 2 Pacemaker and Similar Procedures,,,528,531,48063.58,8136.6,6534.53,0,
+State,08,Colorado,APC,5223,Level 3 Pacemaker and Similar Procedures,,,855,855,72387.81,10296.2,8696.02,29,1781.17
+State,08,Colorado,APC,5224,Level 4 Pacemaker and Similar Procedures,,,138,140,118670.91,18435.61,16841.12,0,
+State,08,Colorado,APC,5231,Level 1 ICD and Similar Procedures,,,69,69,143384.68,21773.69,20170.58,0,0.0
+State,08,Colorado,APC,5232,Level 2 ICD and Similar Procedures,,,296,296,226341.18,31643.18,30040.5,0,
+State,08,Colorado,APC,5244,Level 4 Blood Product Exchange and Related Services,,,0,0,,,,0,
+State,08,Colorado,APC,5302,Level 2 Upper GI Procedures,,,2834,3225,13734.19,1729.35,1378.22,14,5947.49
+State,08,Colorado,APC,5303,Level 3 Upper GI Procedures,,,473,501,26573.1,3202.84,2546.85,0,
+State,08,Colorado,APC,5313,Level 3 Lower GI Procedures,,,433,440,18519.31,2547.04,2050.99,0,0.0
+State,08,Colorado,APC,5331,Complex GI Procedures,,,449,534,42898.03,5161.52,4106.98,0,
+State,08,Colorado,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,1004,1062,30331.97,3514.82,2791.35,37,4491.54
+State,08,Colorado,APC,5361,Level 1 Laparoscopy and Related Services,,,2446,2455,45928.06,5182.64,4117.56,66,3622.17
+State,08,Colorado,APC,5362,Level 2 Laparoscopy and Related Services,,,1798,1800,81201.1,8974.7,7371.84,78,2424.06
+State,08,Colorado,APC,5372,Level 2 Urology and Related Services,,,1164,1531,3918.52,621.91,489.85,0,
+State,08,Colorado,APC,5373,Level 3 Urology and Related Services,,,1505,1881,13743.76,1841.11,1462.31,0,
+State,08,Colorado,APC,5374,Level 4 Urology and Related Services,,,1500,1668,24741.92,3209.2,2551.97,0,
+State,08,Colorado,APC,5375,Level 5 Urology and Related Services,,,1832,1927,35005.42,4709.29,3745.95,56,3965.95
+State,08,Colorado,APC,5376,Level 6 Urology and Related Services,,,329,331,58989.2,8637.94,7038.98,0,
+State,08,Colorado,APC,5377,Level 7 Urology and Related Services,,,53,59,62619.46,11792.56,10192.56,0,0.0
+State,08,Colorado,APC,5378,Level 8 Urology and Related Services,,,83,83,133330.88,18589.3,16988.94,0,
+State,08,Colorado,APC,5414,Level 4 Gynecologic Procedures,,,569,571,24628.29,2818.15,2238.17,0,
+State,08,Colorado,APC,5415,Level 5 Gynecologic Procedures,,,220,232,34590.53,4603.31,3656.8,0,
+State,08,Colorado,APC,5416,Level 6 Gynecologic Procedures,,,64,64,59497.43,6812.34,5391.21,0,
+State,08,Colorado,APC,5431,Level 1 Nerve Procedures,,,1187,1332,14966.31,1784.93,1415.9,0,
+State,08,Colorado,APC,5432,Level 2 Nerve Procedures,,,33,33,52003.98,6219.95,4950.27,0,
+State,08,Colorado,APC,5461,Level 1 Neurostimulator and Related Procedures,,,60,60,33953.22,3215.41,2553.18,0,
+State,08,Colorado,APC,5462,Level 2 Neurostimulator and Related Procedures,,,138,146,30952.0,6402.92,5099.36,0,0.0
+State,08,Colorado,APC,5463,Level 3 Neurostimulator and Related Procedures,,,39,39,87877.55,11834.88,10230.92,0,
+State,08,Colorado,APC,5464,Level 4 Neurostimulator and Related Procedures,,,208,224,124741.77,21081.2,19479.48,0,
+State,08,Colorado,APC,5465,Level 5 Neurostimulator and Related Procedures,,,343,347,173376.49,28940.53,27339.5,0,
+State,08,Colorado,APC,5471,Implantation of Drug Infusion Device,,,31,33,112037.86,15839.64,14232.79,0,0.0
+State,08,Colorado,APC,5491,Level 1 Intraocular Procedures,,,2484,3730,10230.44,2144.54,1704.76,0,0.0
+State,08,Colorado,APC,5492,Level 2 Intraocular Procedures,,,721,817,20428.86,3913.07,3110.33,0,
+State,08,Colorado,APC,5493,Level 3 Intraocular Procedures,,,0,0,,,,0,
+State,08,Colorado,APC,5494,Level 4 Intraocular Procedures,,,0,0,,,,0,
+State,08,Colorado,APC,5495,Level 5 Intraocular Procedures,,,0,0,,,,0,
+State,08,Colorado,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,362,368,17103.96,2086.14,1657.79,0,
+State,08,Colorado,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,55,58,31221.47,3465.87,2757.33,0,0.0
+State,08,Colorado,APC,5627,Level 7 Radiation Therapy,,,178,199,113217.68,7635.38,6081.34,44,5094.49
+State,08,Colorado,APC,5881,Ancillary Outpatient Services When Patient Dies,,,11,11,106677.41,12276.56,10676.56,0,
+State,08,Colorado,APC,8011,Comprehensive Observation Services,,,11252,12021,31209.85,2418.94,1948.1,91,4688.8
+State,09,Connecticut,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,3474,3818,9763.04,1696.78,1345.49,20,5417.25
+State,09,Connecticut,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,1337,1471,15738.76,2899.12,2303.06,0,
+State,09,Connecticut,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,614,642,21506.34,3920.06,3108.86,0,
+State,09,Connecticut,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,517,517,34017.02,6763.71,5379.45,25,3114.02
+State,09,Connecticut,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,43,45,36497.13,9826.7,8226.7,0,
+State,09,Connecticut,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,25,27,67472.26,18068.71,16468.71,0,0.0
+State,09,Connecticut,APC,5112,Level 2 Musculoskeletal Procedures,,,672,708,9979.25,1628.9,1290.89,0,
+State,09,Connecticut,APC,5113,Level 3 Musculoskeletal Procedures,,,725,735,16468.89,3326.44,2633.37,0,
+State,09,Connecticut,APC,5114,Level 4 Musculoskeletal Procedures,,,1166,1182,34541.66,7493.91,5954.99,31,3098.13
+State,09,Connecticut,APC,5115,Level 5 Musculoskeletal Procedures,,,4468,4608,50191.48,14831.78,13230.41,50,3383.82
+State,09,Connecticut,APC,5116,Level 6 Musculoskeletal Procedures,,,201,202,82540.32,24712.34,23111.22,15,4137.72
+State,09,Connecticut,APC,5153,Level 3 Airway Endoscopy,,,194,200,10830.84,1816.24,1442.68,0,0.0
+State,09,Connecticut,APC,5154,Level 4 Airway Endoscopy,,,582,595,18146.53,3788.43,3010.64,0,
+State,09,Connecticut,APC,5155,Level 5 Airway Endoscopy,,,314,318,27786.51,6987.09,5547.76,0,
+State,09,Connecticut,APC,5163,Level 3 ENT Procedures,,,53,54,8825.09,1583.95,1251.78,0,0.0
+State,09,Connecticut,APC,5164,Level 4 ENT Procedures,,,69,69,15041.68,3209.42,2554.49,0,0.0
+State,09,Connecticut,APC,5165,Level 5 ENT Procedures,,,352,353,28542.45,6060.43,4803.71,18,4022.27
+State,09,Connecticut,APC,5166,Cochlear Implant Procedure,,,33,34,88817.93,37595.51,35995.51,0,0.0
+State,09,Connecticut,APC,5182,Level 2 Vascular Procedures,,,536,565,8034.61,1696.99,1344.53,0,
+State,09,Connecticut,APC,5183,Level 3 Vascular Procedures,,,1666,1724,16005.75,3406.46,2704.33,24,5078.06
+State,09,Connecticut,APC,5184,Level 4 Vascular Procedures,,,415,444,32036.47,5564.28,4408.32,31,9212.46
+State,09,Connecticut,APC,5191,Level 1 Endovascular Procedures,,,2142,2150,20040.91,3374.55,2362.62,0,
+State,09,Connecticut,APC,5192,Level 2 Endovascular Procedures,,,380,409,31572.06,6000.52,4767.32,15,3956.0
+State,09,Connecticut,APC,5193,Level 3 Endovascular Procedures,,,798,853,58024.58,11878.11,10295.99,52,3113.24
+State,09,Connecticut,APC,5194,Level 4 Endovascular Procedures,,,198,203,72646.07,19564.44,17967.52,0,
+State,09,Connecticut,APC,5200,Implantation Wireless PA Pressure Monitor,,,76,76,90431.3,31474.33,29873.36,0,
+State,09,Connecticut,APC,5212,Level 2 Electrophysiologic Procedures,,,34,34,39091.34,7798.69,6224.88,0,
+State,09,Connecticut,APC,5213,Level 3 Electrophysiologic Procedures,,,612,620,95230.96,26805.55,25204.14,19,2909.79
+State,09,Connecticut,APC,5222,Level 2 Pacemaker and Similar Procedures,,,376,377,31275.95,9523.86,7920.58,0,
+State,09,Connecticut,APC,5223,Level 3 Pacemaker and Similar Procedures,,,643,644,35740.69,11874.05,10271.53,0,0.0
+State,09,Connecticut,APC,5224,Level 4 Pacemaker and Similar Procedures,,,100,100,60853.84,21783.38,20181.42,0,
+State,09,Connecticut,APC,5231,Level 1 ICD and Similar Procedures,,,62,62,64695.71,25614.05,24014.05,0,0.0
+State,09,Connecticut,APC,5232,Level 2 ICD and Similar Procedures,,,250,251,99009.26,36545.18,34945.18,0,
+State,09,Connecticut,APC,5302,Level 2 Upper GI Procedures,,,1948,2165,10377.3,1999.73,1592.28,0,
+State,09,Connecticut,APC,5303,Level 3 Upper GI Procedures,,,294,300,18283.66,3674.53,2911.62,0,
+State,09,Connecticut,APC,5313,Level 3 Lower GI Procedures,,,471,481,13243.17,2853.04,2282.79,0,
+State,09,Connecticut,APC,5331,Complex GI Procedures,,,250,306,23086.08,6001.66,4776.38,19,3217.78
+State,09,Connecticut,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,862,1004,18414.42,4024.61,3195.84,15,3896.24
+State,09,Connecticut,APC,5361,Level 1 Laparoscopy and Related Services,,,1610,1620,27841.79,5919.15,4687.92,45,3515.32
+State,09,Connecticut,APC,5362,Level 2 Laparoscopy and Related Services,,,745,749,42828.68,10185.03,8582.37,34,1387.35
+State,09,Connecticut,APC,5372,Level 2 Urology and Related Services,,,1677,2600,2491.07,697.27,550.1,0,
+State,09,Connecticut,APC,5373,Level 3 Urology and Related Services,,,1757,2136,10800.49,2082.12,1651.93,0,
+State,09,Connecticut,APC,5374,Level 4 Urology and Related Services,,,1763,1958,15210.47,3685.82,2926.59,0,
+State,09,Connecticut,APC,5375,Level 5 Urology and Related Services,,,1798,1887,20423.69,5373.91,4270.61,0,
+State,09,Connecticut,APC,5376,Level 6 Urology and Related Services,,,99,100,30966.44,9785.95,8185.95,0,
+State,09,Connecticut,APC,5377,Level 7 Urology and Related Services,,,0,0,,,,0,
+State,09,Connecticut,APC,5378,Level 8 Urology and Related Services,,,46,47,60428.81,21325.41,19715.79,0,0.0
+State,09,Connecticut,APC,5414,Level 4 Gynecologic Procedures,,,559,570,14521.11,3140.6,2491.52,0,0.0
+State,09,Connecticut,APC,5415,Level 5 Gynecologic Procedures,,,212,213,22701.12,5221.29,4134.56,0,0.0
+State,09,Connecticut,APC,5416,Level 6 Gynecologic Procedures,,,125,125,34645.8,7890.22,6298.65,0,
+State,09,Connecticut,APC,5431,Level 1 Nerve Procedures,,,462,525,10717.29,2058.43,1632.53,0,
+State,09,Connecticut,APC,5432,Level 2 Nerve Procedures,,,18,18,39896.18,6799.18,5351.38,0,
+State,09,Connecticut,APC,5461,Level 1 Neurostimulator and Related Procedures,,,33,33,21443.33,3677.74,2912.76,0,
+State,09,Connecticut,APC,5462,Level 2 Neurostimulator and Related Procedures,,,103,112,26200.87,7429.26,5916.76,0,
+State,09,Connecticut,APC,5463,Level 3 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,09,Connecticut,APC,5464,Level 4 Neurostimulator and Related Procedures,,,139,146,59970.24,24600.65,22999.1,0,
+State,09,Connecticut,APC,5465,Level 5 Neurostimulator and Related Procedures,,,104,104,99924.06,32499.17,30898.58,0,0.0
+State,09,Connecticut,APC,5471,Implantation of Drug Infusion Device,,,28,28,50332.8,18742.77,17142.77,0,
+State,09,Connecticut,APC,5491,Level 1 Intraocular Procedures,,,2664,4052,9280.44,2272.25,1803.83,0,0.0
+State,09,Connecticut,APC,5492,Level 2 Intraocular Procedures,,,368,407,15646.82,4237.49,3360.29,0,0.0
+State,09,Connecticut,APC,5493,Level 3 Intraocular Procedures,,,0,0,,,,0,
+State,09,Connecticut,APC,5494,Level 4 Intraocular Procedures,,,0,0,,,,0,
+State,09,Connecticut,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,212,219,11000.18,2239.25,1777.11,0,0.0
+State,09,Connecticut,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,43,43,17987.8,3902.37,3094.63,0,0.0
+State,09,Connecticut,APC,5627,Level 7 Radiation Therapy,,,88,97,68325.74,8772.99,7172.99,38,1329.25
+State,09,Connecticut,APC,5881,Ancillary Outpatient Services When Patient Dies,,,0,0,,,,0,
+State,09,Connecticut,APC,8011,Comprehensive Observation Services,,,13644,15700,22758.46,2797.68,2265.9,207,5106.67
+State,10,Delaware,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,1599,1688,7420.16,1530.75,1213.99,0,
+State,10,Delaware,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,375,389,14112.08,2602.49,2065.18,0,
+State,10,Delaware,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,328,351,15661.26,3525.48,2798.83,0,0.0
+State,10,Delaware,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,297,301,27917.67,6143.59,4890.88,0,0.0
+State,10,Delaware,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,18,18,29325.62,8285.38,6678.26,0,
+State,10,Delaware,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,20,20,79581.97,17252.25,15652.25,0,
+State,10,Delaware,APC,5112,Level 2 Musculoskeletal Procedures,,,299,312,5353.35,1478.19,1174.61,0,0.0
+State,10,Delaware,APC,5113,Level 3 Musculoskeletal Procedures,,,465,471,14720.59,3052.76,2424.64,0,
+State,10,Delaware,APC,5114,Level 4 Musculoskeletal Procedures,,,621,630,28978.23,6716.44,5329.8,37,4004.96
+State,10,Delaware,APC,5115,Level 5 Musculoskeletal Procedures,,,2739,2852,42478.9,13327.17,11726.13,23,1535.72
+State,10,Delaware,APC,5116,Level 6 Musculoskeletal Procedures,,,186,186,71443.35,22182.75,20575.99,16,3031.56
+State,10,Delaware,APC,5153,Level 3 Airway Endoscopy,,,103,105,8662.31,1656.7,1319.96,0,0.0
+State,10,Delaware,APC,5154,Level 4 Airway Endoscopy,,,231,232,12533.68,3384.5,2680.29,0,0.0
+State,10,Delaware,APC,5155,Level 5 Airway Endoscopy,,,208,209,21237.24,6323.46,5021.67,0,
+State,10,Delaware,APC,5163,Level 3 ENT Procedures,,,22,22,7184.65,1438.63,1146.23,0,0.0
+State,10,Delaware,APC,5164,Level 4 ENT Procedures,,,43,43,12304.9,2948.55,2346.63,0,0.0
+State,10,Delaware,APC,5165,Level 5 ENT Procedures,,,120,123,24442.86,5426.39,4298.67,0,
+State,10,Delaware,APC,5166,Cochlear Implant Procedure,,,16,16,177077.23,34441.13,32835.18,0,0.0
+State,10,Delaware,APC,5182,Level 2 Vascular Procedures,,,233,258,6450.11,1537.32,1217.98,0,
+State,10,Delaware,APC,5183,Level 3 Vascular Procedures,,,730,745,12111.44,3058.79,2429.65,0,
+State,10,Delaware,APC,5184,Level 4 Vascular Procedures,,,223,244,20187.0,4912.63,3893.67,0,0.0
+State,10,Delaware,APC,5191,Level 1 Endovascular Procedures,,,1433,1435,17494.77,3051.06,2137.21,0,
+State,10,Delaware,APC,5192,Level 2 Endovascular Procedures,,,213,213,30007.03,5364.68,4263.9,0,
+State,10,Delaware,APC,5193,Level 3 Endovascular Procedures,,,548,579,62326.07,10888.66,9288.15,149,2703.89
+State,10,Delaware,APC,5194,Level 4 Endovascular Procedures,,,111,112,89249.98,17619.11,16015.67,15,4358.73
+State,10,Delaware,APC,5200,Implantation Wireless PA Pressure Monitor,,,0,0,,,,0,
+State,10,Delaware,APC,5212,Level 2 Electrophysiologic Procedures,,,18,18,42110.8,6977.61,5559.4,0,
+State,10,Delaware,APC,5213,Level 3 Electrophysiologic Procedures,,,338,344,133765.68,24137.3,22531.91,137,3804.18
+State,10,Delaware,APC,5222,Level 2 Pacemaker and Similar Procedures,,,205,207,25022.14,8457.28,6855.7,0,0.0
+State,10,Delaware,APC,5223,Level 3 Pacemaker and Similar Procedures,,,330,330,41352.5,10611.2,9008.07,0,
+State,10,Delaware,APC,5224,Level 4 Pacemaker and Similar Procedures,,,58,58,78204.34,19304.42,17704.42,0,0.0
+State,10,Delaware,APC,5231,Level 1 ICD and Similar Procedures,,,32,32,85332.93,23584.2,21977.14,0,0.0
+State,10,Delaware,APC,5232,Level 2 ICD and Similar Procedures,,,183,183,143246.4,32885.54,31281.6,12,2592.57
+State,10,Delaware,APC,5302,Level 2 Upper GI Procedures,,,646,718,8307.22,1789.21,1423.15,0,
+State,10,Delaware,APC,5303,Level 3 Upper GI Procedures,,,82,83,16661.29,3316.68,2622.38,0,
+State,10,Delaware,APC,5313,Level 3 Lower GI Procedures,,,156,160,15813.84,2649.45,2118.68,0,
+State,10,Delaware,APC,5331,Complex GI Procedures,,,76,83,26235.42,5431.36,4325.26,0,
+State,10,Delaware,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,328,363,15898.15,3624.58,2880.44,0,
+State,10,Delaware,APC,5361,Level 1 Laparoscopy and Related Services,,,927,929,25802.69,5346.4,4244.09,25,3391.1
+State,10,Delaware,APC,5362,Level 2 Laparoscopy and Related Services,,,338,338,34083.49,9297.1,7691.6,0,
+State,10,Delaware,APC,5372,Level 2 Urology and Related Services,,,507,606,2872.84,638.21,499.81,0,0.0
+State,10,Delaware,APC,5373,Level 3 Urology and Related Services,,,921,1104,8945.84,1877.81,1489.1,0,0.0
+State,10,Delaware,APC,5374,Level 4 Urology and Related Services,,,611,712,12590.25,3247.46,2579.42,0,
+State,10,Delaware,APC,5375,Level 5 Urology and Related Services,,,578,598,19662.82,4834.31,3840.17,0,0.0
+State,10,Delaware,APC,5376,Level 6 Urology and Related Services,,,28,28,28326.72,8864.7,7264.7,0,0.0
+State,10,Delaware,APC,5378,Level 8 Urology and Related Services,,,16,16,79196.66,19933.72,18333.72,0,0.0
+State,10,Delaware,APC,5414,Level 4 Gynecologic Procedures,,,336,342,11519.59,2905.98,2307.13,0,0.0
+State,10,Delaware,APC,5415,Level 5 Gynecologic Procedures,,,103,113,17508.87,4702.13,3722.67,0,
+State,10,Delaware,APC,5416,Level 6 Gynecologic Procedures,,,76,76,20324.59,7177.88,5696.34,0,
+State,10,Delaware,APC,5431,Level 1 Nerve Procedures,,,176,193,8462.51,1855.21,1475.8,0,0.0
+State,10,Delaware,APC,5432,Level 2 Nerve Procedures,,,0,0,,,,0,
+State,10,Delaware,APC,5461,Level 1 Neurostimulator and Related Procedures,,,20,20,33247.93,3231.89,2538.75,0,
+State,10,Delaware,APC,5462,Level 2 Neurostimulator and Related Procedures,,,20,21,25620.36,6844.02,5452.96,0,
+State,10,Delaware,APC,5463,Level 3 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,10,Delaware,APC,5464,Level 4 Neurostimulator and Related Procedures,,,31,33,96499.47,22239.34,20632.49,0,
+State,10,Delaware,APC,5465,Level 5 Neurostimulator and Related Procedures,,,100,101,142611.61,30050.03,28449.46,0,
+State,10,Delaware,APC,5471,Implantation of Drug Infusion Device,,,17,18,78290.27,16630.95,15030.95,0,0.0
+State,10,Delaware,APC,5491,Level 1 Intraocular Procedures,,,283,415,7525.21,2214.05,1754.13,0,0.0
+State,10,Delaware,APC,5492,Level 2 Intraocular Procedures,,,107,109,17699.09,4050.22,3201.75,0,0.0
+State,10,Delaware,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,13,13,15722.5,2191.11,1745.76,0,0.0
+State,10,Delaware,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,0,0,,,,0,
+State,10,Delaware,APC,5627,Level 7 Radiation Therapy,,,0,0,,,,0,
+State,10,Delaware,APC,5881,Ancillary Outpatient Services When Patient Dies,,,0,0,,,,0,
+State,10,Delaware,APC,8011,Comprehensive Observation Services,,,5023,5435,16185.8,2518.11,2058.89,36,6459.02
+State,11,District of Columbia,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,1260,1318,11001.17,1570.76,1244.45,0,
+State,11,District of Columbia,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,349,373,19718.88,2723.31,2161.04,0,
+State,11,District of Columbia,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,267,276,27346.0,3624.98,2879.48,0,
+State,11,District of Columbia,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,238,240,44341.47,6290.25,5002.32,21,3963.64
+State,11,District of Columbia,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,31,31,49653.64,9224.93,7650.74,0,
+State,11,District of Columbia,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,11,District of Columbia,APC,5112,Level 2 Musculoskeletal Procedures,,,196,200,12076.07,1497.54,1183.0,0,
+State,11,District of Columbia,APC,5113,Level 3 Musculoskeletal Procedures,,,189,191,26007.89,3122.68,2475.1,0,
+State,11,District of Columbia,APC,5114,Level 4 Musculoskeletal Procedures,,,299,304,43430.7,6931.97,5499.01,19,4520.53
+State,11,District of Columbia,APC,5115,Level 5 Musculoskeletal Procedures,,,893,920,62205.22,13650.7,12050.39,34,2102.95
+State,11,District of Columbia,APC,5116,Level 6 Musculoskeletal Procedures,,,40,40,112214.2,23268.53,21668.53,0,
+State,11,District of Columbia,APC,5153,Level 3 Airway Endoscopy,,,88,89,11641.36,1688.04,1339.21,0,
+State,11,District of Columbia,APC,5154,Level 4 Airway Endoscopy,,,265,269,21824.57,3532.2,2808.25,0,
+State,11,District of Columbia,APC,5155,Level 5 Airway Endoscopy,,,229,229,45545.95,6502.05,5161.06,33,2391.2
+State,11,District of Columbia,APC,5163,Level 3 ENT Procedures,,,14,18,8163.75,1479.23,1168.57,0,0.0
+State,11,District of Columbia,APC,5164,Level 4 ENT Procedures,,,33,33,27318.02,2985.49,2373.23,0,
+State,11,District of Columbia,APC,5165,Level 5 ENT Procedures,,,303,306,47133.15,5551.26,4393.13,31,5893.4
+State,11,District of Columbia,APC,5166,Cochlear Implant Procedure,,,18,19,115128.87,35407.39,33807.39,0,0.0
+State,11,District of Columbia,APC,5182,Level 2 Vascular Procedures,,,213,221,6895.53,1549.7,1225.36,0,
+State,11,District of Columbia,APC,5183,Level 3 Vascular Procedures,,,767,795,19903.96,3109.68,2463.22,12,4971.27
+State,11,District of Columbia,APC,5184,Level 4 Vascular Procedures,,,415,437,34275.82,5294.73,4198.57,37,4676.47
+State,11,District of Columbia,APC,5191,Level 1 Endovascular Procedures,,,944,981,27315.38,3090.97,2154.17,53,3814.25
+State,11,District of Columbia,APC,5192,Level 2 Endovascular Procedures,,,287,341,29462.38,5427.0,4299.72,0,
+State,11,District of Columbia,APC,5193,Level 3 Endovascular Procedures,,,530,557,57487.56,11073.53,9469.54,39,2449.26
+State,11,District of Columbia,APC,5194,Level 4 Endovascular Procedures,,,137,139,88243.82,18141.68,16540.05,0,
+State,11,District of Columbia,APC,5200,Implantation Wireless PA Pressure Monitor,,,0,0,,,,0,
+State,11,District of Columbia,APC,5212,Level 2 Electrophysiologic Procedures,,,34,34,54880.74,7173.58,5715.54,0,
+State,11,District of Columbia,APC,5213,Level 3 Electrophysiologic Procedures,,,552,561,108982.21,24408.49,22806.42,0,0.0
+State,11,District of Columbia,APC,5222,Level 2 Pacemaker and Similar Procedures,,,63,63,45410.5,8581.33,6978.99,0,
+State,11,District of Columbia,APC,5223,Level 3 Pacemaker and Similar Procedures,,,204,205,52538.04,10901.8,9299.6,11,1723.63
+State,11,District of Columbia,APC,5224,Level 4 Pacemaker and Similar Procedures,,,42,42,96538.42,19411.27,17811.27,0,
+State,11,District of Columbia,APC,5231,Level 1 ICD and Similar Procedures,,,16,16,120018.15,24245.53,22645.53,0,0.0
+State,11,District of Columbia,APC,5232,Level 2 ICD and Similar Procedures,,,115,115,156554.91,32790.3,31187.5,0,
+State,11,District of Columbia,APC,5302,Level 2 Upper GI Procedures,,,955,1077,9271.98,1817.85,1442.47,0,
+State,11,District of Columbia,APC,5303,Level 3 Upper GI Procedures,,,130,132,11444.13,3379.63,2674.8,0,0.0
+State,11,District of Columbia,APC,5313,Level 3 Lower GI Procedures,,,208,213,12772.68,2678.78,2181.77,0,0.0
+State,11,District of Columbia,APC,5331,Complex GI Procedures,,,187,209,17752.13,5520.01,4384.79,0,
+State,11,District of Columbia,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,319,339,26029.96,3727.54,2959.5,0,
+State,11,District of Columbia,APC,5361,Level 1 Laparoscopy and Related Services,,,516,518,29290.8,5495.04,4364.95,19,4808.32
+State,11,District of Columbia,APC,5362,Level 2 Laparoscopy and Related Services,,,416,419,55772.73,9429.1,7833.3,37,2291.96
+State,11,District of Columbia,APC,5372,Level 2 Urology and Related Services,,,366,892,3692.83,664.41,526.26,0,
+State,11,District of Columbia,APC,5373,Level 3 Urology and Related Services,,,602,676,16264.35,1913.88,1510.97,0,
+State,11,District of Columbia,APC,5374,Level 4 Urology and Related Services,,,402,449,21813.75,3333.33,2647.16,0,
+State,11,District of Columbia,APC,5375,Level 5 Urology and Related Services,,,576,612,31310.36,4919.91,3900.44,11,3628.28
+State,11,District of Columbia,APC,5376,Level 6 Urology and Related Services,,,100,102,36796.5,8965.55,7365.55,0,
+State,11,District of Columbia,APC,5377,Level 7 Urology and Related Services,,,0,0,,,,0,
+State,11,District of Columbia,APC,5378,Level 8 Urology and Related Services,,,21,21,71289.22,18205.58,16637.39,0,0.0
+State,11,District of Columbia,APC,5414,Level 4 Gynecologic Procedures,,,206,209,20796.5,2966.66,2353.15,0,0.0
+State,11,District of Columbia,APC,5415,Level 5 Gynecologic Procedures,,,69,71,32110.54,4883.23,3876.89,0,
+State,11,District of Columbia,APC,5416,Level 6 Gynecologic Procedures,,,45,45,45928.9,7249.31,5724.9,0,0.0
+State,11,District of Columbia,APC,5431,Level 1 Nerve Procedures,,,139,162,14953.96,1874.62,1484.91,0,0.0
+State,11,District of Columbia,APC,5432,Level 2 Nerve Procedures,,,0,0,,,,0,
+State,11,District of Columbia,APC,5461,Level 1 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,11,District of Columbia,APC,5462,Level 2 Neurostimulator and Related Procedures,,,32,34,43629.05,6706.47,5276.34,0,
+State,11,District of Columbia,APC,5463,Level 3 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,11,District of Columbia,APC,5464,Level 4 Neurostimulator and Related Procedures,,,27,29,77966.07,19933.28,18331.84,0,0.0
+State,11,District of Columbia,APC,5465,Level 5 Neurostimulator and Related Procedures,,,66,66,113287.34,29840.77,28240.77,0,0.0
+State,11,District of Columbia,APC,5471,Implantation of Drug Infusion Device,,,12,12,85140.16,15290.62,13671.78,0,0.0
+State,11,District of Columbia,APC,5491,Level 1 Intraocular Procedures,,,519,635,21981.37,2264.45,1794.31,0,
+State,11,District of Columbia,APC,5492,Level 2 Intraocular Procedures,,,91,98,29498.66,4153.37,3287.2,0,0.0
+State,11,District of Columbia,APC,5493,Level 3 Intraocular Procedures,,,0,0,,,,0,
+State,11,District of Columbia,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,81,81,24321.35,2230.54,1770.44,0,0.0
+State,11,District of Columbia,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,20,20,23156.03,3427.63,2670.64,0,0.0
+State,11,District of Columbia,APC,5627,Level 7 Radiation Therapy,,,21,21,60146.11,8192.8,6592.8,0,
+State,11,District of Columbia,APC,5881,Ancillary Outpatient Services When Patient Dies,,,0,0,,,,0,
+State,11,District of Columbia,APC,8011,Comprehensive Observation Services,,,1614,1735,24940.75,2554.43,2119.8,94,5184.68
+State,12,Florida,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,19831,20855,13734.18,1349.16,1069.75,55,5724.34
+State,12,Florida,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,8403,9406,25968.37,2324.27,1845.88,88,5225.19
+State,12,Florida,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,3529,3622,38422.81,3115.24,2475.74,47,6131.35
+State,12,Florida,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,3909,3923,62403.4,5370.41,4268.35,179,4190.76
+State,12,Florida,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,495,516,84390.2,8007.08,6412.52,88,5432.43
+State,12,Florida,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,274,281,140865.04,15042.9,13441.31,56,3549.52
+State,12,Florida,APC,5112,Level 2 Musculoskeletal Procedures,,,3825,3990,19539.04,1247.59,988.08,0,
+State,12,Florida,APC,5113,Level 3 Musculoskeletal Procedures,,,5572,5648,40710.14,2662.72,2114.3,89,4969.96
+State,12,Florida,APC,5114,Level 4 Musculoskeletal Procedures,,,10592,10706,69774.62,5941.69,4720.52,338,3914.69
+State,12,Florida,APC,5115,Level 5 Musculoskeletal Procedures,,,27981,28880,104393.63,11795.79,10194.71,553,2134.21
+State,12,Florida,APC,5116,Level 6 Musculoskeletal Procedures,,,1198,1212,155795.56,19782.16,18180.47,37,3226.27
+State,12,Florida,APC,5153,Level 3 Airway Endoscopy,,,2822,3099,19246.85,1441.8,1145.82,0,
+State,12,Florida,APC,5154,Level 4 Airway Endoscopy,,,3618,3923,34961.2,2997.51,2381.92,80,3981.41
+State,12,Florida,APC,5155,Level 5 Airway Endoscopy,,,2408,2432,63073.95,5554.23,4416.98,201,3240.66
+State,12,Florida,APC,5163,Level 3 ENT Procedures,,,283,360,15101.82,1227.75,976.12,0,0.0
+State,12,Florida,APC,5164,Level 4 ENT Procedures,,,777,795,35135.71,2502.15,1985.7,17,4149.77
+State,12,Florida,APC,5165,Level 5 ENT Procedures,,,2928,2954,56484.75,4720.14,3746.94,113,4708.9
+State,12,Florida,APC,5166,Cochlear Implant Procedure,,,228,229,152797.65,28393.07,26709.12,0,0.0
+State,12,Florida,APC,5182,Level 2 Vascular Procedures,,,4764,4961,12686.12,1336.04,1059.02,38,5935.11
+State,12,Florida,APC,5183,Level 3 Vascular Procedures,,,11488,12169,27958.59,2686.32,2133.35,101,5458.72
+State,12,Florida,APC,5184,Level 4 Vascular Procedures,,,3485,3705,52937.97,4497.15,3572.14,150,5591.73
+State,12,Florida,APC,5191,Level 1 Endovascular Procedures,,,21714,21808,39750.8,2682.37,1878.12,81,3892.18
+State,12,Florida,APC,5192,Level 2 Endovascular Procedures,,,3641,3856,49936.05,4730.9,3758.91,67,3611.6
+State,12,Florida,APC,5193,Level 3 Endovascular Procedures,,,10107,10674,101544.9,9570.17,7976.66,547,2444.9
+State,12,Florida,APC,5194,Level 4 Endovascular Procedures,,,2583,2667,134160.21,15476.17,13883.23,88,2923.86
+State,12,Florida,APC,5200,Implantation Wireless PA Pressure Monitor,,,79,80,114101.5,24970.4,23370.4,0,0.0
+State,12,Florida,APC,5211,Level 1 Electrophysiologic Procedures,,,39,40,11999.43,1024.76,811.31,0,0.0
+State,12,Florida,APC,5212,Level 2 Electrophysiologic Procedures,,,594,597,63915.41,6126.49,4874.04,35,4398.39
+State,12,Florida,APC,5213,Level 3 Electrophysiologic Procedures,,,8276,8467,176332.6,21267.89,19665.0,477,2360.47
+State,12,Florida,APC,5222,Level 2 Pacemaker and Similar Procedures,,,2369,2372,47259.13,7397.35,5877.28,12,4734.62
+State,12,Florida,APC,5223,Level 3 Pacemaker and Similar Procedures,,,5066,5070,73733.53,9412.24,7809.19,114,3084.43
+State,12,Florida,APC,5224,Level 4 Pacemaker and Similar Procedures,,,717,718,128674.89,16979.04,15375.91,27,2154.33
+State,12,Florida,APC,5231,Level 1 ICD and Similar Procedures,,,374,374,142124.95,20552.3,18949.33,0,
+State,12,Florida,APC,5232,Level 2 ICD and Similar Procedures,,,2116,2118,191360.99,28995.58,27392.3,0,
+State,12,Florida,APC,5302,Level 2 Upper GI Procedures,,,12413,13595,17921.7,1572.88,1253.0,31,5808.7
+State,12,Florida,APC,5303,Level 3 Upper GI Procedures,,,1589,1635,31971.57,2946.05,2340.52,12,3828.53
+State,12,Florida,APC,5313,Level 3 Lower GI Procedures,,,2557,2611,30528.94,2318.95,1856.81,0,
+State,12,Florida,APC,5331,Complex GI Procedures,,,1177,1308,44390.33,4751.44,3781.18,26,4167.85
+State,12,Florida,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,4637,4860,42452.25,3193.65,2534.44,146,4914.48
+State,12,Florida,APC,5361,Level 1 Laparoscopy and Related Services,,,10855,10917,61832.21,4709.44,3738.12,396,4082.81
+State,12,Florida,APC,5362,Level 2 Laparoscopy and Related Services,,,6328,6342,92671.17,8225.44,6623.81,891,3134.5
+State,12,Florida,APC,5372,Level 2 Urology and Related Services,,,4135,7205,4032.75,557.23,439.89,0,
+State,12,Florida,APC,5373,Level 3 Urology and Related Services,,,7563,8915,22892.05,1669.34,1324.76,17,5722.15
+State,12,Florida,APC,5374,Level 4 Urology and Related Services,,,8797,9766,34795.93,2865.83,2276.37,45,5508.03
+State,12,Florida,APC,5375,Level 5 Urology and Related Services,,,9347,9809,48904.92,4243.13,3371.88,129,5594.69
+State,12,Florida,APC,5376,Level 6 Urology and Related Services,,,1422,1432,65266.61,7749.52,6168.02,26,3493.0
+State,12,Florida,APC,5377,Level 7 Urology and Related Services,,,87,88,84888.11,10772.93,9167.01,0,
+State,12,Florida,APC,5378,Level 8 Urology and Related Services,,,678,690,116789.67,17417.31,15815.44,0,
+State,12,Florida,APC,5414,Level 4 Gynecologic Procedures,,,2563,2586,33081.93,2549.9,2022.26,0,
+State,12,Florida,APC,5415,Level 5 Gynecologic Procedures,,,1198,1221,53115.7,4171.3,3309.4,29,4035.95
+State,12,Florida,APC,5416,Level 6 Gynecologic Procedures,,,627,632,75773.45,6258.07,4952.88,26,4647.67
+State,12,Florida,APC,5431,Level 1 Nerve Procedures,,,4307,4820,17000.24,1595.5,1265.76,12,5466.31
+State,12,Florida,APC,5432,Level 2 Nerve Procedures,,,146,155,51328.2,5236.78,4135.07,0,
+State,12,Florida,APC,5461,Level 1 Neurostimulator and Related Procedures,,,343,344,44615.51,2879.71,2283.33,0,
+State,12,Florida,APC,5462,Level 2 Neurostimulator and Related Procedures,,,639,687,44638.4,5756.22,4577.93,14,4423.78
+State,12,Florida,APC,5463,Level 3 Neurostimulator and Related Procedures,,,162,163,128993.31,10550.59,8967.65,82,3294.48
+State,12,Florida,APC,5464,Level 4 Neurostimulator and Related Procedures,,,1207,1242,113244.13,19359.51,17757.5,23,3754.9
+State,12,Florida,APC,5465,Level 5 Neurostimulator and Related Procedures,,,1747,1763,156844.4,26337.99,24735.9,0,
+State,12,Florida,APC,5471,Implantation of Drug Infusion Device,,,189,193,103122.93,14714.34,13113.14,0,
+State,12,Florida,APC,5491,Level 1 Intraocular Procedures,,,5732,8350,20373.49,1892.11,1502.72,0,
+State,12,Florida,APC,5492,Level 2 Intraocular Procedures,,,2146,2349,34163.88,3518.25,2797.76,24,5378.61
+State,12,Florida,APC,5493,Level 3 Intraocular Procedures,,,21,22,66674.34,6141.06,4892.88,0,
+State,12,Florida,APC,5495,Level 5 Intraocular Procedures,,,0,0,,,,0,
+State,12,Florida,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,852,891,26171.71,1840.41,1463.45,17,5666.86
+State,12,Florida,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,239,253,37613.51,3121.82,2481.6,0,
+State,12,Florida,APC,5627,Level 7 Radiation Therapy,,,555,603,70415.59,6977.44,5555.59,130,5086.28
+State,12,Florida,APC,5881,Ancillary Outpatient Services When Patient Dies,,,11,11,88810.05,10715.0,9115.0,0,
+State,12,Florida,APC,8011,Comprehensive Observation Services,,,75330,82861,26965.35,2213.66,1799.42,214,4364.2
+State,13,Georgia,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,8518,8815,12163.08,1364.43,1079.08,16,7248.19
+State,13,Georgia,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,3388,3645,22912.63,2316.33,1834.22,36,5991.27
+State,13,Georgia,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,1403,1462,27097.51,3124.53,2477.97,11,4031.14
+State,13,Georgia,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,1394,1398,43793.37,5419.89,4302.58,19,4106.0
+State,13,Georgia,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,184,189,57050.52,7944.13,6370.86,20,3805.9
+State,13,Georgia,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,116,121,100844.11,14882.1,13285.25,0,
+State,13,Georgia,APC,5112,Level 2 Musculoskeletal Procedures,,,1632,1683,13987.06,1256.74,993.19,0,
+State,13,Georgia,APC,5113,Level 3 Musculoskeletal Procedures,,,2814,2874,25436.97,2620.92,2073.81,0,
+State,13,Georgia,APC,5114,Level 4 Musculoskeletal Procedures,,,4443,4502,49168.94,5924.46,4692.99,134,3875.16
+State,13,Georgia,APC,5115,Level 5 Musculoskeletal Procedures,,,10607,11005,77382.58,11883.06,10280.7,271,2688.57
+State,13,Georgia,APC,5116,Level 6 Musculoskeletal Procedures,,,621,624,127958.74,19340.08,17739.88,38,3187.24
+State,13,Georgia,APC,5153,Level 3 Airway Endoscopy,,,1027,1107,14245.68,1453.47,1149.22,0,
+State,13,Georgia,APC,5154,Level 4 Airway Endoscopy,,,1461,1517,25846.18,3048.11,2419.59,0,
+State,13,Georgia,APC,5155,Level 5 Airway Endoscopy,,,1041,1055,43029.42,5603.06,4451.85,18,3214.75
+State,13,Georgia,APC,5163,Level 3 ENT Procedures,,,128,133,15432.86,1244.51,980.69,0,
+State,13,Georgia,APC,5164,Level 4 ENT Procedures,,,320,324,22810.32,2548.81,2016.77,0,
+State,13,Georgia,APC,5165,Level 5 ENT Procedures,,,936,943,37960.89,4852.16,3851.04,45,4479.02
+State,13,Georgia,APC,5166,Cochlear Implant Procedure,,,87,89,126086.75,30117.62,28507.46,0,0.0
+State,13,Georgia,APC,5182,Level 2 Vascular Procedures,,,1941,2036,10188.28,1349.02,1064.16,14,6561.17
+State,13,Georgia,APC,5183,Level 3 Vascular Procedures,,,5127,5456,22006.49,2715.5,2149.37,62,5446.56
+State,13,Georgia,APC,5184,Level 4 Vascular Procedures,,,1621,1778,43618.57,4400.4,3482.98,71,4063.33
+State,13,Georgia,APC,5191,Level 1 Endovascular Procedures,,,9213,9248,25328.4,2701.41,1884.85,13,4153.88
+State,13,Georgia,APC,5192,Level 2 Endovascular Procedures,,,2196,2565,31795.21,4811.3,3818.65,18,4447.66
+State,13,Georgia,APC,5193,Level 3 Endovascular Procedures,,,3676,3950,74040.53,9571.52,7982.27,293,2526.96
+State,13,Georgia,APC,5194,Level 4 Endovascular Procedures,,,959,1001,98032.36,15680.21,14083.62,54,3417.77
+State,13,Georgia,APC,5200,Implantation Wireless PA Pressure Monitor,,,84,84,133657.15,24930.06,23329.89,0,0.0
+State,13,Georgia,APC,5211,Level 1 Electrophysiologic Procedures,,,11,11,9980.48,974.25,761.6,0,0.0
+State,13,Georgia,APC,5212,Level 2 Electrophysiologic Procedures,,,224,225,42986.02,6148.84,4866.97,0,
+State,13,Georgia,APC,5213,Level 3 Electrophysiologic Procedures,,,2627,2684,121206.92,21449.97,19847.05,0,
+State,13,Georgia,APC,5222,Level 2 Pacemaker and Similar Procedures,,,821,823,39163.0,7490.01,5950.77,0,
+State,13,Georgia,APC,5223,Level 3 Pacemaker and Similar Procedures,,,2061,2063,57216.79,9496.73,7892.39,22,2100.41
+State,13,Georgia,APC,5224,Level 4 Pacemaker and Similar Procedures,,,418,419,80641.98,17291.99,15689.41,12,1374.6
+State,13,Georgia,APC,5231,Level 1 ICD and Similar Procedures,,,178,179,101425.04,20988.16,19387.27,0,
+State,13,Georgia,APC,5232,Level 2 ICD and Similar Procedures,,,916,917,154960.85,29131.93,27530.36,13,4615.86
+State,13,Georgia,APC,5244,Level 4 Blood Product Exchange and Related Services,,,0,0,,,,0,
+State,13,Georgia,APC,5302,Level 2 Upper GI Procedures,,,4846,5249,13756.22,1585.17,1257.97,0,
+State,13,Georgia,APC,5303,Level 3 Upper GI Procedures,,,645,658,21734.41,2976.55,2363.7,0,
+State,13,Georgia,APC,5313,Level 3 Lower GI Procedures,,,929,951,19162.12,2312.32,1844.62,0,
+State,13,Georgia,APC,5331,Complex GI Procedures,,,489,557,32350.15,4675.33,3716.73,0,
+State,13,Georgia,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,2026,2091,28957.39,3197.97,2529.06,31,4149.27
+State,13,Georgia,APC,5361,Level 1 Laparoscopy and Related Services,,,5034,5068,38424.4,4708.23,3722.0,61,3993.8
+State,13,Georgia,APC,5362,Level 2 Laparoscopy and Related Services,,,2684,2693,66457.73,8265.51,6659.45,144,3052.05
+State,13,Georgia,APC,5372,Level 2 Urology and Related Services,,,2439,3417,4756.5,556.15,436.56,0,
+State,13,Georgia,APC,5373,Level 3 Urology and Related Services,,,3386,3880,16120.94,1678.34,1325.78,0,
+State,13,Georgia,APC,5374,Level 4 Urology and Related Services,,,4200,4634,25368.73,2907.88,2300.99,50,3790.76
+State,13,Georgia,APC,5375,Level 5 Urology and Related Services,,,4290,4524,32110.18,4268.99,3381.54,44,4264.11
+State,13,Georgia,APC,5376,Level 6 Urology and Related Services,,,723,730,41700.26,7886.89,6288.13,0,
+State,13,Georgia,APC,5377,Level 7 Urology and Related Services,,,46,46,61756.03,10299.14,8757.79,0,
+State,13,Georgia,APC,5378,Level 8 Urology and Related Services,,,261,265,85538.11,17514.91,15907.2,0,
+State,13,Georgia,APC,5414,Level 4 Gynecologic Procedures,,,1009,1016,22090.17,2539.21,2006.84,0,
+State,13,Georgia,APC,5415,Level 5 Gynecologic Procedures,,,607,620,33455.92,4111.89,3247.03,0,
+State,13,Georgia,APC,5416,Level 6 Gynecologic Procedures,,,302,304,46634.78,6290.51,4967.86,0,
+State,13,Georgia,APC,5431,Level 1 Nerve Procedures,,,1806,2014,14839.68,1618.06,1279.45,0,
+State,13,Georgia,APC,5432,Level 2 Nerve Procedures,,,89,94,44368.29,5171.13,4098.13,0,
+State,13,Georgia,APC,5461,Level 1 Neurostimulator and Related Procedures,,,150,150,27796.02,2896.6,2282.19,0,
+State,13,Georgia,APC,5462,Level 2 Neurostimulator and Related Procedures,,,264,275,34850.75,5947.4,4732.76,0,
+State,13,Georgia,APC,5463,Level 3 Neurostimulator and Related Procedures,,,45,46,49658.62,11229.07,9619.24,0,
+State,13,Georgia,APC,5464,Level 4 Neurostimulator and Related Procedures,,,512,524,88497.09,19640.54,18038.27,0,
+State,13,Georgia,APC,5465,Level 5 Neurostimulator and Related Procedures,,,552,556,126659.17,26535.62,24932.8,0,
+State,13,Georgia,APC,5471,Implantation of Drug Infusion Device,,,77,78,73705.02,14433.49,12830.59,0,
+State,13,Georgia,APC,5491,Level 1 Intraocular Procedures,,,3826,5768,18970.15,1956.25,1548.54,0,
+State,13,Georgia,APC,5492,Level 2 Intraocular Procedures,,,766,834,30993.49,3605.15,2849.56,0,
+State,13,Georgia,APC,5493,Level 3 Intraocular Procedures,,,0,0,,,,0,
+State,13,Georgia,APC,5495,Level 5 Intraocular Procedures,,,0,0,,,,0,
+State,13,Georgia,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,580,588,18814.07,1925.32,1531.73,0,0.0
+State,13,Georgia,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,84,87,24358.66,3215.67,2552.74,0,0.0
+State,13,Georgia,APC,5627,Level 7 Radiation Therapy,,,247,276,77587.44,7024.38,5579.19,77,3663.08
+State,13,Georgia,APC,5881,Ancillary Outpatient Services When Patient Dies,,,13,13,100373.84,11406.61,9806.61,0,
+State,13,Georgia,APC,8011,Comprehensive Observation Services,,,20304,21920,20001.75,2216.57,1777.16,42,4836.67
+State,15,Hawaii,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,942,972,7650.53,1705.17,1343.73,11,4966.8
+State,15,Hawaii,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,293,303,16297.77,3006.85,2382.67,17,5137.5
+State,15,Hawaii,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,181,190,18352.85,3947.99,3120.85,0,
+State,15,Hawaii,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,185,185,34582.08,6989.46,5555.63,16,3499.04
+State,15,Hawaii,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5112,Level 2 Musculoskeletal Procedures,,,215,226,7775.3,1644.41,1293.17,0,0.0
+State,15,Hawaii,APC,5113,Level 3 Musculoskeletal Procedures,,,261,264,13915.25,3393.67,2674.69,0,
+State,15,Hawaii,APC,5114,Level 4 Musculoskeletal Procedures,,,421,425,28081.19,7577.65,5991.89,0,
+State,15,Hawaii,APC,5115,Level 5 Musculoskeletal Procedures,,,839,868,52072.92,14895.09,13296.72,22,3028.77
+State,15,Hawaii,APC,5116,Level 6 Musculoskeletal Procedures,,,33,33,58062.87,26231.71,24631.71,0,0.0
+State,15,Hawaii,APC,5153,Level 3 Airway Endoscopy,,,74,88,6973.51,1876.95,1492.57,0,
+State,15,Hawaii,APC,5154,Level 4 Airway Endoscopy,,,148,151,17236.0,3840.97,3031.65,0,0.0
+State,15,Hawaii,APC,5155,Level 5 Airway Endoscopy,,,132,133,28107.99,7275.45,5777.48,0,
+State,15,Hawaii,APC,5163,Level 3 ENT Procedures,,,19,31,3884.21,1576.92,1256.41,0,0.0
+State,15,Hawaii,APC,5164,Level 4 ENT Procedures,,,25,25,15530.53,3313.32,2639.89,0,0.0
+State,15,Hawaii,APC,5165,Level 5 ENT Procedures,,,138,139,27982.28,6211.9,4926.36,0,
+State,15,Hawaii,APC,5166,Cochlear Implant Procedure,,,0,0,,,,0,
+State,15,Hawaii,APC,5182,Level 2 Vascular Procedures,,,215,223,6984.62,1745.42,1380.31,0,
+State,15,Hawaii,APC,5183,Level 3 Vascular Procedures,,,616,632,14797.44,3441.65,2720.87,13,6876.31
+State,15,Hawaii,APC,5184,Level 4 Vascular Procedures,,,277,300,32393.28,5908.22,4689.6,40,5191.03
+State,15,Hawaii,APC,5191,Level 1 Endovascular Procedures,,,575,576,16601.3,3414.67,2369.33,0,
+State,15,Hawaii,APC,5192,Level 2 Endovascular Procedures,,,349,416,20126.02,6133.46,4867.51,0,
+State,15,Hawaii,APC,5193,Level 3 Endovascular Procedures,,,340,375,46933.26,12316.71,10719.05,49,3789.43
+State,15,Hawaii,APC,5194,Level 4 Endovascular Procedures,,,155,163,58060.55,20044.49,18440.45,0,
+State,15,Hawaii,APC,5200,Implantation Wireless PA Pressure Monitor,,,0,0,,,,0,
+State,15,Hawaii,APC,5212,Level 2 Electrophysiologic Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5213,Level 3 Electrophysiologic Procedures,,,206,209,79042.08,27076.82,25475.12,0,
+State,15,Hawaii,APC,5222,Level 2 Pacemaker and Similar Procedures,,,40,40,26168.89,9712.9,8105.62,0,
+State,15,Hawaii,APC,5223,Level 3 Pacemaker and Similar Procedures,,,186,187,32135.28,11862.47,10262.18,15,2876.02
+State,15,Hawaii,APC,5224,Level 4 Pacemaker and Similar Procedures,,,34,34,52424.74,20770.81,19170.81,0,0.0
+State,15,Hawaii,APC,5231,Level 1 ICD and Similar Procedures,,,14,14,90252.94,25183.65,23583.47,0,
+State,15,Hawaii,APC,5232,Level 2 ICD and Similar Procedures,,,70,70,100156.6,35985.81,34383.08,0,
+State,15,Hawaii,APC,5302,Level 2 Upper GI Procedures,,,388,424,10545.69,2010.85,1596.79,0,
+State,15,Hawaii,APC,5303,Level 3 Upper GI Procedures,,,78,81,17469.65,3883.49,3096.81,0,
+State,15,Hawaii,APC,5313,Level 3 Lower GI Procedures,,,77,77,16384.02,3052.43,2441.14,0,
+State,15,Hawaii,APC,5331,Complex GI Procedures,,,69,81,25957.52,6110.97,4841.17,0,
+State,15,Hawaii,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,243,263,17364.42,4113.89,3247.77,0,
+State,15,Hawaii,APC,5361,Level 1 Laparoscopy and Related Services,,,429,434,25334.09,5989.9,4725.85,0,
+State,15,Hawaii,APC,5362,Level 2 Laparoscopy and Related Services,,,202,202,38988.34,10325.57,8724.45,19,2117.49
+State,15,Hawaii,APC,5372,Level 2 Urology and Related Services,,,485,845,1851.67,724.31,571.29,0,
+State,15,Hawaii,APC,5373,Level 3 Urology and Related Services,,,365,416,7094.28,2161.83,1712.94,0,0.0
+State,15,Hawaii,APC,5374,Level 4 Urology and Related Services,,,356,404,15012.5,3626.23,2851.91,0,
+State,15,Hawaii,APC,5375,Level 5 Urology and Related Services,,,359,386,21105.9,5419.04,4284.7,0,
+State,15,Hawaii,APC,5376,Level 6 Urology and Related Services,,,35,35,35851.79,10091.04,8491.04,0,
+State,15,Hawaii,APC,5377,Level 7 Urology and Related Services,,,0,0,,,,0,
+State,15,Hawaii,APC,5378,Level 8 Urology and Related Services,,,0,0,,,,0,
+State,15,Hawaii,APC,5414,Level 4 Gynecologic Procedures,,,119,120,12570.57,3282.06,2595.27,0,0.0
+State,15,Hawaii,APC,5415,Level 5 Gynecologic Procedures,,,51,57,26451.84,5181.48,4066.16,0,
+State,15,Hawaii,APC,5416,Level 6 Gynecologic Procedures,,,26,26,28178.78,7947.79,6347.79,0,0.0
+State,15,Hawaii,APC,5431,Level 1 Nerve Procedures,,,145,164,6452.5,2092.8,1656.27,0,0.0
+State,15,Hawaii,APC,5432,Level 2 Nerve Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5461,Level 1 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5462,Level 2 Neurostimulator and Related Procedures,,,11,11,13970.0,7837.82,6246.63,0,0.0
+State,15,Hawaii,APC,5464,Level 4 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,15,Hawaii,APC,5465,Level 5 Neurostimulator and Related Procedures,,,34,35,92588.42,31952.25,30351.84,0,0.0
+State,15,Hawaii,APC,5471,Implantation of Drug Infusion Device,,,0,0,,,,0,
+State,15,Hawaii,APC,5491,Level 1 Intraocular Procedures,,,268,356,9818.11,2461.55,1937.08,0,0.0
+State,15,Hawaii,APC,5492,Level 2 Intraocular Procedures,,,117,130,15134.52,4429.27,3460.12,0,0.0
+State,15,Hawaii,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,32,32,10368.7,2451.91,1928.53,0,0.0
+State,15,Hawaii,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,11,11,14272.07,4180.66,3330.93,0,0.0
+State,15,Hawaii,APC,8011,Comprehensive Observation Services,,,1589,1666,16722.07,2852.81,2364.91,23,5196.23
+State,16,Idaho,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,1958,2042,7472.18,1433.44,1137.38,0,
+State,16,Idaho,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,725,786,13519.01,2433.55,1934.04,0,
+State,16,Idaho,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,272,288,17789.39,3277.05,2603.13,0,
+State,16,Idaho,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,323,323,34768.63,5705.9,4536.91,33,4676.44
+State,16,Idaho,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,24,24,54176.98,8339.78,6739.78,12,5340.21
+State,16,Idaho,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,0,0,,,,0,
+State,16,Idaho,APC,5112,Level 2 Musculoskeletal Procedures,,,747,783,7164.65,1357.59,1077.16,0,
+State,16,Idaho,APC,5113,Level 3 Musculoskeletal Procedures,,,1093,1142,14335.75,2753.63,2182.83,0,
+State,16,Idaho,APC,5114,Level 4 Musculoskeletal Procedures,,,1693,1719,30684.33,6247.1,4962.11,72,3768.0
+State,16,Idaho,APC,5115,Level 5 Musculoskeletal Procedures,,,3705,3868,52402.37,12263.2,10662.5,84,3463.91
+State,16,Idaho,APC,5116,Level 6 Musculoskeletal Procedures,,,169,173,89571.32,20837.01,19237.01,11,5657.1
+State,16,Idaho,APC,5153,Level 3 Airway Endoscopy,,,164,214,4682.13,1557.17,1238.53,0,
+State,16,Idaho,APC,5154,Level 4 Airway Endoscopy,,,233,240,14580.41,3213.78,2560.39,0,0.0
+State,16,Idaho,APC,5155,Level 5 Airway Endoscopy,,,156,159,34405.6,5897.75,4693.06,39,6054.66
+State,16,Idaho,APC,5163,Level 3 ENT Procedures,,,50,57,5234.03,1330.73,1059.76,0,0.0
+State,16,Idaho,APC,5164,Level 4 ENT Procedures,,,126,126,13572.84,2652.97,2096.07,0,
+State,16,Idaho,APC,5165,Level 5 ENT Procedures,,,234,243,21723.01,4918.71,3899.0,0,
+State,16,Idaho,APC,5166,Cochlear Implant Procedure,,,40,41,80645.64,30542.99,28942.99,0,0.0
+State,16,Idaho,APC,5182,Level 2 Vascular Procedures,,,530,551,9542.75,1432.26,1135.61,20,6130.9
+State,16,Idaho,APC,5183,Level 3 Vascular Procedures,,,1177,1219,15912.18,2845.46,2261.66,19,7092.81
+State,16,Idaho,APC,5184,Level 4 Vascular Procedures,,,240,285,27998.37,4158.0,3303.44,30,8863.7
+State,16,Idaho,APC,5191,Level 1 Endovascular Procedures,,,1481,1486,27407.27,2861.25,2008.57,33,4163.91
+State,16,Idaho,APC,5192,Level 2 Endovascular Procedures,,,322,407,38233.07,5064.67,4027.31,18,3642.96
+State,16,Idaho,APC,5193,Level 3 Endovascular Procedures,,,627,665,70283.68,10177.16,8583.17,202,3649.43
+State,16,Idaho,APC,5194,Level 4 Endovascular Procedures,,,180,186,91429.89,16168.76,14610.55,23,3151.78
+State,16,Idaho,APC,5200,Implantation Wireless PA Pressure Monitor,,,34,34,82740.63,27166.9,25566.9,0,0.0
+State,16,Idaho,APC,5212,Level 2 Electrophysiologic Procedures,,,43,43,30308.67,6655.51,5301.5,0,
+State,16,Idaho,APC,5213,Level 3 Electrophysiologic Procedures,,,531,542,106187.27,22774.72,21172.58,43,2860.19
+State,16,Idaho,APC,5222,Level 2 Pacemaker and Similar Procedures,,,335,335,25499.44,7898.14,6313.99,0,
+State,16,Idaho,APC,5223,Level 3 Pacemaker and Similar Procedures,,,524,524,41575.31,9971.66,8370.19,0,
+State,16,Idaho,APC,5224,Level 4 Pacemaker and Similar Procedures,,,61,61,60732.84,17973.86,16373.86,0,
+State,16,Idaho,APC,5231,Level 1 ICD and Similar Procedures,,,20,20,96182.47,21720.29,20120.29,0,0.0
+State,16,Idaho,APC,5232,Level 2 ICD and Similar Procedures,,,176,176,108047.05,30746.51,29143.74,0,
+State,16,Idaho,APC,5302,Level 2 Upper GI Procedures,,,1196,1340,8124.75,1687.0,1346.29,0,
+State,16,Idaho,APC,5303,Level 3 Upper GI Procedures,,,176,178,15613.22,3082.32,2449.24,0,
+State,16,Idaho,APC,5313,Level 3 Lower GI Procedures,,,146,148,12417.33,2416.95,1927.03,0,
+State,16,Idaho,APC,5331,Complex GI Procedures,,,114,133,21998.53,4853.02,3860.16,0,
+State,16,Idaho,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,405,424,15531.24,3348.11,2658.06,11,4312.29
+State,16,Idaho,APC,5361,Level 1 Laparoscopy and Related Services,,,1071,1077,26271.89,4938.08,3918.75,27,4089.91
+State,16,Idaho,APC,5362,Level 2 Laparoscopy and Related Services,,,637,637,42312.86,8602.45,7001.62,118,3592.13
+State,16,Idaho,APC,5372,Level 2 Urology and Related Services,,,1632,2331,849.63,573.93,453.08,0,
+State,16,Idaho,APC,5373,Level 3 Urology and Related Services,,,1066,1296,4178.13,1716.84,1364.83,0,
+State,16,Idaho,APC,5374,Level 4 Urology and Related Services,,,852,965,13400.42,2986.85,2376.0,0,
+State,16,Idaho,APC,5375,Level 5 Urology and Related Services,,,921,986,20087.76,4470.47,3552.17,0,
+State,16,Idaho,APC,5376,Level 6 Urology and Related Services,,,142,144,25022.28,7945.89,6362.53,0,0.0
+State,16,Idaho,APC,5377,Level 7 Urology and Related Services,,,0,0,,,,0,
+State,16,Idaho,APC,5378,Level 8 Urology and Related Services,,,20,21,47401.9,18483.79,16883.79,0,0.0
+State,16,Idaho,APC,5414,Level 4 Gynecologic Procedures,,,149,150,12066.87,2669.78,2121.35,0,0.0
+State,16,Idaho,APC,5415,Level 5 Gynecologic Procedures,,,170,176,19786.44,4443.63,3536.2,0,
+State,16,Idaho,APC,5416,Level 6 Gynecologic Procedures,,,42,42,34779.48,6459.77,5128.84,0,
+State,16,Idaho,APC,5431,Level 1 Nerve Procedures,,,1208,1361,8672.14,1664.44,1320.06,0,0.0
+State,16,Idaho,APC,5432,Level 2 Nerve Procedures,,,30,30,18352.21,5741.14,4539.03,0,
+State,16,Idaho,APC,5461,Level 1 Neurostimulator and Related Procedures,,,42,42,14064.3,3003.68,2381.92,0,0.0
+State,16,Idaho,APC,5462,Level 2 Neurostimulator and Related Procedures,,,161,187,18023.06,5728.49,4564.01,0,
+State,16,Idaho,APC,5463,Level 3 Neurostimulator and Related Procedures,,,0,0,,,,0,
+State,16,Idaho,APC,5464,Level 4 Neurostimulator and Related Procedures,,,80,81,73337.9,19945.87,18345.54,0,
+State,16,Idaho,APC,5465,Level 5 Neurostimulator and Related Procedures,,,218,219,121303.98,27088.53,25486.79,49,12723.0
+State,16,Idaho,APC,5471,Implantation of Drug Infusion Device,,,115,116,65558.3,15266.31,13673.21,0,
+State,16,Idaho,APC,5491,Level 1 Intraocular Procedures,,,354,535,12661.13,2041.47,1621.18,0,
+State,16,Idaho,APC,5492,Level 2 Intraocular Procedures,,,228,257,26337.87,3691.34,2931.39,0,0.0
+State,16,Idaho,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,118,121,10123.64,1923.69,1524.53,0,
+State,16,Idaho,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,21,23,19622.51,3257.73,2595.59,0,
+State,16,Idaho,APC,5627,Level 7 Radiation Therapy,,,24,27,38750.01,7216.36,5749.61,0,
+State,16,Idaho,APC,8011,Comprehensive Observation Services,,,2803,2912,17805.39,2356.16,1919.62,82,5167.19
+State,17,Illinois,APC,5072,Level 2 Excision/ Biopsy/ Incision and Drainage,,,15222,15849,11036.25,1441.98,1143.25,43,6571.54
+State,17,Illinois,APC,5073,Level 3 Excision/ Biopsy/ Incision and Drainage,,,4450,4819,20920.6,2482.21,1968.5,45,6672.68
+State,17,Illinois,APC,5091,Level 1 Breast/Lymphatic Surgery and Related Procedures,,,2043,2112,25268.99,3385.45,2691.62,11,6138.49
+State,17,Illinois,APC,5092,Level 2 Breast/Lymphatic Surgery and Related Procedures,,,2121,2127,44050.51,5833.6,4636.92,54,4591.2
+State,17,Illinois,APC,5093,Level 3 Breast/Lymphatic Surgery and Related Procedures,,,189,194,51942.07,8654.48,7049.85,17,4776.73
+State,17,Illinois,APC,5094,Level 4 Breast/Lymphatic Surgery and Related Procedures,,,136,144,94680.92,16444.66,14844.66,0,
+State,17,Illinois,APC,5112,Level 2 Musculoskeletal Procedures,,,2324,2423,11690.34,1375.93,1088.86,0,
+State,17,Illinois,APC,5113,Level 3 Musculoskeletal Procedures,,,3970,4061,22780.06,2844.46,2252.54,43,5077.31
+State,17,Illinois,APC,5114,Level 4 Musculoskeletal Procedures,,,6061,6129,42365.58,6389.59,5071.15,124,3728.76
+State,17,Illinois,APC,5115,Level 5 Musculoskeletal Procedures,,,17557,18201,69021.84,12699.46,11097.53,363,2637.47
+State,17,Illinois,APC,5116,Level 6 Musculoskeletal Procedures,,,488,495,111714.92,21136.71,19534.66,13,3133.91
+State,17,Illinois,APC,5153,Level 3 Airway Endoscopy,,,1372,1601,11230.58,1546.97,1228.1,0,
+State,17,Illinois,APC,5154,Level 4 Airway Endoscopy,,,2502,2655,28169.39,3248.38,2577.36,42,4254.7
+State,17,Illinois,APC,5155,Level 5 Airway Endoscopy,,,1444,1458,42985.78,6134.68,4876.0,24,3585.99
+State,17,Illinois,APC,5163,Level 3 ENT Procedures,,,281,333,8827.11,1252.57,990.96,0,0.0
+State,17,Illinois,APC,5164,Level 4 ENT Procedures,,,561,567,21617.0,2749.23,2180.5,0,
+State,17,Illinois,APC,5165,Level 5 ENT Procedures,,,1283,1284,41254.95,5263.48,4180.72,43,5927.81
+State,17,Illinois,APC,5166,Cochlear Implant Procedure,,,122,124,142583.97,32564.8,30960.41,0,0.0
+State,17,Illinois,APC,5182,Level 2 Vascular Procedures,,,2944,3183,9150.89,1450.93,1150.02,32,6323.24
+State,17,Illinois,APC,5183,Level 3 Vascular Procedures,,,8002,8382,19356.3,2891.81,2296.63,105,6519.15
+State,17,Illinois,APC,5184,Level 4 Vascular Procedures,,,2133,2284,35939.48,4924.3,3914.75,68,4936.99
+State,17,Illinois,APC,5191,Level 1 Endovascular Procedures,,,11682,11754,24041.11,2868.32,2007.23,56,6445.37
+State,17,Illinois,APC,5192,Level 2 Endovascular Procedures,,,2686,3095,33529.02,5057.24,4012.17,66,3861.2
+State,17,Illinois,APC,5193,Level 3 Endovascular Procedures,,,6001,6532,67186.26,10212.85,8628.31,426,2548.53
+State,17,Illinois,APC,5194,Level 4 Endovascular Procedures,,,1665,1756,94217.02,16685.01,15091.59,91,7964.93
+State,17,Illinois,APC,5200,Implantation Wireless PA Pressure Monitor,,,245,245,159668.79,27118.43,25516.83,0,
+State,17,Illinois,APC,5211,Level 1 Electrophysiologic Procedures,,,0,0,,,,0,
+State,17,Illinois,APC,5212,Level 2 Electrophysiologic Procedures,,,281,283,47107.66,6641.7,5285.81,14,3301.46
+State,17,Illinois,APC,5213,Level 3 Electrophysiologic Procedures,,,4104,4175,123066.6,22993.92,21390.39,19,11192.88
+State,17,Illinois,APC,5222,Level 2 Pacemaker and Similar Procedures,,,1386,1390,41793.73,7906.04,6332.15,0,
+State,17,Illinois,APC,5223,Level 3 Pacemaker and Similar Procedures,,,2566,2566,53615.38,10061.7,8457.41,19,3039.48
+State,17,Illinois,APC,5224,Level 4 Pacemaker and Similar Procedures,,,472,472,93850.61,18167.6,16564.76,0,
+State,17,Illinois,APC,5231,Level 1 ICD and Similar Procedures,,,248,248,114639.29,22216.04,20610.03,0,
+State,17,Illinois,APC,5232,Level 2 ICD and Similar Procedures,,,1328,1332,154824.3,31129.01,29525.18,0,
+State,17,Illinois,APC,5302,Level 2 Upper GI Procedures,,,8038,8956,13339.38,1710.82,1362.27,15,5444.67
+State,17,Illinois,APC,5303,Level 3 Upper GI Procedures,,,1278,1306,20337.42,3192.34,2537.05,0,
+State,17,Illinois,APC,5313,Level 3 Lower GI Procedures,,,1464,1493,17994.63,2499.32,2003.45,0,
+State,17,Illinois,APC,5331,Complex GI Procedures,,,1008,1226,28728.62,4895.37,3889.12,18,2946.91
+State,17,Illinois,APC,5341,Abdominal/Peritoneal/Biliary and Related Procedures,,,3085,3334,23469.5,3458.05,2742.92,62,5010.41
+State,17,Illinois,APC,5361,Level 1 Laparoscopy and Related Services,,,6001,6042,37366.58,5073.3,4024.82,124,4074.13
+State,17,Illinois,APC,5362,Level 2 Laparoscopy and Related Services,,,2933,2941,60582.2,8848.44,7245.53,161,2430.99
+State,17,Illinois,APC,5372,Level 2 Urology and Related Services,,,4923,7293,3911.1,603.82,475.46,16,5077.76
+State,17,Illinois,APC,5373,Level 3 Urology and Related Services,,,6184,7532,13046.25,1807.56,1432.47,24,5374.98
+State,17,Illinois,APC,5374,Level 4 Urology and Related Services,,,6089,7064,22574.58,3131.73,2486.86,41,6730.21
+State,17,Illinois,APC,5375,Level 5 Urology and Related Services,,,5645,5962,32389.25,4608.42,3660.18,57,6831.36
+State,17,Illinois,APC,5376,Level 6 Urology and Related Services,,,689,697,44066.0,8444.12,6845.48,0,
+State,17,Illinois,APC,5377,Level 7 Urology and Related Services,,,36,36,64539.39,12005.13,10395.7,0,
+State,17,Illinois,APC,5378,Level 8 Urology and Related Services,,,231,233,106715.37,18642.17,17041.2,0,
+State,17,Illinois,APC,5414,Level 4 Gynecologic Procedures,,,2032,2063,19841.97,2750.71,2179.11,0,
+State,17,Illinois,APC,5415,Level 5 Gynecologic Procedures,,,802,822,31074.05,4511.04,3578.05,0,
+State,17,Illinois,APC,5416,Level 6 Gynecologic Procedures,,,362,362,43376.46,6798.44,5375.56,0,
+State,17,Illinois,APC,5431,Level 1 Nerve Procedures,,,4460,5369,12140.71,1743.16,1379.53,11,5012.8
+State,17,Illinois,APC,5432,Level 2 Nerve Procedures,,,81,82,49901.69,6024.57,4795.45,0,
+State,17,Illinois,APC,5461,Level 1 Neurostimulator and Related Procedures,,,163,164,26195.36,3127.64,2478.06,0,
+State,17,Illinois,APC,5462,Level 2 Neurostimulator and Related Procedures,,,542,646,33879.91,6027.14,4796.02,16,3683.46
+State,17,Illinois,APC,5463,Level 3 Neurostimulator and Related Procedures,,,72,73,61315.35,7307.77,6100.43,0,
+State,17,Illinois,APC,5464,Level 4 Neurostimulator and Related Procedures,,,504,530,97065.16,20913.59,19311.11,0,
+State,17,Illinois,APC,5465,Level 5 Neurostimulator and Related Procedures,,,643,653,124995.78,28496.01,26894.97,0,
+State,17,Illinois,APC,5471,Implantation of Drug Infusion Device,,,110,113,79765.43,16238.94,14643.36,0,
+State,17,Illinois,APC,5491,Level 1 Intraocular Procedures,,,13251,19440,14138.6,2108.88,1673.82,11,4663.22
+State,17,Illinois,APC,5492,Level 2 Intraocular Procedures,,,2194,2405,26960.8,3944.6,3130.38,32,5585.43
+State,17,Illinois,APC,5493,Level 3 Intraocular Procedures,,,15,16,48575.94,7353.89,5859.2,0,
+State,17,Illinois,APC,5494,Level 4 Intraocular Procedures,,,0,0,,,,0,
+State,17,Illinois,APC,5503,"Level 3 Extraocular, Repair, and Plastic Eye Procedures",,,991,1039,16687.45,2101.32,1668.74,0,
+State,17,Illinois,APC,5504,"Level 4 Extraocular, Repair, and Plastic Eye Procedures",,,156,160,31050.91,3507.01,2786.33,0,
+State,17,Illinois,APC,5627,Level 7 Radiation Therapy,,,334,367,73110.41,7660.57,6093.16,50,6126.26
+State,17,Illinois,APC,5881,Ancillary Outpatient Services When Patient Dies,,,11,11,127523.05,11705.54,10105.54,0,
