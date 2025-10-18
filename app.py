@@ -5,6 +5,12 @@ from modules.geolocation import safe_geocode, validate_location, add_distance
 from modules.map_display import render_map
 from modules.sorting_logic import prepare_mortality_sort, sort_by_selected_option, parse_mortality
 from modules.ui_components import render_sort_buttons, display_hospital_cards, display_chief_complaint_info
+import os
+import certifi
+
+# Set the environment variable to use certifi's certificate bundle
+
+os.environ['SSL_CERT_FILE'] = certifi.where()
 
 # setting page config
 st.set_page_config(page_title="HospiTrack", layout="centered")
