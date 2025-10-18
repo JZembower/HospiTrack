@@ -4,3 +4,5 @@ pandas
 folium
 geopy
 streamlit_folium
+os
+certifi
