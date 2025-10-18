@@ -6,10 +6,10 @@ def parse_mortality(val):
     if isinstance(val, str):
         val = val.lower()
         if "not used" in val: return ("not used", np.nan)
-        if "worse" in val:
+        if "better" in val:
             num = ''.join(c for c in val if c.isdigit())
             return ("better", int(num) if num else 0)
-        if "better" in val:
+        if "worse" in val:
             num = ''.join(c for c in val if c.isdigit())
             return ("worse", -int(num) if num else 0)
     return ("not used", np.nan)
