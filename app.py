@@ -23,8 +23,8 @@ st.title("Welcome to HospiTrack 🏥")
 st.subheader("Find the best ER near you")
 st.markdown(
     """
-    1. Enter your address or place name in the search box.
-    2. The map will show the 10 closest hospitals in the U.S. Midwest.
+    1. Enter your address or place name in the search box to find nearby hospitals, or leave it blank to see all hospitals.
+    2. The map will show the 10 closest hospitals (or all hospitals if no address is entered) in the U.S. Midwest.
     3. Click a hospital marker for more info.
     4. View and sort hospitals by quality, wait times, patient ratings, and mortality contribution.
     5. You can also filter quality scores based on your chief complaint.
@@ -32,24 +32,37 @@ st.markdown(
 )
 
 # --- User Input ---
-address = st.text_input("Enter address:", "Chicago, IL")
+address = st.text_input("Enter address (optional - leave blank to see all hospitals):", "")
 
 # --- Geolocation & Distance Calculation ---
-with st.spinner("🔍 Finding your location..."):
-    location = safe_geocode(address)
-    validated = validate_location(location)
-    if validated:
-        st.success(f"📍 Location validated: {validated.address}")
-        user_lat, user_lon = validated.latitude, validated.longitude
-    else:
-        user_lat, user_lon = 41.8781, -87.6298
+if address:
+    with st.spinner("🔍 Finding your location..."):
+        location = safe_geocode(address)
+        validated = validate_location(location)
+        if validated:
+            st.success(f"📍 Location validated: {validated.address}")
+            user_lat, user_lon = validated.latitude, validated.longitude
+        else:
+            user_lat, user_lon = 41.8781, -87.6298
 
-df = add_distance(df, user_lat, user_lon)
-closest = df.nsmallest(10, "distance_km").copy()
-render_map(closest, user_lat, user_lon)
+    df = add_distance(df, user_lat, user_lon)
+    closest = df.copy()  # Use all hospitals
+    # Filter out hospitals with missing coordinates
+    closest = closest.dropna(subset=['lat', 'lon'])
+    render_map(closest, user_lat, user_lon)
+    st.subheader("🏥 Top 10 Nearby Hospitals")
+else:
+    # Show all hospitals when no address is entered
+    user_lat, user_lon = 41.8781, -87.6298  # Default center for map
+    df = add_distance(df, user_lat, user_lon)
+    closest = df.copy()  # Use all hospitals
+    # Filter out hospitals with missing coordinates
+    closest = closest.dropna(subset=['lat', 'lon'])
+    render_map(closest, user_lat, user_lon)
+    st.subheader("🏥 All Hospitals in Dataset")
 
 # --- CSS for Display ---
-st.subheader("🏥 Top Nearby Hospitals")
+# Subheader is now shown above based on whether address was entered
 st.markdown("<style>" + """
     .sort-buttons { display: flex; gap: 15px; margin-bottom: 15px; justify-content: center; }
     .sort-btn {
@@ -126,11 +139,15 @@ st.markdown(f"**Sorting by:** {sort_options[st.session_state.selected_sort]}")
 closest = prepare_mortality_sort(closest)
 # Sort top hospitals by chosen metric
 closest["detail_avg_time_in_ed_minutes"] = df["detail_avg_time_in_ed_minutes"].replace(0, np.nan)
-if st.session_state.selected_sort == "detail_avg_time_in_ed_minutes":
-    top_5 = closest.sort_values(by=st.session_state.selected_sort, ascending=True, na_position='last').head(5)
-elif st.session_state.selected_sort == "mortality_overall_contribution":
-    top_5 = closest.sort_values(by=["mortality_order", "mortality_sort_value"], ascending=[True, False]).head(5)
-else:
-    top_5 = closest.sort_values(by=st.session_state.selected_sort, ascending=False).head(5)
 
-display_hospital_cards(top_5, quality_label)
+# Determine how many hospitals to show
+num_to_show = 5 if address else 20  # Show top 20 when viewing all hospitals
+
+if st.session_state.selected_sort == "detail_avg_time_in_ed_minutes":
+    top_hospitals = closest.sort_values(by=st.session_state.selected_sort, ascending=True, na_position='last').head(num_to_show)
+elif st.session_state.selected_sort == "mortality_overall_contribution":
+    top_hospitals = closest.sort_values(by=["mortality_order", "mortality_sort_value"], ascending=[True, False]).head(num_to_show)
+else:
+    top_hospitals = closest.sort_values(by=st.session_state.selected_sort, ascending=False).head(num_to_show)
+
+display_hospital_cards(top_hospitals, quality_label)
