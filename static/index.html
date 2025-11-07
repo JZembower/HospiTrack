@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>HospiTrack</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    h1 { margin-top: 0; font-size: 20px; }
+    .controls { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 8px; align-items: end; }
+    .controls > div { display: flex; flex-direction: column; }
+    label { font-size: 12px; color: #333; margin-bottom: 4px; }
+    input, select, button { padding: 8px; font-size: 14px; }
+    button { cursor: pointer; }
+    .row { margin-top: 12px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+    th, td { border: 1px solid #e5e5e5; padding: 8px; font-size: 14px; text-align: left; }
+    th { background: #f7f7f7; position: sticky; top: 0; }
+    .muted { color: #666; font-size: 12px; }
+    .badge { background: #eef; border: 1px solid #ccd; padding: 2px 6px; border-radius: 12px; font-size: 12px; }
+    .actions { display: flex; gap: 8px; align-items: center; }
+    @media (max-width: 960px) {
+      .controls { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <h1>HospiTrack — Find ERs & Clinics Near You</h1>
+
+  <div class="controls">
+    <div>
+      <label for="address">Address (or City, ST)</label>
+      <input id="address" placeholder="e.g., Chicago, IL" />
+    </div>
+    <div>
+      <label for="state">State (optional)</label>
+      <select id="state">
+        <option value="">All</option>
+      </select>
+    </div>
+    <div>
+      <label for="sort">Sort by</label>
+      <select id="sort">
+        <option value="adjusted_quality_points">Quality (Adjusted)</option>
+        <option value="total_quality_points">Quality (Raw)</option>
+        <option value="detail_avg_time_in_ed_minutes">ED Time (lower is better)</option>
+        <option value="detail_overall_patient_rating">Patient Rating</option>
+        <option value="mortality">Mortality</option>
+      </select>
+    </div>
+    <div>
+      <label for="within_km">Radius (km)</label>
+      <input id="within_km" type="number" value="200" min="1" max="10000" />
+    </div>
+    <div class="actions">
+      <div>
+        <label for="top_k">Limit</label>
+        <input id="top_k" type="number" value="50" min="1" max="2000" />
+      </div>
+      <button id="searchBtn" style="height: 38px; align-self: end;">Search</button>
+    </div>
+  </div>
+
+  <div class="row muted">
+    Tip: Enter an address or "City, ST" (e.g., Chicago, IL). The app finds nearby facilities within the radius.
+  </div>
+
+  <div class="row" id="status"></div>
+
+  <table id="results">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Hospital</th>
+        <th>Location</th>
+        <th>Distance</th>
+        <th>ED Time</th>
+        <th>Rating</th>
+        <th>Quality</th>
+        <th>Mortality</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    async function loadStates() {
+      try {
+        const resp = await fetch('/api/states');
+        if (!resp.ok) return;
+        const data = await resp.json();
+        const select = document.getElementById('state');
+        data.states.forEach(st => {
+          const opt = document.createElement('option');
+          opt.value = st;
+          opt.textContent = st;
+          select.appendChild(opt);
+        });
+      } catch { /* ignore */ }
+    }
+
+    function toFixedOrDash(v, digits=1) {
+      if (v === null || v === undefined) return '—';
+      const n = Number(v);
+      if (Number.isNaN(n)) return '—';
+      return n.toFixed(digits);
+    }
+
+    function qsParams(params) {
+      const usp = new URLSearchParams();
+      Object.entries(params).forEach(([k,v]) => {
+        if (v !== undefined && v !== null && v !== '') usp.set(k, v);
+      });
+      return usp.toString();
+    }
+
+    async function search() {
+      const status = document.getElementById('status');
+      const tbody = document.querySelector('#results tbody');
+      tbody.innerHTML = '';
+      status.textContent = 'Searching...';
+
+      const address = document.getElementById('address').value.trim();
+      const state = document.getElementById('state').value;
+      const sort = document.getElementById('sort').value;
+      const within_km = document.getElementById('within_km').value;
+      const top_k = document.getElementById('top_k').value;
+
+      const params = { sort, top_k, within_km, address };
+      if (state) params.state = state;
+
+      try {
+        const resp = await fetch('/api/hospitals?' + qsParams(params));
+        if (!resp.ok) {
+          const err = await resp.text();
+          status.textContent = `Error ${resp.status}: ${err}`;
+          return;
+        }
+        const payload = await resp.json();
+        const results = payload.results || [];
+
+        if (!results.length) {
+          status.textContent = 'No results.';
+          return;
+        }
+        status.innerHTML = `Found <span class="badge">${results.length}</span> facilities`;
+
+        results.forEach((r, idx) => {
+          const tr = document.createElement('tr');
+          const name = r.hospital_name || '';
+          const city = r.detail_city || '';
+          const st = r.detail_state || '';
+          const dist = toFixedOrDash(r.distance_km, 1) + ' km';
+          const ed = r.detail_avg_time_in_ed_minutes ?? '—';
+          const rating = r.detail_overall_patient_rating ?? '—';
+          const qAdj = r.adjusted_quality_points ?? '—';
+          const mort = r.detail_mortality_overall_text ?? '—';
+
+          const mapParams = { sort, top_k: 50, within_km };
+          if (address) mapParams.address = address;
+          if (state) mapParams.state = state; // backend supports it for /map too
+
+          const mapUrl = '/map?' + qsParams(mapParams);
+
+          tr.innerHTML = `
+            <td>${idx + 1}</td>
+            <td>${name}</td>
+            <td>${city}, ${st}</td>
+            <td>${dist}</td>
+            <td>${ed}</td>
+            <td>${rating}</td>
+            <td>${qAdj}</td>
+            <td>${mort}</td>
+            <td><a href="${mapUrl}" target="_blank">View Map</a></td>
+          `;
+          tbody.appendChild(tr);
+        });
+      } catch (e) {
+        status.textContent = 'Request failed: ' + (e?.message || e);
+      }
+    }
+
+    document.getElementById('searchBtn').addEventListener('click', search);
+    document.getElementById('address').addEventListener('keydown', (ev) => {
+      if (ev.key === 'Enter') search();
+    });
+
+    loadStates();
+    // Initial call (backend falls back to Chicago if address is empty)
+    search();
+  </script>
+</body>
+</html>

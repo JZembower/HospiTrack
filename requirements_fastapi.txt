@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+orjson
+pandas
+numpy
+folium
+geopy
+pgeocode
+pyarrow
+certifi
+requests
+beautifulsoup4

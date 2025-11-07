@@ -1,21 +1,45 @@
+# modules/map_display.py
+import pandas as pd
 import folium
-from streamlit_folium import st_folium
+from folium.plugins import MarkerCluster
 
-# This function renders a map with user and hospital locations
-def render_map(df, user_lat, user_lon):
-    m = folium.Map(location=[user_lat, user_lon], zoom_start=11)
-    folium.Marker([user_lat, user_lon], tooltip="You are here", icon=folium.Icon(color="blue")).add_to(m)
+def render_map_html(df: pd.DataFrame, user_lat: float, user_lon: float, max_points: int = 8000) -> str:
+    """
+    Return HTML for a Leaflet map with clustered hospital markers.
+    """
+    m = folium.Map(location=[user_lat, user_lon], zoom_start=5, tiles="CartoDB positron")
+    folium.Marker([user_lat, user_lon], tooltip="Selected location", icon=folium.Icon(color="blue")).add_to(m)
+
+    cluster = MarkerCluster().add_to(m)
+
+    count = 0
     for _, row in df.iterrows():
+        lat, lon = row.get("lat"), row.get("lon")
+        if pd.isna(lat) or pd.isna(lon):
+            continue
+        dist = row.get("distance_km")
+        try:
+            dist_txt = f"{float(dist):.1f} km" if dist == dist else "NA"
+        except Exception:
+            dist_txt = "NA"
+
         popup_html = f"""
-        <b>{row['hospital_name']}</b><br>
-        {row['detail_address']}, {row['detail_city']}, {row['detail_state']} {row['detail_zip']}<br>
-        Distance: {row['distance_km']:.2f} km<br>
-        Quality Points: {row['total_quality_points']}
+        <b>{row.get('hospital_name', 'Unknown')}</b><br>
+        {row.get('detail_address', '')}, {row.get('detail_city', '')}, {row.get('detail_state', '')} {row.get('detail_zip', '')}<br>
+        Distance: {dist_txt}<br>
+        Quality: {row.get('adjusted_quality_points', row.get('total_quality_points', 'NA'))}<br>
+        ED Time (min): {row.get('detail_avg_time_in_ed_minutes', 'NA')}
         """
+
         folium.Marker(
-            [row["lat"], row["lon"]],
-            tooltip=row["hospital_name"],
+            [lat, lon],
+            tooltip=row.get("hospital_name", "Hospital"),
             popup=popup_html,
             icon=folium.Icon(color="red", icon="plus-sign")
-        ).add_to(m)
-    st_folium(m, width=700, height=500, returned_objects=[])
+        ).add_to(cluster)
+
+        count += 1
+        if count >= max_points:
+            break
+
+    return m.get_root().render()
