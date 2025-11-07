@@ -1,0 +1,17 @@
+# File: docker-compose.yml
+version: "3.8"
+services:
+  hospitrack:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hospitrack:latest
+    ports:
+      - "8000:8000"     # host:container
+      - "5678:5678"     # debug port (optional)
+    environment:
+      - HOSPITRACK_DATA_PATH=/app/data
+    volumes:
+      - ./data:/app/data:ro   # mount local ./data into container; :ro is safer (read-only)
+      - ./static:/app/static  # if you have static UI assets locally
+    restart: unless-stopped

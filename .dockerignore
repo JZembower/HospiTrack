@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+venv
+.envrc
+.DS_Store
+.git
+.gitignore
+*.tar.gz
+data/          # don't include your full dataset unless you want it in the image
+node_modules
+.vscode

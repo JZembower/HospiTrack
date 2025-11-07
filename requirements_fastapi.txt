@@ -10,3 +10,5 @@ pyarrow
 certifi
 requests
 beautifulsoup4
+gunicorn
+debugpy

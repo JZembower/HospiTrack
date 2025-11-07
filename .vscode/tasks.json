@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docker: build image",
+      "type": "shell",
+      "command": "docker build -t hospitrack:latest .",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "docker-compose: up",
+      "type": "shell",
+      "command": "docker-compose up --build",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "docker-compose: down",
+      "type": "shell",
+      "command": "docker-compose down",
+      "problemMatcher": []
+    }
+  ]
+}

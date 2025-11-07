@@ -5,16 +5,16 @@
   <title>HospiTrack</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 16px; background: #fbf9f7; color: #111; }
     h1 { margin-top: 0; font-size: 20px; }
     .controls { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 8px; align-items: end; }
     .controls > div { display: flex; flex-direction: column; }
     label { font-size: 12px; color: #333; margin-bottom: 4px; }
-    input, select, button { padding: 8px; font-size: 14px; }
-    button { cursor: pointer; }
+    input, select, button { padding: 8px; font-size: 14px; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+    button { cursor: pointer; background: #2b6cb0; color: white; border: none; }
     .row { margin-top: 12px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
-    th, td { border: 1px solid #e5e5e5; padding: 8px; font-size: 14px; text-align: left; }
+    table { border-collapse: collapse; width: 100%; margin-top: 12px; background: #fff; }
+    th, td { border: 1px solid #eee; padding: 8px; font-size: 14px; text-align: left; }
     th { background: #f7f7f7; position: sticky; top: 0; }
     .muted { color: #666; font-size: 12px; }
     .badge { background: #eef; border: 1px solid #ccd; padding: 2px 6px; border-radius: 12px; font-size: 12px; }
@@ -22,6 +22,7 @@
     @media (max-width: 960px) {
       .controls { grid-template-columns: 1fr 1fr; }
     }
+    .small { font-size: 13px; color: #444; }
   </style>
 </head>
 <body>
@@ -42,7 +43,7 @@
       <label for="sort">Sort by</label>
       <select id="sort">
         <option value="adjusted_quality_points">Quality (Adjusted)</option>
-        <option value="total_quality_points">Quality (Raw)</option>
+        <option value="composite">Composite Score</option>
         <option value="detail_avg_time_in_ed_minutes">ED Time (lower is better)</option>
         <option value="detail_overall_patient_rating">Patient Rating</option>
         <option value="mortality">Mortality</option>
@@ -77,6 +78,7 @@
         <th>ED Time</th>
         <th>Rating</th>
         <th>Quality</th>
+        <th>Composite</th>
         <th>Mortality</th>
         <th>Actions</th>
       </tr>
@@ -154,8 +156,9 @@
           const dist = toFixedOrDash(r.distance_km, 1) + ' km';
           const ed = r.detail_avg_time_in_ed_minutes ?? '—';
           const rating = r.detail_overall_patient_rating ?? '—';
-          const qAdj = r.adjusted_quality_points ?? '—';
+          const qAdj = r.adjusted_quality_points ?? r.total_quality_points ?? '—';
           const mort = r.detail_mortality_overall_text ?? '—';
+          const composite = r.composite_score !== undefined ? toFixedOrDash(r.composite_score, 3) : '—';
 
           const mapParams = { sort, top_k: 50, within_km };
           if (address) mapParams.address = address;
@@ -165,13 +168,14 @@
 
           tr.innerHTML = `
             <td>${idx + 1}</td>
-            <td>${name}</td>
-            <td>${city}, ${st}</td>
-            <td>${dist}</td>
-            <td>${ed}</td>
-            <td>${rating}</td>
-            <td>${qAdj}</td>
-            <td>${mort}</td>
+            <td class="small">${name}</td>
+            <td class="small">${city}, ${st}</td>
+            <td class="small">${dist}</td>
+            <td class="small">${ed}</td>
+            <td class="small">${rating}</td>
+            <td class="small">${qAdj}</td>
+            <td class="small">${composite}</td>
+            <td class="small">${mort}</td>
             <td><a href="${mapUrl}" target="_blank">View Map</a></td>
           `;
           tbody.appendChild(tr);
