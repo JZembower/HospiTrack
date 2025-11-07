@@ -1,7 +1,7 @@
-# 🏥 HospiTrack — Midwest ER Wait Tracker
+# 🏥 HospiTrack — ER Wait Tracker
 ## Overview
 
-HospiTrack is a Python + Streamlit-based web app that helps patients in the U.S. Midwest find nearby emergency departments and walk-in clinics with wait times, quality scores, and patient experience metrics.
+HospiTrack is a Python + Streamlit-based web app that helps patients in the U.S. find nearby emergency departments and walk-in clinics with wait times, quality scores, and patient experience metrics.
 
 Patients can:
 
@@ -66,8 +66,7 @@ source venv/bin/activate
 ## How It Works
 
 ### Input:
-Users type their location. Default is set to Chicago, IL.
-Validation confirms the returned geocoded address belongs to a Midwest state.
+Users type their location. Validation ensures the US.
 
 ### Geocoding:
 Geopy (Nominatim) converts the address to coordinates. We cache hospital coordinates to avoid repeated geocoding.
