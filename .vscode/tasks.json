@@ -20,6 +20,15 @@
       "type": "shell",
       "command": "docker-compose down",
       "problemMatcher": []
+    },
+    {
+      "label": "Dev: start docker and open UI",
+      "type": "shell",
+      "command": "${workspaceFolder}/dev_start.py",
+      "args": [],
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "shared" },
+      "problemMatcher": []
     }
   ]
 }
