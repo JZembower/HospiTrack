@@ -17,8 +17,7 @@ from modules.geolocation import safe_geocode, validate_location, add_distance
 from modules.map_display import render_map_html
 from modules.sorting_logic import (
     prepare_mortality_sort,
-    apply_complaint_adjustment,
-    compute_composite_score,
+    apply_complaint_adjustment
 )
 
 # Ensure SSL certs work for requests/geopy on Windows
@@ -61,8 +60,7 @@ SORT_OPTIONS = {
     "adjusted_quality_points": "Quality",
     "detail_avg_time_in_ed_minutes": "ED Time (min, lower is better)",
     "detail_overall_patient_rating": "Patient Rating",
-    "mortality": "Mortality",
-    "composite": "Composite Score",
+    "mortality": "Mortality"
 }
 
 
@@ -115,11 +113,8 @@ def _startup():
 
 def _sort_df(df: pd.DataFrame, selected_sort: str) -> pd.DataFrame:
     """
-    Preserve sorting semantics, including mortality special handling and composite.
+    Preserve sorting semantics, including mortality special handling.
     """
-    if selected_sort == "composite":
-        tmp = compute_composite_score(df)
-        return tmp.sort_values(by="composite_score", ascending=False, na_position="last")
 
     if selected_sort == "detail_avg_time_in_ed_minutes" and selected_sort in df.columns:
         return df.sort_values(by=selected_sort, ascending=True, na_position="last")
@@ -207,7 +202,7 @@ def map_view(
     lon: Optional[float] = Query(default=None),
     sort: str = Query(
         default="adjusted_quality_points",
-        regex="adjusted_quality_points|detail_avg_time_in_ed_minutes|detail_overall_patient_rating|mortality|composite",
+        regex="adjusted_quality_points|detail_avg_time_in_ed_minutes|detail_overall_patient_rating|mortality",
     ),
     complaint: str = Query(default="Overall"),
     top_k: int = Query(default=50, ge=1, le=1000),
@@ -278,7 +273,7 @@ def api_hospitals(
     state: Optional[str] = Query(default=None, description="Two-letter state code (server-side filter)"),
     sort: str = Query(
         default="adjusted_quality_points",
-        regex="adjusted_quality_points|detail_avg_time_in_ed_minutes|detail_overall_patient_rating|mortality|composite",
+        regex="adjusted_quality_points|detail_avg_time_in_ed_minutes|detail_overall_patient_rating|mortality",
     ),
     complaint: str = Query(default="Overall"),
     top_k: int = Query(default=50, ge=1, le=2000),
@@ -315,7 +310,6 @@ def api_hospitals(
         "detail_overall_patient_rating",
         "detail_mortality_overall_text",
         "Top_Procedures",
-        "composite_score",
     ]
     cols = [c for c in cols if c in nearby.columns]
     data = nearby[cols].to_dict(orient="records")
