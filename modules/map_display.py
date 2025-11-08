@@ -30,7 +30,6 @@ def render_map_html(df: pd.DataFrame, user_lat: float, user_lon: float, max_poin
         ed_time = row.get("detail_avg_time_in_ed_minutes", "NA")
         mort = row.get("detail_mortality_overall_text", "NA")
         rating = row.get("detail_overall_patient_rating", "NA")
-        composite = row.get("composite_score", None)
 
         popup_lines = [
             f"<b>{row.get('hospital_name', 'Unknown')}</b>",
@@ -41,8 +40,6 @@ def render_map_html(df: pd.DataFrame, user_lat: float, user_lon: float, max_poin
             f"Rating: {rating}",
             f"Mortality: {mort}",
         ]
-        if composite is not None:
-            popup_lines.append(f"<b>Composite Score: {float(composite):.3f}</b>")
 
         popup_html = "<br>".join(popup_lines)
 

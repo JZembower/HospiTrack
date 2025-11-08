@@ -43,7 +43,6 @@
       <label for="sort">Sort by</label>
       <select id="sort">
         <option value="adjusted_quality_points">Quality</option>
-        <option value="composite">Composite Score</option>
         <option value="detail_avg_time_in_ed_minutes">ED Time (lower is better)</option>
         <option value="detail_overall_patient_rating">Patient Rating</option>
         <option value="mortality">Mortality</option>
@@ -78,7 +77,6 @@
         <th>ED Time</th>
         <th>Rating</th>
         <th>Quality</th>
-        <th>Composite</th>
         <th>Mortality</th>
         <th>Actions</th>
       </tr>
@@ -158,7 +156,6 @@
           const rating = r.detail_overall_patient_rating ?? '—';
           const qAdj = r.adjusted_quality_points ?? r.total_quality_points ?? '—';
           const mort = r.detail_mortality_overall_text ?? '—';
-          const composite = r.composite_score !== undefined ? toFixedOrDash(r.composite_score, 3) : '—';
 
           const mapParams = { sort, top_k: 50, within_km };
           if (address) mapParams.address = address;
@@ -174,7 +171,6 @@
             <td class="small">${ed}</td>
             <td class="small">${rating}</td>
             <td class="small">${qAdj}</td>
-            <td class="small">${composite}</td>
             <td class="small">${mort}</td>
             <td><a href="${mapUrl}" target="_blank">View Map</a></td>
           `;
