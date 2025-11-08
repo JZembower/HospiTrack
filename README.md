@@ -1,97 +1,325 @@
 # 🏥 HospiTrack — ER Wait Tracker
+
 ## Overview
 
-HospiTrack is a Python + Streamlit-based web app that helps patients in the U.S. find nearby emergency departments and walk-in clinics with wait times, quality scores, and patient experience metrics.
+HospiTrack is a Python + FastAPI web app with a simple HTML UI that helps patients in the U.S. find nearby emergency departments and walk-in clinics. It surfaces:
 
-Patients can:
+* Estimated ED wait times
 
-1. Enter or select their location on a map
+* Patient experience ratings
 
-2. View nearby emergency facilities with their estimated wait times
+* Quality and mortality performance
 
-3. Sort hospitals by ED efficiency, patient satisfaction, or mortality performance
+* Proximity to the user (via geolocation)
 
-4. Adjust quality rankings based on chief complaints (e.g., Stroke, Heart Attack, Pneumonia)
+Users can:
 
-## Tech Stack
+1. Enter an address or pass coordinates to center the map
 
-Frontend: Streamlit, Leaflet (via st.map)
+2. View nearby facilities within a radius
 
-Backend and Data Tranformation Pipeline: Python (Pandas)
+3. Sort by ED efficiency, patient satisfaction, quality (incl. complaint-adjusted), or mortality
 
-Scraping: BeautifulSoup, Requests
+4. Filter by state (optional)
 
-Libraries: `streamlit`, `pandas`, `numpy`, `geopy`, `folium`
+---
 
-## Dataset  
-The final working dataset (`midwest_er_transformed_final.csv`) includes the following relevant columns:
+## Data Pipeline: From Scraping to a Geolocated Dataset
 
-| Column | Description |
-|---------|--------------|
-| `hospital_name` | Hospital name |
-| `detail_address` | Full street address |
-| `lat`, `lon` | Geocoded coordinates |
-| `detail_avg_time_in_ed_minutes` | Average ED time |
-| `detail_overall_patient_rating_points` | Patient rating score |
-| `mortality_overall_contribution` | Mortality performance (“better”, “worse”, etc.) |
-| `Top_Procedures` | Most common procedures |
-| ... | Additional quality metrics |
+### 1) Scrape hospital stats (ER wait times, core details)
 
-## Setup Instructions  
+* Use `requests` + `BeautifulSoup` to scrape facility-level stats such as:
 
-1. Clone the repository or download the zip folder
+  * Facility name and address
 
-2. Create and activate a virtual environment:
+  * Average ED time (`detail_avg_time_in_ed_minutes`)
 
-```bash
-# For Windows
-python -m venv venv
-venv\Scripts\activate
+  * Patient ratings (`detail_overall_patient_rating`)
 
-# For Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
+  * Hospital type, emergency services flag, etc.
+
+* Store raw rows with the corresponding detail page and phone/address elements.
+
+* Normalize text fields, trim whitespace, and standardize numeric fields (minutes, percentages).
+
+Output: a raw hospitals CSV with columns like:
+
+* `hospital_name`, `detail_address`, `detail_city`, `detail_state`, `detail_zip`
+
+* `detail_avg_time_in_ed_minutes`, `detail_overall_patient_rating`
+
+* Other detail fields required for joining and scoring
+
+Tip: When paginating during scraping, be polite (sleep/retry), and avoid overloading host sites.
+
+### 2) Enrich with Medicare/Hospital Compare-based quality and mortality
+
+* Pull Medicare/Hospital Compare data (CSV downloads, API, or aggregated datasets). Typical fields used:
+
+  * Overall mortality text (e.g., “46% better”, “12% worse”) → `detail_mortality_overall_text`
+
+  * Complaint-adjusted quality scores:
+
+    * `adj_total_heartattack`
+
+    * `adj_total_stroke`
+
+    * `adj_total_pneu`
+
+  * Overall quality: `total_quality_points`
+
+* Join against scraped hospital records using a robust key strategy:
+
+  * Prefer exact matches on name + address + ZIP
+
+  * Fall back to fuzzy matching on name and city if needed (with manual fixes for edge cases)
+
+Output: a unified CSV we refer to as `us_er_transformed.csv` containing:
+
+* Identity and location fields
+
+* ED wait, patient ratings
+
+* Mortality strings and quality points (overall and complaint-adjusted)
+
+### 3) Geocode (lat/lon) to make it map-ready
+
+* If `lat`/`lon` are missing, generate them once from ZIP using `pgeocode` (fast and offline) or a geocoding service.
+
+* This app’s loader can compute `lat`/`lon` automatically if only `detail_zip` is present.
+
+Result: `us_er_transformed.csv` becomes a geolocated, analysis-ready dataset.
+
+---
+
+## Converting CSV to Parquet (fast load in the app)
+
+We cache a tight subset of columns in a compact Parquet file for fast startup.
+
+Key implementation: `modules/data_loader.py`
+
+* Preferred cache path: `data/us_er.parquet`
+
+* Loader trims to the API/UI subset and downcasts columns for size.
+
+### Minimal example (outside the app)
+
+```python
+from pathlib import Path
+from modules.data_loader import build_parquet_cache
+
+csv_path = Path("us_er_transformed.csv")
+out_path = Path("data/us_er.parquet")
+df = build_parquet_cache(csv_path, out_path)
+print("Parquet rows:", len(df))
 ```
 
-3. Install dependencies on the virtualenv: 
-```bash
-    pip install -r requirements.txt
+What columns are kept for the API/UI?
+
+```python
+API_COLUMNS = [
+    "hospital_name",
+    "detail_address", "detail_city", "detail_state", "detail_zip",
+    "lat", "lon",
+    "total_quality_points",
+    "detail_avg_time_in_ed_minutes",
+    "detail_overall_patient_rating",
+    "detail_mortality_overall_text",
+    "adj_total_heartattack", "adj_total_stroke", "adj_total_pneu",
+    # (Optionally) "Top_Procedures"
+]
 ```
 
-4. Run the following command: 
-```bash
-    streamlit run app.py
+Load preference inside the app (`main.py`):
+
+1. `data/US_er_final.parquet`
+
+2. `data/us_er.parquet`
+
+3. `data/us_er_transformed.csv`
+
+4. `./us_er.parquet`
+
+5. `./US_er_transformed.csv`
+
+The first existing path is used. If a CSV is used and no cache exists yet, it is converted to `data/us_er.parquet` automatically.
+
+---
+
+## How Sorting and UI Logic Work
+
+### 1) Complaint-adjusted quality scoring
+
+File: `modules/sorting_logic.py`
+
+User complaint → column mapping:
+
+* Overall → `total_quality_points`
+
+* Heart Attack / Chest Pain → `adj_total_heartattack`
+
+* Stroke / Slurred Speech / Facial Droop → `adj_total_stroke`
+
+* Shortness of Breath / Cough / Fever → `adj_total_pneu`
+
+The chosen column is materialized as `adjusted_quality_points` and becomes the default quality sort.
+
+### 2) Mortality sorting
+
+* `detail_mortality_overall_text` strings like “46% better” are parsed to:
+
+  * `mortality_type`: better/worse/not used
+
+  * `mortality_sort_value`: numeric score (positive for better, negative for worse)
+
+* Sort order for “Mortality”:
+
+  1. `mortality_order` (better first)
+
+  2. `mortality_sort_value` (higher magnitude of “better” before lower)
+
+### 3) Distance and filters
+
+* For any request, user location is resolved (lat/lon or via geocoding).
+
+* We compute `distance_km` and filter to `within_km`.
+
+* Optional server-side state filter via `state=XX`.
+
+### 4) Sort options exposed to UI/API
+
+* `adjusted_quality_points` (descending: higher is better)
+
+* `detail_avg_time_in_ed_minutes` (ascending: lower is better)
+
+* `detail_overall_patient_rating` (descending)
+
+* `mortality` (special logic above)
+
+Final map/table is constructed from the top-K after sorting.
+
+---
+
+## Quick Start (Docker)
+
+### Prerequisites
+
+* Docker Desktop running
+
+* Python 3.8+ (to run the helper script)
+
+* Ensure your dataset exists at one of the candidate paths (recommended: `data/us_er.parquet`)
+
+### Fast path (recommended)
+
+From PowerShell at the repo root:
+
+```powershell
+python .\dev_start.py
 ```
 
-## How It Works
+What this does:
 
-### Input:
-Users type their location. Validation ensures the US.
+* Builds the Docker image and starts the compose stack
 
-### Geocoding:
-Geopy (Nominatim) converts the address to coordinates. We cache hospital coordinates to avoid repeated geocoding.
+* Waits for health at `http://localhost:8000/healthz`
 
-### Filtering & Sorting:
+* Opens the UI at `http://localhost:8000/static/index.html`
 
-1. Find the 10 nearest hospitals using geographic distance.
+Flags:
 
-2. Present the top 5, sorted by the user-selected metric (Quality, ED Time, Patient Rating, or Mortality Contribution).
+```powershell
+# Don’t open browser automatically
+python .\dev_start.py --no-browser
 
-3. If a chief complaint is selected, we use complaint-specific adjusted quality columns (e.g., adj_total_stroke) to reorder the quality metric.
+# Increase startup wait (seconds)
+python .\dev_start.py --timeout 240
 
-### Display:
+# Use a different compose file
+python .\dev_start.py --compose-file docker-compose.override.yml
+```
 
-1. Map markers with hover/popups (name, address, website, quality points).
+### Manual compose (if you prefer)
 
-2. A compact, styled top-5 card list under the map with links to Google Maps and key metrics.
+```powershell
+# Build and start
+docker compose up --build -d
 
-## Future Enhancements
+# Check logs
+docker compose logs -f
 
-1. Real-time API integration for live ER wait times
+# Stop the stack
+docker compose down
+```
 
-2. Predictive modeling for surges and staff recommendations
+Default endpoints:
 
-3. More data to include more states
+* Health: `http://localhost:8000/healthz`
 
+* API docs: `http://localhost:8000/docs`
 
-# Collaborators: Imama Zahoor, Vidhi Kothari, Eugene Ho, Elissa Matlock, Jonah Zembower
+* UI: `http://localhost:8000/static/index.html`
+
+---
+
+## Project Structure (selected)
+
+* `main.py` — FastAPI app, routes (`/map`, `/api/hospitals`, `/api/states`)
+
+* `modules/data_loader.py` — CSV/Parquet loading, cache builder, column selection
+
+* `modules/sorting_logic.py` — Mortality parsing, complaint-adjusted quality selection
+
+* `modules/geolocation.py` — Geocoding helpers and distance calculation
+
+* `modules/map_display.py` — HTML/Leaflet map rendering
+
+* `static/index.html` — Simple front-end
+
+* `Dockerfile`, `docker-compose.yml`, `dev_start.py` — containerization and local dev tooling
+
+* `data/us_er.parquet` — compact cached dataset (preferred at runtime)
+
+* `us_er_transformed.csv` — geolocated CSV source that can be converted to Parquet
+
+---
+
+## Troubleshooting
+
+### Dataset not found or missing lat/lon
+
+* Ensure one of the candidate data files exists (see list above).
+
+* If starting from CSV, verify `detail_zip` is present so the loader can compute `lat`/`lon`.
+
+* If `lat`/`lon` are entirely missing after load, the app will raise a startup error.
+
+### Windows SSL/geocoding issues
+
+* `main.py` sets `SSL_CERT_FILE` to `certifi.where()` for more reliable HTTPS on Windows.
+
+### Parquet files and text extraction
+
+If you try to “open” a Parquet file as plain text in some tools, it will fail because Parquet is a binary columnar format. In this environment, note that the uploaded file `us_er.parquet` cannot be text-extracted; these documents can only be used in code execution.
+
+Common reasons for text extraction failure from Parquet:
+
+* It’s a binary, compressed, columnar store (not human-readable text)
+
+* Requires a Parquet reader (e.g., `pandas.read_parquet`, `pyarrow`, `fastparquet`)
+
+* Compression and encoding block plain-text extraction
+
+Use code like:
+
+```python
+import pandas as pd
+df = pd.read_parquet("data/us_er.parquet")
+print(df.head())
+```
+
+---
+
+## Credits
+
+Collaborators: Imama Zahoor, Vidhi Kothari, Eugene Ho, Elissa Matlock, Jonah Zembower
