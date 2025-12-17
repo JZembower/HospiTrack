@@ -1,0 +1,61 @@
+# Pre-commit hooks for HospiTrack
+# Install with: pip install pre-commit && pre-commit install
+
+repos:
+  # Python formatting with Black
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        language_version: python3.11
+
+  # Python import sorting
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+
+  # Python linting with Flake8
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-docstrings]
+
+  # General file checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '\.md$'
+      - id: end-of-file-fixer
+      - id: check-yaml
+        args: [--safe]
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=5000']  # Allow up to 5MB (for data files)
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # JavaScript/CSS formatting with Prettier
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        types_or: [javascript, css, html, json]
+        exclude: 'static/index_old.html'
+
+  # Dockerfile linting
+  - repo: https://github.com/hadolint/hadolint
+    rev: v2.12.0
+    hooks:
+      - id: hadolint-docker
+        args: [--ignore, DL3008, --ignore, DL3013]
+
+# Configuration
+default_language_version:
+  python: python3.11
+
+fail_fast: false

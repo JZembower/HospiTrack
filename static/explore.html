@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore hospitals across the United States - Browse and compare emergency care facilities">
+  <title>Explore Hospitals - HospiTrack</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">🏥 HospiTrack</a>
+      <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="navbar-menu">
+        <li><a href="home.html">Find Care</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="demo.html">Demo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Header -->
+    <div class="hero" style="margin-bottom: 1.5rem;">
+      <h1>Explore US Hospitals</h1>
+      <p>Browse and compare emergency care facilities nationwide</p>
+    </div>
+
+    <!-- Search and Filter Panel -->
+    <div class="card">
+      <div class="card-header">Search & Filter Hospitals</div>
+      <div class="card-body">
+        
+        <!-- Search Bar -->
+        <div class="form-group">
+          <label class="form-label">Search by hospital name, city, or state</label>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="form-input" 
+            placeholder="e.g., Mayo Clinic, Boston, CA"
+            aria-label="Search hospitals">
+        </div>
+
+        <!-- Filters Row -->
+        <div class="grid grid-3">
+          <!-- State Filter -->
+          <div class="form-group">
+            <label class="form-label">State</label>
+            <select id="stateFilter" class="form-select" aria-label="State filter">
+              <option value="">All States</option>
+            </select>
+          </div>
+          
+          <!-- Sort By -->
+          <div class="form-group">
+            <label class="form-label">Sort By</label>
+            <select id="sortBy" class="form-select" aria-label="Sort by">
+              <option value="quality">Quality Score</option>
+              <option value="time">Wait Time</option>
+              <option value="rating">Patient Rating</option>
+              <option value="mortality">Mortality Rate</option>
+            </select>
+          </div>
+          
+          <!-- Limit -->
+          <div class="form-group">
+            <label class="form-label">Show</label>
+            <select id="limitSelect" class="form-select" aria-label="Number of results">
+              <option value="50">50 results</option>
+              <option value="100">100 results</option>
+              <option value="250">250 results</option>
+              <option value="500">500 results</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Optional Location-Based Search -->
+        <div class="form-group">
+          <label class="form-label">
+            <input type="checkbox" id="useLocationToggle" style="margin-right: 0.5rem;">
+            Enable distance-based search
+          </label>
+          
+          <div id="locationInputs" style="display: none; margin-top: 1rem;">
+            <div class="grid grid-2 mb-2">
+              <input 
+                type="text" 
+                id="addressInput" 
+                class="form-input" 
+                placeholder="Enter address or ZIP"
+                aria-label="Address">
+              <div style="display: flex; gap: 0.5rem;">
+                <input 
+                  type="number" 
+                  id="latInput" 
+                  class="form-input" 
+                  placeholder="Latitude" 
+                  step="0.0001">
+                <input 
+                  type="number" 
+                  id="lonInput" 
+                  class="form-input" 
+                  placeholder="Longitude" 
+                  step="0.0001">
+              </div>
+            </div>
+            <div class="grid grid-2">
+              <button type="button" id="useLocationBtn" class="btn btn-outline">
+                📍 Use My Location
+              </button>
+              <div>
+                <label class="form-label">Radius: <span id="radiusValue">25 km</span></label>
+                <input type="range" id="radiusSlider" class="form-range" min="5" max="100" value="25" step="5">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search Button -->
+        <button id="searchBtn" class="btn btn-primary btn-block btn-lg">
+          🔍 Search Hospitals
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Count -->
+    <div id="resultsCount" class="mb-2" style="font-size: 1.1rem; font-weight: 600;"></div>
+
+    <!-- Split Layout: Map + Hospital Table -->
+    <div class="split-layout">
+      <!-- Map (Left) -->
+      <div class="split-left">
+        <div class="map-container">
+          <div id="map"></div>
+        </div>
+      </div>
+      
+      <!-- Hospital Table (Right) -->
+      <div class="split-right">
+        <div class="hospital-list" id="hospitalList">
+          <div style="padding: 2rem; text-align: center; color: var(--text-secondary);">
+            <p>🏥 Use the search and filters above to explore hospitals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="pagination" style="display: none;">
+      <!-- Pagination buttons will be inserted here -->
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/utils.js"></script>
+  <script src="js/map.js"></script>
+  <script>
+    let currentResults = [];
+    let currentOffset = 0;
+    let currentLimit = 50;
+    let totalResults = 0;
+    let hasMore = false;
+
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Load states
+      await populateStateDropdown('stateFilter', true);
+      
+      // Initialize map
+      initMap('map');
+      
+      // Setup event listeners
+      setupEventListeners();
+      
+      // Load initial results from URL params if present, otherwise load default results
+      const params = getUrlParams();
+      if (Object.keys(params).length > 0) {
+        populateFromUrlParams(params);
+      }
+      
+      // Always load results on page load (either from URL params or defaults)
+      await performSearch();
+    });
+
+    // Setup Event Listeners
+    function setupEventListeners() {
+      // Search button
+      document.getElementById('searchBtn').addEventListener('click', performSearch);
+      
+      // Search on Enter key
+      document.getElementById('searchInput').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          performSearch();
+        }
+      });
+      
+      // Location toggle
+      document.getElementById('useLocationToggle').addEventListener('change', (e) => {
+        document.getElementById('locationInputs').style.display = e.target.checked ? 'block' : 'none';
+      });
+      
+      // Use My Location button
+      document.getElementById('useLocationBtn').addEventListener('click', handleUseLocation);
+      
+      // Radius slider
+      document.getElementById('radiusSlider').addEventListener('input', (e) => {
+        document.getElementById('radiusValue').textContent = `${e.target.value} km`;
+      });
+      
+      // Clear lat/lon when address is entered
+      document.getElementById('addressInput').addEventListener('input', (e) => {
+        if (e.target.value) {
+          document.getElementById('latInput').value = '';
+          document.getElementById('lonInput').value = '';
+        }
+      });
+      
+      // Clear address when lat/lon is entered
+      ['latInput', 'lonInput'].forEach(id => {
+        document.getElementById(id).addEventListener('input', (e) => {
+          if (e.target.value) {
+            document.getElementById('addressInput').value = '';
+          }
+        });
+      });
+    }
+
+    // Populate From URL Params
+    function populateFromUrlParams(params) {
+      if (params.search) {
+        document.getElementById('searchInput').value = params.search;
+      }
+      if (params.state) {
+        document.getElementById('stateFilter').value = params.state;
+      }
+      if (params.sort) {
+        document.getElementById('sortBy').value = params.sort;
+      }
+      if (params.limit) {
+        document.getElementById('limitSelect').value = params.limit;
+      }
+      if (params.address || (params.lat && params.lon)) {
+        document.getElementById('useLocationToggle').checked = true;
+        document.getElementById('locationInputs').style.display = 'block';
+        
+        if (params.address) {
+          document.getElementById('addressInput').value = params.address;
+        }
+        if (params.lat) {
+          document.getElementById('latInput').value = params.lat;
+        }
+        if (params.lon) {
+          document.getElementById('lonInput').value = params.lon;
+        }
+        if (params.radius) {
+          document.getElementById('radiusSlider').value = params.radius;
+          document.getElementById('radiusValue').textContent = `${params.radius} km`;
+        }
+      }
+    }
+
+    // Handle Use My Location
+    async function handleUseLocation() {
+      const btn = document.getElementById('useLocationBtn');
+      btn.disabled = true;
+      btn.textContent = '📍 Getting location...';
+      
+      try {
+        const location = await getCurrentLocation();
+        document.getElementById('latInput').value = location.lat.toFixed(4);
+        document.getElementById('lonInput').value = location.lon.toFixed(4);
+        document.getElementById('addressInput').value = '';
+        
+        btn.textContent = '✓ Location Set';
+        setTimeout(() => {
+          btn.textContent = '📍 Use My Location';
+        }, 2000);
+      } catch (error) {
+        showError(error.message);
+        btn.textContent = '📍 Use My Location';
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    // Perform Search
+    async function performSearch() {
+      showLoading('Searching hospitals...');
+      
+      try {
+        // Build query params
+        const params = {};
+        
+        const searchText = document.getElementById('searchInput').value.trim();
+        if (searchText) {
+          params.name = searchText;
+        }
+        
+        const state = document.getElementById('stateFilter').value;
+        if (state) {
+          params.state = state;
+        }
+        
+        const sortBy = document.getElementById('sortBy').value;
+        if (sortBy) {
+          params.sort_by = sortBy;
+        }
+        
+        const limit = document.getElementById('limitSelect').value;
+        params.limit = parseInt(limit);
+        currentLimit = params.limit;
+        
+        params.offset = currentOffset;
+        
+        // Add location params if enabled
+        if (document.getElementById('useLocationToggle').checked) {
+          const address = document.getElementById('addressInput').value.trim();
+          const lat = document.getElementById('latInput').value.trim();
+          const lon = document.getElementById('lonInput').value.trim();
+          
+          if (address) {
+            params.location = address;
+          } else if (lat && lon) {
+            params.location = `${lat},${lon}`;
+          }
+          
+          const radius = document.getElementById('radiusSlider').value;
+          params.radius_km = parseInt(radius);
+        }
+        
+        // Update URL
+        updateUrlParams(params);
+        
+        // Call API
+        const results = await apiGet('/api/explore', params);
+        
+        hideLoading();
+        
+        currentResults = results.results || [];
+        totalResults = results.total || 0;
+        hasMore = (currentOffset + currentResults.length) < totalResults;
+        
+        displayResults();
+        
+      } catch (error) {
+        hideLoading();
+        showError(`Search failed: ${error.message}`);
+      }
+    }
+
+    // Display Results
+    function displayResults() {
+      if (currentResults.length === 0) {
+        showNoResults();
+        return;
+      }
+      
+      // Update results count
+      const countText = totalResults > 0 ? `Found ${totalResults} hospital${totalResults !== 1 ? 's' : ''}` : `Found ${currentResults.length} hospital${currentResults.length !== 1 ? 's' : ''}`;
+      const displayText = hasMore ? `${countText} (showing ${currentResults.length})` : countText;
+      document.getElementById('resultsCount').textContent = displayText;
+      
+      // Initialize or update map
+      if (document.getElementById('useLocationToggle').checked) {
+        const address = document.getElementById('addressInput').value.trim();
+        const lat = document.getElementById('latInput').value.trim();
+        const lon = document.getElementById('lonInput').value.trim();
+        
+        if (lat && lon) {
+          initMap('map', [parseFloat(lat), parseFloat(lon)], 8);
+          addUserMarker(parseFloat(lat), parseFloat(lon));
+        }
+      }
+      
+      // Add hospital markers
+      addHospitalMarkers(currentResults);
+      
+      // Display hospital list
+      displayHospitalList();
+    }
+
+    // Display Hospital List
+    function displayHospitalList() {
+      const listContainer = document.getElementById('hospitalList');
+      listContainer.innerHTML = '';
+      
+      currentResults.forEach((hospital, idx) => {
+        const card = createHospitalCard(hospital, idx);
+        listContainer.appendChild(card);
+      });
+    }
+
+    // Create Hospital Card
+    function createHospitalCard(hospital, index) {
+      const card = document.createElement('div');
+      card.className = 'hospital-card';
+      card.dataset.index = index;
+      
+      // Hospital name
+      const name = document.createElement('div');
+      name.className = 'hospital-name';
+      name.textContent = `${index + 1}. ${hospital.hospital_name || 'Unknown Hospital'}`;
+      card.appendChild(name);
+      
+      // Address
+      if (hospital.address) {
+        const address = document.createElement('div');
+        address.className = 'hospital-address';
+        address.textContent = hospital.address;
+        card.appendChild(address);
+      }
+      
+      // City, State
+      if (hospital.detail_city || hospital.detail_state) {
+        const location = document.createElement('div');
+        location.className = 'hospital-address';
+        location.textContent = `${hospital.detail_city || ''}, ${hospital.detail_state || ''}`;
+        card.appendChild(location);
+      }
+      
+      // Metrics
+      const metrics = document.createElement('div');
+      metrics.className = 'hospital-metrics';
+      
+      // Distance (if available)
+      if (hospital.distance_km !== undefined) {
+        metrics.appendChild(createMetric('Distance', formatDistance(hospital.distance_km)));
+      }
+      
+      // Wait Time
+      if (hospital.ed_avg_time_admit !== undefined) {
+        metrics.appendChild(createMetric('Wait Time', formatWaitTime(hospital.ed_avg_time_admit)));
+      }
+      
+      // Rating
+      if (hospital.overall_rating) {
+        metrics.appendChild(createMetric('Rating', formatRating(hospital.overall_rating)));
+      }
+      
+      // Quality Score
+      if (hospital.quality_points !== undefined) {
+        metrics.appendChild(createMetric('Quality', formatQualityScore(hospital.quality_points)));
+      }
+      
+      // Mortality
+      if (hospital.mortality_display) {
+        metrics.appendChild(createMetric('Mortality', hospital.mortality_display));
+      }
+      
+      card.appendChild(metrics);
+      
+      // Click handler
+      card.addEventListener('click', () => {
+        // Highlight this card
+        document.querySelectorAll('.hospital-card').forEach(c => c.classList.remove('highlighted'));
+        card.classList.add('highlighted');
+        
+        // Highlight marker on map
+        highlightMarker(index);
+      });
+      
+      return card;
+    }
+
+    // Create Metric Element
+    function createMetric(label, value) {
+      const metric = document.createElement('div');
+      metric.className = 'metric';
+      metric.innerHTML = `
+        <span class="metric-label">${label}:</span> 
+        <span class="metric-value">${value}</span>
+      `;
+      return metric;
+    }
+
+    // Show No Results
+    function showNoResults() {
+      document.getElementById('resultsCount').textContent = 'No hospitals found';
+      document.getElementById('hospitalList').innerHTML = `
+        <div style="padding: 2rem; text-align: center; color: var(--text-secondary);">
+          <h3>No hospitals found</h3>
+          <p>Try adjusting your search criteria or filters.</p>
+        </div>
+      `;
+      
+      // Clear map
+      if (markersLayer) {
+        markersLayer.clearLayers();
+      }
+    }
+
+    // Override viewHospitalDetails for this page
+    window.viewHospitalDetails = function(facilityId) {
+      const hospital = currentResults.find(h => h.facility_id === facilityId);
+      if (hospital) {
+        const idx = currentResults.indexOf(hospital);
+        highlightMarker(idx);
+        
+        // Scroll to hospital card
+        const card = document.querySelector(`.hospital-card[data-index="${idx}"]`);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.add('highlighted');
+        }
+      }
+    };
+  </script>
+</body>
+</html>

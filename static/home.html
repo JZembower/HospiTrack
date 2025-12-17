@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find the best hospital for your emergency needs based on symptoms, location, and priorities">
+  <title>Find Emergency Care - HospiTrack</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">🏥 HospiTrack</a>
+      <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="navbar-menu">
+        <li><a href="home.html">Find Care</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="demo.html">Demo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>What do you need most right now?</h1>
+      <p>Find the best emergency care based on your symptoms and priorities</p>
+    </div>
+
+    <!-- Medical Disclaimer -->
+    <div class="alert alert-warning">
+      <strong>⚠️ Important Medical Disclaimer:</strong><br>
+      This tool is not medical advice and should not replace professional medical judgment. 
+      In life-threatening emergencies, <strong>call 911 immediately</strong>. 
+      Do not delay seeking emergency care while using this tool.
+    </div>
+
+    <!-- Search Form -->
+    <form id="searchForm" class="card">
+      <div class="card-header">Emergency Care Search</div>
+      <div class="card-body">
+        
+        <!-- Symptom/Complaint Selector -->
+        <div class="form-group">
+          <label class="form-label">What are your symptoms?</label>
+          <div class="form-radio-group">
+            <label class="form-radio-option">
+              <input type="radio" name="complaint" value="heart_attack" required>
+              <span>Heart Attack / Chest Pain</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="complaint" value="stroke">
+              <span>Stroke Symptoms</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="complaint" value="respiratory">
+              <span>Respiratory / Fever</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="complaint" value="other">
+              <span>Other / General</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Priority Selector -->
+        <div class="form-group">
+          <label class="form-label">What matters most to you?</label>
+          <div class="form-radio-group">
+            <label class="form-radio-option">
+              <input type="radio" name="priority" value="time" required>
+              <span>Fastest Care (Shortest Wait Time)</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="priority" value="quality">
+              <span>Highest Quality</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="priority" value="rating">
+              <span>Best Patient Rating</span>
+            </label>
+            <label class="form-radio-option">
+              <input type="radio" name="priority" value="mortality">
+              <span>Lowest Mortality Rate</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Location Input Section -->
+        <div class="form-group">
+          <label class="form-label">Your Location</label>
+          
+          <!-- Address Input -->
+          <div class="mb-2">
+            <input 
+              type="text" 
+              id="addressInput" 
+              class="form-input" 
+              placeholder="Enter your address, city, or ZIP code"
+              aria-label="Address">
+          </div>
+
+          <!-- OR Divider -->
+          <div style="text-align: center; margin: 1rem 0; color: var(--text-secondary);">
+            <strong>OR</strong>
+          </div>
+
+          <!-- Lat/Lon Inputs -->
+          <div class="grid grid-2">
+            <div>
+              <input 
+                type="number" 
+                id="latInput" 
+                class="form-input" 
+                placeholder="Latitude" 
+                step="0.0001"
+                min="-90"
+                max="90"
+                aria-label="Latitude">
+            </div>
+            <div>
+              <input 
+                type="number" 
+                id="lonInput" 
+                class="form-input" 
+                placeholder="Longitude" 
+                step="0.0001"
+                min="-180"
+                max="180"
+                aria-label="Longitude">
+            </div>
+          </div>
+
+          <!-- Use My Location Button -->
+          <div class="mt-2">
+            <button type="button" id="useLocationBtn" class="btn btn-outline">
+              📍 Use My Current Location
+            </button>
+          </div>
+        </div>
+
+        <!-- Radius Slider -->
+        <div class="form-group">
+          <label class="form-label">
+            Search Radius: 
+            <span class="range-value" id="radiusValue">25 km</span>
+          </label>
+          <input 
+            type="range" 
+            id="radiusSlider" 
+            class="form-range" 
+            min="5" 
+            max="100" 
+            value="25" 
+            step="5"
+            aria-label="Search radius">
+        </div>
+
+        <!-- State Filter -->
+        <div class="form-group">
+          <label class="form-label">Filter by State (Optional)</label>
+          <select id="stateFilter" class="form-select" aria-label="State filter">
+            <option value="">All States</option>
+          </select>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block">
+          🔍 Find Hospitals
+        </button>
+      </div>
+    </form>
+
+    <!-- Additional Info -->
+    <div class="card">
+      <h3>How It Works</h3>
+      <ol style="padding-left: 1.5rem; line-height: 2;">
+        <li>Select your symptoms and what matters most to you</li>
+        <li>Enter your location (address, coordinates, or use your current location)</li>
+        <li>Adjust the search radius and optional state filter</li>
+        <li>Click "Find Hospitals" to see personalized recommendations</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/utils.js"></script>
+  <script>
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Load states
+      await populateStateDropdown('stateFilter', true);
+      
+      // Populate form from URL params if present
+      populateFormFromUrl();
+      
+      // Setup event listeners
+      setupEventListeners();
+    });
+
+    // Populate form from URL parameters
+    function populateFormFromUrl() {
+      const params = getUrlParams();
+      
+      if (params.complaint) {
+        const radio = document.querySelector(`input[name="complaint"][value="${params.complaint}"]`);
+        if (radio) radio.checked = true;
+      }
+      
+      if (params.priority) {
+        const radio = document.querySelector(`input[name="priority"][value="${params.priority}"]`);
+        if (radio) radio.checked = true;
+      }
+      
+      if (params.address) {
+        document.getElementById('addressInput').value = params.address;
+      }
+      
+      if (params.lat) {
+        document.getElementById('latInput').value = params.lat;
+      }
+      
+      if (params.lon) {
+        document.getElementById('lonInput').value = params.lon;
+      }
+      
+      if (params.radius_km) {
+        const slider = document.getElementById('radiusSlider');
+        slider.value = params.radius_km;
+        updateRadiusDisplay(params.radius_km);
+      }
+      
+      if (params.state) {
+        document.getElementById('stateFilter').value = params.state;
+      }
+    }
+
+    // Setup Event Listeners
+    function setupEventListeners() {
+      // Radius slider
+      const radiusSlider = document.getElementById('radiusSlider');
+      radiusSlider.addEventListener('input', (e) => {
+        updateRadiusDisplay(e.target.value);
+      });
+      
+      // Use My Location button
+      document.getElementById('useLocationBtn').addEventListener('click', handleUseLocation);
+      
+      // Form submission
+      document.getElementById('searchForm').addEventListener('submit', handleFormSubmit);
+      
+      // Clear lat/lon when address is entered
+      document.getElementById('addressInput').addEventListener('input', (e) => {
+        if (e.target.value) {
+          document.getElementById('latInput').value = '';
+          document.getElementById('lonInput').value = '';
+        }
+      });
+      
+      // Clear address when lat/lon is entered
+      ['latInput', 'lonInput'].forEach(id => {
+        document.getElementById(id).addEventListener('input', (e) => {
+          if (e.target.value) {
+            document.getElementById('addressInput').value = '';
+          }
+        });
+      });
+    }
+
+    // Update radius display
+    function updateRadiusDisplay(value) {
+      document.getElementById('radiusValue').textContent = `${value} km`;
+    }
+
+    // Handle Use My Location
+    async function handleUseLocation() {
+      const btn = document.getElementById('useLocationBtn');
+      btn.disabled = true;
+      btn.textContent = '📍 Getting location...';
+      
+      try {
+        const location = await getCurrentLocation();
+        document.getElementById('latInput').value = location.lat.toFixed(4);
+        document.getElementById('lonInput').value = location.lon.toFixed(4);
+        document.getElementById('addressInput').value = '';
+        
+        btn.textContent = '✓ Location Set';
+        setTimeout(() => {
+          btn.textContent = '📍 Use My Current Location';
+        }, 2000);
+      } catch (error) {
+        showError(error.message);
+        btn.textContent = '📍 Use My Current Location';
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    // Handle Form Submission
+    async function handleFormSubmit(e) {
+      e.preventDefault();
+      
+      const form = e.target;
+      const formData = new FormData(form);
+      
+      // Get selected complaint and priority
+      const complaint = formData.get('complaint');
+      const priority = formData.get('priority');
+      
+      // Get location
+      const address = document.getElementById('addressInput').value.trim();
+      const lat = document.getElementById('latInput').value.trim();
+      const lon = document.getElementById('lonInput').value.trim();
+      
+      // Validate location input
+      if (!address && (!lat || !lon)) {
+        showError('Please enter either an address or latitude/longitude coordinates');
+        return;
+      }
+      
+      // Get other parameters
+      const radius_km = document.getElementById('radiusSlider').value;
+      const state_filter = document.getElementById('stateFilter').value;
+      
+      // Build search payload
+      const searchData = {
+        complaint,
+        priority,
+        radius_km: parseInt(radius_km)
+      };
+      
+      // Add location - API expects either 'location' (string) OR 'lat'/'lon' (numbers)
+      if (address) {
+        searchData.location = address;
+      } else if (lat && lon) {
+        searchData.lat = parseFloat(lat);
+        searchData.lon = parseFloat(lon);
+      }
+      
+      // Add optional state filter
+      if (state_filter) {
+        searchData.state_filter = state_filter;
+      }
+      
+      // Show loading
+      showLoading('Searching for hospitals...');
+      
+      try {
+        // Call search API
+        const results = await apiPost('/api/search', searchData);
+        
+        // Build URL params for results page
+        const urlParams = new URLSearchParams({
+          complaint,
+          priority,
+          radius_km,
+        });
+        
+        if (address) {
+          urlParams.set('address', address);
+        } else {
+          urlParams.set('lat', lat);
+          urlParams.set('lon', lon);
+        }
+        
+        if (state_filter) {
+          urlParams.set('state', state_filter);
+        }
+        
+        // Store results in sessionStorage for results page
+        sessionStorage.setItem('searchResults', JSON.stringify(results));
+        
+        // Redirect to results page
+        window.location.href = `results.html?${urlParams.toString()}`;
+        
+      } catch (error) {
+        hideLoading();
+        showError(`Search failed: ${error.message}`);
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+# Production Docker Compose Configuration for HospiTrack
+# Use this for deploying to VPS/cloud instances with Docker Compose
+
+version: "3.8"
+
+services:
+  hospitrack:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    image: hospitracker:production
+    container_name: hospitracker-prod
+    restart: always
+    
+    ports:
+      - "8000:8000"  # Map host port 8000 to container port 8000
+    
+    environment:
+      # Application settings
+      - PORT=8000
+      - PYTHONUNBUFFERED=1
+      - HOSPITRACK_DATA_PATH=/app/data
+      
+      # Geocoding configuration
+      - GEOCODING_CACHE_SIZE=1000
+      - GEOCODING_RATE_LIMIT=1
+      
+      # Feature flags
+      - ML_DEMO_ENABLED=true
+      
+      # Logging
+      - LOG_LEVEL=INFO
+      - ACCESS_LOG_ENABLED=true
+      
+      # Performance tuning
+      - GUNICORN_WORKERS=4
+      - GUNICORN_TIMEOUT=120
+      - GUNICORN_KEEPALIVE=5
+    
+    # Optional: Mount data directory if updating data offline
+    # WARNING: Remove :ro if you need write access
+    volumes:
+      - ./data:/app/data:ro          # Read-only data files
+      - ./models:/app/models:ro      # Read-only ML models
+      # - app-logs:/app/logs         # Uncomment for persistent logs
+    
+    # Health check configuration
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"        # Maximum log file size
+        max-file: "3"          # Keep last 3 log files
+        compress: "true"       # Compress rotated logs
+    
+    # Resource limits (adjust based on your VPS capacity)
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'          # Maximum 2 CPU cores
+          memory: 2G           # Maximum 2GB RAM
+        reservations:
+          cpus: '0.5'          # Minimum 0.5 CPU cores
+          memory: 512M         # Minimum 512MB RAM
+    
+    # Network configuration
+    networks:
+      - hospitrack-network
+    
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    
+    # Read-only root filesystem (commented out - app needs write for caching)
+    # read_only: true
+    # tmpfs:
+    #   - /tmp
+    #   - /var/cache
+
+# Networks
+networks:
+  hospitrack-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+# Volumes (optional - for persistent data)
+volumes:
+  app-logs:
+    driver: local
+
+# Additional services can be added here:
+# - Redis for caching
+# - Nginx for reverse proxy
+# - Postgres for analytics
+# - Prometheus for monitoring
+
+# Example: Add Nginx reverse proxy
+# nginx:
+#   image: nginx:alpine
+#   container_name: hospitrack-nginx
+#   restart: always
+#   ports:
+#     - "80:80"
+#     - "443:443"
+#   volumes:
+#     - ./nginx.conf:/etc/nginx/nginx.conf:ro
+#     - ./ssl:/etc/nginx/ssl:ro
+#   depends_on:
+#     - hospitrack
+#   networks:
+#     - hospitrack-network
+
+# Example: Add Redis for caching
+# redis:
+#   image: redis:7-alpine
+#   container_name: hospitrack-redis
+#   restart: always
+#   ports:
+#     - "6379:6379"
+#   volumes:
+#     - redis-data:/data
+#   networks:
+#     - hospitrack-network
+#   command: redis-server --appendonly yes

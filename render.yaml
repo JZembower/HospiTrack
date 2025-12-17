@@ -1,0 +1,65 @@
+# Render Blueprint for HospiTrack
+# Documentation: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: hospitracker
+    runtime: docker
+    plan: starter  # Change to 'standard' or higher for production
+    region: oregon  # Choose region closest to your users
+    
+    # Repository settings (configure in Render dashboard)
+    # repo: https://github.com/your-username/hospitracker
+    # branch: main
+    
+    # Docker build settings
+    dockerfilePath: ./Dockerfile.prod
+    dockerContext: .
+    
+    # Health check endpoint
+    healthCheckPath: /healthz
+    
+    # Environment variables
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: PYTHONUNBUFFERED
+        value: 1
+      - key: HOSPITRACK_DATA_PATH
+        value: /app/data
+      - key: GEOCODING_CACHE_SIZE
+        value: 1000
+      - key: ML_DEMO_ENABLED
+        value: true
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PYTHON_VERSION
+        value: 3.11
+    
+    # Auto-deploy settings
+    autoDeploy: true
+    
+    # Build configuration
+    buildFilter:
+      paths:
+        - main.py
+        - modules/**
+        - static/**
+        - requirements_fastapi.txt
+        - Dockerfile.prod
+    
+    # Scaling settings
+    scaling:
+      minInstances: 1
+      maxInstances: 3
+      targetMemoryPercent: 80
+      targetCPUPercent: 80
+
+# Optional: Add persistent disk for data (if needed)
+# Note: For this app, data is bundled in the Docker image
+# Uncomment if you need persistent storage:
+#
+# disk:
+#   - name: data
+#     mountPath: /app/data
+#     sizeGB: 1

@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+orjson
+pandas
+numpy
+folium
+geopy
+pgeocode
+pyarrow
+certifi
+requests
+beautifulsoup4
+gunicorn
+debugpy
+scikit-learn
+pytest
+pydantic

@@ -1,0 +1,96 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Docker
+Dockerfile.dev
+docker-compose.override.yml
+.dockerignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Logs
+*.log
+logs/
+
+# Environment files (should be set via platform)
+.env
+.env.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+Thumbs.db
+
+# Old/backup files
+*.old
+*.bak
+*.backup
+static/index_old.html
+
+# Training scripts (not needed in production)
+train_triage_model.py
+
+# Analysis documents
+ARCHITECTURE_ANALYSIS.md
+BACKEND_ENHANCEMENTS.md
+DEPLOYMENT.md
+DEMO_SCRIPT.md
+PRODUCTION_CHECKLIST.md

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HospiTrack Triage Demo - Intelligent hospital recommendation system">
+  <title>Triage Demo - HospiTrack</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">🏥 HospiTrack</a>
+      <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="navbar-menu">
+        <li><a href="home.html">Find Care</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="demo.html">Demo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Header -->
+    <div class="hero">
+      <h1>Intelligent Triage Demo</h1>
+      <p>See how our system recommends the best hospital sorting strategy based on patient conditions</p>
+    </div>
+
+    <!-- Demo Warning -->
+    <div class="alert alert-warning">
+      <strong>⚠️ Demo System:</strong> This is a demonstration system using synthetic data for training. 
+      Not intended for clinical use. Do not use for actual medical decision-making.
+    </div>
+
+    <!-- Two-Column Layout -->
+    <div class="grid grid-2">
+      <!-- Left Column: Intake Form -->
+      <div class="card">
+        <div class="card-header">Patient Intake Form</div>
+        <div class="card-body">
+          <form id="triageForm">
+            
+            <!-- Chief Complaint -->
+            <div class="form-group">
+              <label class="form-label">Chief Complaint *</label>
+              <select id="complaint" class="form-select" required>
+                <option value="">Select complaint...</option>
+                <option value="chest_pain">Chest Pain</option>
+                <option value="heart_attack">Heart Attack</option>
+                <option value="stroke">Stroke Symptoms</option>
+                <option value="respiratory">Respiratory Issues</option>
+                <option value="pneumonia">Pneumonia</option>
+                <option value="fever">Fever</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <!-- Severity Slider -->
+            <div class="form-group">
+              <label class="form-label">
+                Severity Level: <span class="range-value" id="severityValue">3 - Moderate</span>
+              </label>
+              <input 
+                type="range" 
+                id="severity" 
+                class="form-range" 
+                min="1" 
+                max="5" 
+                value="3" 
+                step="1">
+              <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                <span>Mild</span>
+                <span>Moderate</span>
+                <span>Severe</span>
+                <span>Critical</span>
+                <span>Life-threatening</span>
+              </div>
+            </div>
+
+            <!-- Age Band -->
+            <div class="form-group">
+              <label class="form-label">Age Group *</label>
+              <div class="form-radio-group">
+                <label class="form-radio-option">
+                  <input type="radio" name="age_band" value="child" required>
+                  <span>Child (&lt;18)</span>
+                </label>
+                <label class="form-radio-option">
+                  <input type="radio" name="age_band" value="adult" checked>
+                  <span>Adult (18-64)</span>
+                </label>
+                <label class="form-radio-option">
+                  <input type="radio" name="age_band" value="senior">
+                  <span>Senior (65+)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Optional Vitals -->
+            <div class="form-group">
+              <label class="form-label">Vital Signs (Optional)</label>
+              
+              <div class="grid grid-2" style="gap: 0.5rem;">
+                <div>
+                  <input 
+                    type="number" 
+                    id="hr" 
+                    class="form-input" 
+                    placeholder="Heart Rate (bpm)"
+                    min="0"
+                    max="300">
+                </div>
+                
+                <div>
+                  <input 
+                    type="number" 
+                    id="rr" 
+                    class="form-input" 
+                    placeholder="Resp. Rate (bpm)"
+                    min="0"
+                    max="100">
+                </div>
+                
+                <div>
+                  <input 
+                    type="number" 
+                    id="bp_systolic" 
+                    class="form-input" 
+                    placeholder="BP Systolic (mmHg)"
+                    min="0"
+                    max="300">
+                </div>
+                
+                <div>
+                  <input 
+                    type="number" 
+                    id="bp_diastolic" 
+                    class="form-input" 
+                    placeholder="BP Diastolic (mmHg)"
+                    min="0"
+                    max="200">
+                </div>
+                
+                <div>
+                  <input 
+                    type="number" 
+                    id="temp" 
+                    class="form-input" 
+                    placeholder="Temperature (°F)"
+                    min="90"
+                    max="110"
+                    step="0.1">
+                </div>
+                
+                <div>
+                  <input 
+                    type="number" 
+                    id="o2_sat" 
+                    class="form-input" 
+                    placeholder="O2 Saturation (%)"
+                    min="0"
+                    max="100">
+                </div>
+              </div>
+            </div>
+
+            <!-- Mode Toggle -->
+            <div class="form-group">
+              <label class="form-label">Triage Mode</label>
+              <div class="form-radio-group">
+                <label class="form-radio-option">
+                  <input type="radio" name="mode" value="rule_based" checked>
+                  <span>Rule-Based</span>
+                </label>
+                <label class="form-radio-option">
+                  <input type="radio" name="mode" value="ml_demo">
+                  <span>ML Demo</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              🔬 Generate Triage Profile
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Column: Triage Profile Output -->
+      <div class="card">
+        <div class="card-header">Triage Profile Output</div>
+        <div class="card-body">
+          <div id="triageOutput" style="min-height: 300px;">
+            <div style="padding: 2rem; text-align: center; color: var(--text-secondary);">
+              <p>📋 Complete the intake form and submit to see the triage recommendation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- API Documentation Section -->
+    <div class="card">
+      <div class="card-header">API Documentation</div>
+      <div class="card-body">
+        
+        <h3>Triage API Endpoint</h3>
+        <p>Use the <code>/api/triage</code> endpoint to get intelligent hospital sorting recommendations based on patient conditions.</p>
+        
+        <h4 class="mt-3">Request</h4>
+        <pre style="background-color: var(--bg-light); padding: 1rem; border-radius: var(--border-radius); overflow-x: auto;"><code>POST /api/triage
+Content-Type: application/json
+
+{
+  "complaint": "chest_pain",
+  "severity": 4,
+  "age_band": "senior",
+  "vitals": {
+    "hr": 95,
+    "bp_systolic": 160,
+    "bp_diastolic": 95,
+    "rr": 22,
+    "temp": 98.6,
+    "o2_sat": 92
+  },
+  "mode": "rule_based"
+}</code></pre>
+
+        <h4 class="mt-3">Response</h4>
+        <pre style="background-color: var(--bg-light); padding: 1rem; border-radius: var(--border-radius); overflow-x: auto;"><code>{
+  "recommended_sort": "time",
+  "explanation": "Based on high severity and critical vitals...",
+  "weights": {
+    "time": 0.6,
+    "quality": 0.3,
+    "rating": 0.1
+  },
+  "demo_mode_warning": null
+}</code></pre>
+
+        <h4 class="mt-3">Example cURL Request</h4>
+        <pre style="background-color: var(--bg-light); padding: 1rem; border-radius: var(--border-radius); overflow-x: auto;"><code>curl -X POST http://localhost:8000/api/triage \
+  -H "Content-Type: application/json" \
+  -d '{
+    "complaint": "chest_pain",
+    "severity": 4,
+    "age_band": "senior",
+    "vitals": {
+      "hr": 95,
+      "bp_systolic": 160
+    },
+    "mode": "rule_based"
+  }'</code></pre>
+
+        <div class="mt-3">
+          <a href="/docs" target="_blank" class="btn btn-secondary">
+            📖 View Full API Documentation (Swagger)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/utils.js"></script>
+  <script>
+    // Severity labels
+    const severityLabels = {
+      1: '1 - Mild',
+      2: '2 - Moderate',
+      3: '3 - Moderate',
+      4: '4 - Severe',
+      5: '5 - Life-threatening'
+    };
+
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', () => {
+      setupEventListeners();
+    });
+
+    // Setup Event Listeners
+    function setupEventListeners() {
+      // Severity slider
+      document.getElementById('severity').addEventListener('input', (e) => {
+        document.getElementById('severityValue').textContent = severityLabels[e.target.value];
+      });
+      
+      // Form submission
+      document.getElementById('triageForm').addEventListener('submit', handleTriageSubmit);
+    }
+
+    // Handle Triage Form Submission
+    async function handleTriageSubmit(e) {
+      e.preventDefault();
+      
+      const form = e.target;
+      const formData = new FormData(form);
+      
+      // Build triage data matching API expectations
+      const triageData = {
+        chief_complaint: document.getElementById('complaint').value,
+        severity: parseInt(document.getElementById('severity').value),
+        use_ml_model: formData.get('mode') === 'ml'
+      };
+      
+      // Convert age_band to approximate age number
+      const ageBand = formData.get('age_band');
+      if (ageBand === 'child') {
+        triageData.age = 10;
+      } else if (ageBand === 'adult') {
+        triageData.age = 40;
+      } else if (ageBand === 'senior') {
+        triageData.age = 70;
+      }
+      
+      // Add optional vitals if provided (map to API field names)
+      const hr = document.getElementById('hr').value;
+      if (hr) triageData.heart_rate = parseFloat(hr);
+      
+      const bpSystolic = document.getElementById('bp_systolic').value;
+      if (bpSystolic) triageData.systolic_bp = parseFloat(bpSystolic);
+      
+      const bpDiastolic = document.getElementById('bp_diastolic').value;
+      if (bpDiastolic) triageData.diastolic_bp = parseFloat(bpDiastolic);
+      
+      const rr = document.getElementById('rr').value;
+      if (rr) triageData.respiratory_rate = parseFloat(rr);
+      
+      const temp = document.getElementById('temp').value;
+      if (temp) triageData.temperature = parseFloat(temp);
+      
+      const o2Sat = document.getElementById('o2_sat').value;
+      if (o2Sat) triageData.oxygen_saturation = parseFloat(o2Sat);
+      
+      // Show loading
+      showLoading('Analyzing patient data...');
+      
+      try {
+        // Call triage API
+        const result = await apiPost('/api/triage', triageData);
+        
+        hideLoading();
+        displayTriageOutput(result);
+        
+      } catch (error) {
+        hideLoading();
+        showError(`Triage analysis failed: ${error.message}`);
+      }
+    }
+
+    // Display Triage Output
+    function displayTriageOutput(result) {
+      const outputContainer = document.getElementById('triageOutput');
+      
+      let html = '';
+      
+      // Recommended Sort
+      html += `
+        <div class="mb-3">
+          <h4 style="color: var(--primary-color);">Recommended Sort Criterion</h4>
+          <div style="font-size: 1.5rem; font-weight: 700; padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius); text-align: center;">
+            ${formatSortName(result.recommended_sort)}
+          </div>
+        </div>
+      `;
+      
+      // Explanation
+      if (result.explanation) {
+        html += `
+          <div class="mb-3">
+            <h4>Explanation</h4>
+            <div style="padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius); line-height: 1.8;">
+              ${result.explanation}
+            </div>
+          </div>
+        `;
+      }
+      
+      // Weights Visualization
+      if (result.weights) {
+        html += `
+          <div class="mb-3">
+            <h4>Priority Weights</h4>
+            <div style="padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius);">
+        `;
+        
+        Object.entries(result.weights).forEach(([key, value]) => {
+          const percentage = (value * 100).toFixed(0);
+          html += `
+            <div style="margin-bottom: 0.75rem;">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 0.25rem;">
+                <span style="font-weight: 600;">${formatSortName(key)}</span>
+                <span style="font-weight: 600;">${percentage}%</span>
+              </div>
+              <div style="background-color: #e5e7eb; border-radius: 9999px; height: 24px; overflow: hidden;">
+                <div style="background-color: var(--primary-color); height: 100%; width: ${percentage}%; transition: width 0.5s ease;"></div>
+              </div>
+            </div>
+          `;
+        });
+        
+        html += `
+            </div>
+          </div>
+        `;
+      }
+      
+      // Demo Mode Warning
+      if (result.demo_mode_warning) {
+        html += `
+          <div class="alert alert-warning mb-0">
+            <strong>⚠️ ML Demo Mode:</strong><br>
+            ${result.demo_mode_warning}
+          </div>
+        `;
+      }
+      
+      // Confidence (if available)
+      if (result.confidence !== undefined) {
+        html += `
+          <div class="mb-3">
+            <h4>Confidence</h4>
+            <div style="padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius); text-align: center;">
+              <span style="font-size: 1.5rem; font-weight: 700;">${(result.confidence * 100).toFixed(1)}%</span>
+            </div>
+          </div>
+        `;
+      }
+      
+      // Feature Importance (if available)
+      if (result.feature_importance) {
+        html += `
+          <div class="mb-3">
+            <h4>Key Factors</h4>
+            <div style="padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius);">
+        `;
+        
+        Object.entries(result.feature_importance)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 5)
+          .forEach(([feature, importance]) => {
+            html += `
+              <div style="margin-bottom: 0.5rem;">
+                <span style="font-weight: 600;">${formatFeatureName(feature)}:</span> 
+                <span>${(importance * 100).toFixed(1)}%</span>
+              </div>
+            `;
+          });
+        
+        html += `
+            </div>
+          </div>
+        `;
+      }
+      
+      outputContainer.innerHTML = html;
+    }
+
+    // Format Sort Name
+    function formatSortName(sort) {
+      const names = {
+        'time': '⏱️ Fastest Care (Wait Time)',
+        'quality': '⭐ Highest Quality',
+        'rating': '👍 Best Patient Rating',
+        'mortality': '📊 Lowest Mortality'
+      };
+      return names[sort] || sort;
+    }
+
+    // Format Feature Name
+    function formatFeatureName(feature) {
+      return feature
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, l => l.toUpperCase());
+    }
+  </script>
+</body>
+</html>
