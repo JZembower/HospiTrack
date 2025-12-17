@@ -87,7 +87,7 @@ function createHospitalMarker(hospital, index, total) {
   // Create popup content
   const popupContent = `
     <div style="min-width: 200px;">
-      <strong style="color: #2563eb; font-size: 1.1em;">${hospital.hospital_name || 'Unknown Hospital'}</strong>
+      <strong style="color: #2563eb; font-size: 1.1em;">${hospital.facility_name || 'Unknown Hospital'}</strong>
       <div style="margin-top: 8px; font-size: 0.9em;">
         ${hospital.address ? `<div><strong>Address:</strong> ${hospital.address}</div>` : ''}
         ${hospital.distance_km ? `<div><strong>Distance:</strong> ${formatDistance(hospital.distance_km)}</div>` : ''}
