@@ -11,11 +11,7 @@ certifi
 requests
 beautifulsoup4
 gunicorn
-<<<<<<< HEAD
 debugpy
 scikit-learn
 pytest
 pydantic
-=======
-debugpy
->>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
