@@ -2,6 +2,7 @@
 import os
 import time
 import threading
+<<<<<<< HEAD
 from typing import Optional, Tuple, Dict, Any
 from functools import lru_cache
 import hashlib
@@ -13,6 +14,16 @@ from fastapi.responses import HTMLResponse, ORJSONResponse, JSONResponse, Redire
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+=======
+from typing import Optional, Tuple
+
+import certifi
+import pandas as pd
+from fastapi import FastAPI, Query
+from fastapi.responses import HTMLResponse, ORJSONResponse, JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 # Local modules
 from modules.data_loader import load_data
@@ -22,8 +33,11 @@ from modules.sorting_logic import (
     prepare_mortality_sort,
     apply_complaint_adjustment
 )
+<<<<<<< HEAD
 from modules.triage_rules import triage_from_form, TriageProfile
 from modules.triage_ml import load_triage_model, TriageMLModel
+=======
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 # Ensure SSL certs work for requests/geopy on Windows
 os.environ["SSL_CERT_FILE"] = certifi.where()
@@ -59,12 +73,15 @@ CANDIDATE_PATHS = [
 df_all: Optional[pd.DataFrame] = None
 STARTUP_ERROR: Optional[Exception] = None
 DATA_LOAD_STARTED = False
+<<<<<<< HEAD
 ml_triage_model: Optional[TriageMLModel] = None
 
 # Simple cache for explore endpoint (TTL: 5 minutes)
 _explore_cache = {}
 _explore_cache_timestamps = {}
 EXPLORE_CACHE_TTL = 300  # 5 minutes
+=======
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 # Supported sort options for docs/UI labeling
 SORT_OPTIONS = {
@@ -75,6 +92,7 @@ SORT_OPTIONS = {
 }
 
 
+<<<<<<< HEAD
 # Request/Response Models
 class SearchRequest(BaseModel):
     """Request model for /api/search endpoint."""
@@ -102,6 +120,8 @@ class TriageRequest(BaseModel):
     use_ml_model: bool = Field(default=False, description="Use ML model instead of rules")
 
 
+=======
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 def _first_existing_path(paths):
     for p in paths:
         if os.path.exists(p):
@@ -180,10 +200,29 @@ def _sort_df(df: pd.DataFrame, selected_sort: str) -> pd.DataFrame:
     return df
 
 
+<<<<<<< HEAD
 @app.get("/")
 def root():
     """Redirect to the main landing page"""
     return RedirectResponse(url="/static/index.html")
+=======
+@app.get("/", response_class=HTMLResponse)
+def root():
+    return """
+    <html>
+    <head><title>HospiTrack</title></head>
+    <body>
+    <h2>HospiTrack — US ER Finder</h2>
+    <p>Status: <a href="/healthz">/healthz</a> | API: <a href="/docs">/docs</a> | UI: <a href="/static/index.html">/static/index.html</a></p>
+    <p>Examples:</p>
+    <ul>
+    <li><code>/map?address=Chicago, IL&sort=adjusted_quality_points&complaint=Overall&top_k=50</code></li>
+    <li><code>/api/hospitals?address=Chicago, IL&top_k=25&within_km=200&sort=detail_overall_patient_rating</code></li>
+    </ul>
+    </body>
+    </html>
+    """
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 
 @app.get("/healthz")
@@ -194,6 +233,7 @@ def healthz():
     return {"status": status}
 
 
+<<<<<<< HEAD
 def generate_ranking_explanation(
     sort_by: str,
     complaint: str = "Overall",
@@ -266,6 +306,22 @@ def _resolve_user_location(address: str, lat: Optional[float], lon: Optional[flo
     # Default: Chicago (fallback when geocoding fails)
     print(f"[WARN] Geocoding failed for '{address}', falling back to Chicago coordinates")
     return 41.8781, -87.6298, "geocoding_failed_fallback"
+=======
+def _resolve_user_location(address: str, lat: Optional[float], lon: Optional[float]) -> Tuple[float, float]:
+    """
+    Resolve user location from lat/lon or by geocoding an address.
+    Defaults to Chicago if geocoding fails or no inputs are provided.
+    """
+    if lat is not None and lon is not None:
+        return float(lat), float(lon)
+    if address:
+        loc = safe_geocode(address)
+        loc = validate_location(loc, restrict_to_midwest=False)
+        if loc:
+            return float(loc.latitude), float(loc.longitude)
+    # Default: Chicago
+    return 41.8781, -87.6298
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 
 def _ensure_data_ready() -> Optional[JSONResponse]:
@@ -297,7 +353,11 @@ def map_view(
     if not_ready:
         return not_ready
 
+<<<<<<< HEAD
     user_lat, user_lon, _ = _resolve_user_location(address, lat, lon)
+=======
+    user_lat, user_lon = _resolve_user_location(address, lat, lon)
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
     df = df_all.copy()
     df, _ = apply_complaint_adjustment(df, complaint)
@@ -367,7 +427,11 @@ def api_hospitals(
     if not_ready:
         return not_ready
 
+<<<<<<< HEAD
     user_lat, user_lon, _ = _resolve_user_location(address, lat, lon)
+=======
+    user_lat, user_lon = _resolve_user_location(address, lat, lon)
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
     df = df_all.copy()
     df, _ = apply_complaint_adjustment(df, complaint)
@@ -397,6 +461,7 @@ def api_hospitals(
     ]
     cols = [c for c in cols if c in nearby.columns]
     data = nearby[cols].to_dict(orient="records")
+<<<<<<< HEAD
     
     # Add ranking explanation
     ranking_explanation = generate_ranking_explanation(
@@ -720,6 +785,9 @@ def api_triage(request: TriageRequest):
                 status_code=500,
                 content={"error": f"ML prediction failed: {str(e)}"}
             )
+=======
+    return {"count": len(data), "results": data}
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 
 if __name__ == "__main__":

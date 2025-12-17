@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\jrzem\Downloads\hospitracker\.venv
+=======
+set VIRTUAL_ENV=C:\Users\jrzem\OneDrive\Majors\Coding Applications\Projects\HospiTrack\.venv
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 
 if not defined PROMPT set PROMPT=$P$G
 

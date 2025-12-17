@@ -35,7 +35,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\jrzem\Downloads\hospitracker\.venv"
+=======
+VIRTUAL_ENV="C:\Users\jrzem\OneDrive\Majors\Coding Applications\Projects\HospiTrack\.venv"
+>>>>>>> 7ebb9bfd8079f63809bc17004756d74b16217b95
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
