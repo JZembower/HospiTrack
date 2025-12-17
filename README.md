@@ -327,54 +327,6 @@ GET /api/states
    ML_DEMO_ENABLED=true
    ```
 
-4. **Deploy**: Click **Create Web Service**
-
-Your app will be available at: `https://hospitracker.onrender.com`
-
-### Deploy to Other Platforms
-
-#### Fly.io
-```bash
-# Install Fly CLI
-curl -L https://fly.io/install.sh | sh
-
-# Launch app
-fly launch --dockerfile Dockerfile.prod
-
-# Deploy
-fly deploy
-```
-
-#### Railway
-```bash
-# Install Railway CLI
-npm i -g @railway/cli
-
-# Login and init
-railway login
-railway init
-
-# Deploy
-railway up
-```
-
-#### VPS/Cloud Server
-```bash
-# Clone and setup
-git clone <repo-url> /opt/hospitracker
-cd /opt/hospitracker
-
-# Build Docker image
-docker build -f Dockerfile.prod -t hospitracker .
-
-# Run container
-docker run -d \
-  -p 80:8000 \
-  --name hospitracker \
-  --restart unless-stopped \
-  hospitracker
-```
-
 ---
 
 ## 📊 Data Sources
