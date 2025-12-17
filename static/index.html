@@ -13,11 +13,13 @@
   <nav class="navbar">
     <div class="navbar-container">
       <a href="index.html" class="navbar-brand">🏥 HospiTrack</a>
-      <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
-      <ul class="navbar-menu">
+      <button class="navbar-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="home.html">Find Care</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="demo.html">Demo</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
@@ -39,36 +41,36 @@
     <div class="grid grid-3" style="margin-top: 3rem;">
       
       <!-- Feature 1: Find Care -->
-      <div class="card" style="text-align: center; cursor: pointer;" onclick="window.location.href='home.html'">
-        <div style="font-size: 4rem; margin-bottom: 1rem;">🔍</div>
-        <h3>Find Emergency Care</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+      <div class="feature-card" onclick="window.location.href='home.html'" style="cursor: pointer;">
+        <div class="feature-icon">🔍</div>
+        <h3 class="feature-title">Find Emergency Care</h3>
+        <p class="feature-description">
           Search for the best hospital based on your symptoms, location, and priorities. 
           Get personalized recommendations in seconds.
         </p>
-        <a href="home.html" class="btn btn-primary btn-block mt-2">Get Started →</a>
+        <a href="home.html" class="btn btn-primary btn-block">Get Started →</a>
       </div>
 
       <!-- Feature 2: Explore -->
-      <div class="card" style="text-align: center; cursor: pointer;" onclick="window.location.href='explore.html'">
-        <div style="font-size: 4rem; margin-bottom: 1rem;">🗺️</div>
-        <h3>Explore Hospitals</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+      <div class="feature-card" onclick="window.location.href='explore.html'" style="cursor: pointer;">
+        <div class="feature-icon">🗺️</div>
+        <h3 class="feature-title">Explore Hospitals</h3>
+        <p class="feature-description">
           Browse and compare hospitals across the United States. 
           Filter by state, quality, wait times, and more.
         </p>
-        <a href="explore.html" class="btn btn-primary btn-block mt-2">Explore Now →</a>
+        <a href="explore.html" class="btn btn-primary btn-block">Explore Now →</a>
       </div>
 
       <!-- Feature 3: Demo -->
-      <div class="card" style="text-align: center; cursor: pointer;" onclick="window.location.href='demo.html'">
-        <div style="font-size: 4rem; margin-bottom: 1rem;">🔬</div>
-        <h3>Triage Demo</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+      <div class="feature-card" onclick="window.location.href='demo.html'" style="cursor: pointer;">
+        <div class="feature-icon">🔬</div>
+        <h3 class="feature-title">Triage Demo</h3>
+        <p class="feature-description">
           See how our intelligent triage system recommends the best sorting strategy 
           based on patient conditions and vital signs.
         </p>
-        <a href="demo.html" class="btn btn-primary btn-block mt-2">Try Demo →</a>
+        <a href="demo.html" class="btn btn-primary btn-block">Try Demo →</a>
       </div>
     </div>
 
@@ -112,48 +114,42 @@
     </div>
 
     <!-- How It Works -->
-    <div class="card" style="margin-top: 2rem;">
-      <h2 style="text-align: center; margin-bottom: 2rem;">How It Works</h2>
-      
-      <div style="max-width: 800px; margin: 0 auto;">
-        <div style="display: flex; align-items: start; gap: 1.5rem; margin-bottom: 2rem;">
-          <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color); min-width: 50px;">1</div>
-          <div>
-            <h4>Tell Us Your Symptoms</h4>
-            <p style="color: var(--text-secondary); line-height: 1.8;">
+    <div class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        
+        <div class="grid" style="max-width: 900px; margin: 0 auto;">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h3>Tell Us Your Symptoms</h3>
+            <p>
               Select your symptoms from common emergency conditions like chest pain, stroke symptoms, 
               respiratory issues, or general emergencies.
             </p>
           </div>
-        </div>
-        
-        <div style="display: flex; align-items: start; gap: 1.5rem; margin-bottom: 2rem;">
-          <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color); min-width: 50px;">2</div>
-          <div>
-            <h4>Choose Your Priority</h4>
-            <p style="color: var(--text-secondary); line-height: 1.8;">
+          
+          <div class="step">
+            <span class="step-number">2</span>
+            <h3>Choose Your Priority</h3>
+            <p>
               Decide what matters most: fastest care, highest quality, best patient ratings, 
               or lowest mortality rates.
             </p>
           </div>
-        </div>
-        
-        <div style="display: flex; align-items: start; gap: 1.5rem; margin-bottom: 2rem;">
-          <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color); min-width: 50px;">3</div>
-          <div>
-            <h4>Enter Your Location</h4>
-            <p style="color: var(--text-secondary); line-height: 1.8;">
+          
+          <div class="step">
+            <span class="step-number">3</span>
+            <h3>Enter Your Location</h3>
+            <p>
               Provide your location via address, GPS coordinates, or use your browser's 
               geolocation feature for instant results.
             </p>
           </div>
-        </div>
-        
-        <div style="display: flex; align-items: start; gap: 1.5rem;">
-          <div style="font-size: 2rem; font-weight: 700; color: var(--primary-color); min-width: 50px;">4</div>
-          <div>
-            <h4>Get Personalized Recommendations</h4>
-            <p style="color: var(--text-secondary); line-height: 1.8;">
+          
+          <div class="step">
+            <span class="step-number">4</span>
+            <h3>Get Personalized Recommendations</h3>
+            <p>
               View ranked hospitals on an interactive map with detailed metrics including 
               distance, wait times, quality scores, and patient ratings.
             </p>
@@ -184,24 +180,31 @@
   </div>
 
   <!-- Footer -->
-  <footer style="background-color: var(--text-primary); color: white; padding: 2rem 0; margin-top: 4rem;">
-    <div class="container" style="text-align: center;">
-      <p style="margin-bottom: 0.5rem;">
-        <strong>HospiTrack</strong> - Intelligent Emergency Care Finder
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="home.html">Find Care</a>
+        <a href="explore.html">Explore Hospitals</a>
+        <a href="demo.html">Triage Demo</a>
+        <a href="about.html">About</a>
+        <a href="/docs">API Documentation</a>
+      </div>
+      <p class="footer-disclaimer">
+        <strong>Medical Disclaimer:</strong> HospiTrack is for informational purposes only and is not a substitute for professional medical advice. In life-threatening emergencies, call 911 immediately. Always consult with qualified healthcare providers for medical decisions.
       </p>
-      <p style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">
-        Data sourced from CMS Hospital Compare | Not for medical decision-making | Always call 911 in emergencies
-      </p>
-      <p style="color: rgba(255,255,255,0.7); font-size: 0.875rem; margin-top: 1rem;">
-        <a href="home.html" style="color: white; margin: 0 1rem;">Find Care</a>
-        <a href="explore.html" style="color: white; margin: 0 1rem;">Explore</a>
-        <a href="demo.html" style="color: white; margin: 0 1rem;">Demo</a>
-        <a href="/docs" style="color: white; margin: 0 1rem;">API Docs</a>
+      <p style="margin-top: 1.5rem; color: var(--text-light);">
+        © 2024 HospiTrack. All rights reserved.
       </p>
     </div>
   </footer>
 
   <!-- JavaScript -->
   <script src="js/utils.js"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navbar-menu');
+      menu.classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

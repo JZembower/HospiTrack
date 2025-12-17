@@ -12,11 +12,13 @@
   <nav class="navbar">
     <div class="navbar-container">
       <a href="index.html" class="navbar-brand">🏥 HospiTrack</a>
-      <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
-      <ul class="navbar-menu">
-        <li><a href="home.html">Find Care</a></li>
+      <button class="navbar-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html" class="active">Find Care</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="demo.html">Demo</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
@@ -379,6 +381,11 @@
         hideLoading();
         showError(`Search failed: ${error.message}`);
       }
+    }
+
+    function toggleMenu() {
+      const menu = document.getElementById('navbar-menu');
+      menu.classList.toggle('active');
     }
   </script>
 </body>

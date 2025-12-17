@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - HospiTrack</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">🏥 HospiTrack</div>
+            <button class="navbar-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="/static/index.html">Home</a></li>
+                <li><a href="/static/home.html">Find Care</a></li>
+                <li><a href="/static/explore.html">Explore</a></li>
+                <li><a href="/static/demo.html">Demo</a></li>
+                <li><a href="/static/about.html" class="active">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="hero">
+            <h1>About HospiTrack</h1>
+            <p>Making emergency healthcare access faster, smarter, and more informed</p>
+        </div>
+
+        <!-- Mission Statement -->
+        <div class="card">
+            <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 1.5rem;">Our Mission</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; text-align: center; max-width: 900px; margin: 0 auto; color: var(--text-primary);">
+                HospiTrack is designed to help people find the most appropriate emergency care facility based on their specific medical needs and location. In critical moments, having the right information can make all the difference. We combine hospital quality data, wait times, and specialized care capabilities to help you make informed decisions about where to seek emergency medical treatment.
+            </p>
+        </div>
+
+        <!-- What We Do -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">What is HospiTrack?</h2>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1rem;">
+                HospiTrack is an intelligent hospital search and recommendation platform that helps you:
+            </p>
+            <ul style="font-size: 1.05rem; line-height: 2; color: var(--text-secondary); margin-left: 2rem; margin-bottom: 1.5rem;">
+                <li><strong>Find nearby hospitals</strong> based on your current location or any address</li>
+                <li><strong>Compare emergency departments</strong> by wait times, quality ratings, and patient outcomes</li>
+                <li><strong>Get specialized recommendations</strong> for specific medical conditions (heart attack, stroke, trauma, etc.)</li>
+                <li><strong>Make informed decisions</strong> with data-driven insights on hospital performance</li>
+            </ul>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary);">
+                Our platform aggregates data from thousands of hospitals across the United States, providing you with comprehensive, up-to-date information when you need it most.
+            </p>
+        </div>
+
+        <!-- Who It's For -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">Who Is This For?</h2>
+            <div class="grid grid-2">
+                <div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; display: flex; align-items: center;">
+                        <span style="background: var(--primary-light); color: var(--primary-color); width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.5rem;">👥</span>
+                        Patients & Families
+                    </h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">
+                        Individuals seeking emergency care who want to choose the best hospital for their specific condition, minimizing wait times and maximizing quality of care.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; display: flex; align-items: center;">
+                        <span style="background: var(--primary-light); color: var(--primary-color); width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.5rem;">🚑</span>
+                        Emergency Responders
+                    </h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">
+                        EMS professionals and first responders who need quick access to hospital capabilities and availability for efficient patient routing.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; display: flex; align-items: center;">
+                        <span style="background: var(--primary-light); color: var(--primary-color); width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.5rem;">🏠</span>
+                        Travelers & Relocators
+                    </h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">
+                        People traveling or moving to new areas who want to familiarize themselves with nearby emergency care options before an urgent need arises.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; display: flex; align-items: center;">
+                        <span style="background: var(--primary-light); color: var(--primary-color); width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.5rem;">📊</span>
+                        Healthcare Researchers
+                    </h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">
+                        Analysts and researchers studying emergency care patterns, hospital performance, and healthcare access across different regions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Features -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">Key Features</h2>
+            <div class="grid grid-3">
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;">🔍</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Intelligent Search</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        Search by location, medical condition, or hospital name to find the best care options near you.
+                    </p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--secondary-color); margin-bottom: 1rem;">⏱️</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Wait Time Data</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        Compare emergency department wait times to help you make time-sensitive decisions.
+                    </p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--accent-color); margin-bottom: 1rem;">⭐</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Quality Ratings</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        View hospital quality scores based on patient outcomes, safety, and care effectiveness.
+                    </p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;">🗺️</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Interactive Maps</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        Visualize hospitals on an interactive map with color-coded markers for easy comparison.
+                    </p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--secondary-color); margin-bottom: 1rem;">🎯</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Condition-Specific</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        Get specialized rankings for heart attack, stroke, trauma, and other emergency conditions.
+                    </p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 3rem; color: var(--accent-color); margin-bottom: 1rem;">🔬</div>
+                    <h3 style="color: var(--text-primary); margin-bottom: 0.75rem; font-size: 1.125rem;">Demo Mode</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem;">
+                        Try our intelligent triage demo to see how the system recommends hospitals based on symptoms.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">How It Works</h2>
+            <div class="grid">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h3>Enter Your Location</h3>
+                    <p>Provide your address, coordinates, or use your device's location services to find nearby hospitals.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h3>Select Your Needs</h3>
+                    <p>Choose your medical condition or symptom, and specify what's most important to you (speed, quality, distance).</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h3>Get Recommendations</h3>
+                    <p>View ranked hospitals based on your specific needs, complete with wait times, quality scores, and specialized care data.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <h3>Make an Informed Decision</h3>
+                    <p>Compare options on our interactive map and list view, then choose the best hospital for your situation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technology -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">Technology & Data</h2>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1rem;">
+                HospiTrack is built with modern web technologies to provide a fast, reliable, and user-friendly experience:
+            </p>
+            <ul style="font-size: 1.05rem; line-height: 2; color: var(--text-secondary); margin-left: 2rem; margin-bottom: 1.5rem;">
+                <li><strong>FastAPI Backend</strong> for high-performance API responses</li>
+                <li><strong>Real-time Geocoding</strong> for accurate location-based searches</li>
+                <li><strong>Comprehensive Hospital Database</strong> with 4,000+ US hospitals</li>
+                <li><strong>Interactive Mapping</strong> powered by Leaflet</li>
+                <li><strong>Responsive Design</strong> for desktop, tablet, and mobile devices</li>
+            </ul>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary);">
+                Our data comes from publicly available hospital information, including Medicare quality ratings, emergency department performance metrics, and hospital capabilities.
+            </p>
+        </div>
+
+        <!-- Important Disclaimer -->
+        <div class="alert alert-danger">
+            <h3 style="margin-bottom: 1rem; font-size: 1.25rem;"><strong>⚠️ Important Medical Disclaimer</strong></h3>
+            <p style="margin-bottom: 0.75rem; font-size: 1rem; line-height: 1.7;">
+                <strong>HospiTrack is an informational tool only and is NOT a substitute for professional medical advice, diagnosis, or treatment.</strong>
+            </p>
+            <p style="margin-bottom: 0.75rem; font-size: 1rem; line-height: 1.7;">
+                🚨 <strong>In life-threatening emergencies, call 911 immediately.</strong> Do not delay seeking emergency care while using this tool.
+            </p>
+            <ul style="margin-left: 2rem; font-size: 1rem; line-height: 1.7;">
+                <li>Always follow the guidance of emergency dispatchers and medical professionals</li>
+                <li>Hospital data may not reflect real-time availability or current wait times</li>
+                <li>This tool does not diagnose conditions or provide medical recommendations</li>
+                <li>Always consult with qualified healthcare providers for medical decisions</li>
+            </ul>
+        </div>
+
+        <!-- Privacy & Safety -->
+        <div class="card">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;">Privacy & Safety</h2>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1rem;">
+                Your privacy and safety are our priorities:
+            </p>
+            <ul style="font-size: 1.05rem; line-height: 2; color: var(--text-secondary); margin-left: 2rem;">
+                <li>We do not store your personal health information or search history</li>
+                <li>Location data is used only for search purposes and is not retained</li>
+                <li>All searches are anonymous and not linked to your identity</li>
+                <li>We do not share your data with third parties</li>
+            </ul>
+        </div>
+
+        <!-- Contact / Feedback -->
+        <div class="card" style="text-align: center; background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);">
+            <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Questions or Feedback?</h2>
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                We're constantly working to improve HospiTrack. If you have suggestions, feedback, or questions about our platform, we'd love to hear from you.
+            </p>
+            <a href="/docs" class="btn btn-primary btn-lg">View API Documentation</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/static/index.html">Home</a>
+                <a href="/static/home.html">Find Care</a>
+                <a href="/static/explore.html">Explore Hospitals</a>
+                <a href="/static/demo.html">Triage Demo</a>
+                <a href="/static/about.html">About</a>
+                <a href="/docs">API Documentation</a>
+            </div>
+            <p class="footer-disclaimer">
+                <strong>Medical Disclaimer:</strong> HospiTrack is for informational purposes only and is not a substitute for professional medical advice. In life-threatening emergencies, call 911 immediately. Always consult with qualified healthcare providers for medical decisions.
+            </p>
+            <p style="margin-top: 1.5rem; color: var(--text-light);">
+                © 2024 HospiTrack. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navbar-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
