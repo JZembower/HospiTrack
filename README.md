@@ -484,12 +484,6 @@ PORT=8080 python main.py
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - **FastAPI** - Modern Python web framework

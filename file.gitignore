@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test/coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution / build files
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment variables (sensitive data)
+.env
