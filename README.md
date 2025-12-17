@@ -3,7 +3,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-00a393.svg)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776ab.svg)](https://www.python.org)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ed.svg)](https://www.docker.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Find the best emergency care when you need it most**
 
