@@ -294,41 +294,6 @@ GET /api/states
 
 ---
 
-## 🚀 Deployment
-
-### Deploy to Render (Recommended)
-
-#### One-Click Deploy
-[![Deploy to Render](https://render.com/docs/deploy-to-render/opengraph-image?0486a2afd882d86e)
-
-#### Manual Deployment
-
-1. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Deploy to Render"
-   git push origin main
-   ```
-
-2. **Create Render Web Service**:
-   - Go to [Render Dashboard](https://dashboard.render.com)
-   - Click **New +** → **Web Service**
-   - Connect your GitHub repository
-   - Use these settings:
-     - **Name**: hospitracker
-     - **Environment**: Docker
-     - **Dockerfile Path**: Dockerfile.prod
-     - **Branch**: main
-
-3. **Configure Environment Variables**:
-   ```
-   PORT=8000
-   PYTHONUNBUFFERED=1
-   ML_DEMO_ENABLED=true
-   ```
-
----
-
 ## 📊 Data Sources
 
 Hospital data is sourced from:
