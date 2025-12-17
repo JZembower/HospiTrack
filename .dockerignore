@@ -83,14 +83,7 @@ Thumbs.db
 *.old
 *.bak
 *.backup
-static/index_old.html
+static/explore.html
 
 # Training scripts (not needed in production)
 train_triage_model.py
-
-# Analysis documents
-ARCHITECTURE_ANALYSIS.md
-BACKEND_ENHANCEMENTS.md
-DEPLOYMENT.md
-DEMO_SCRIPT.md
-PRODUCTION_CHECKLIST.md
