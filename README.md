@@ -35,12 +35,6 @@ HospiTrack is an intelligent hospital search and recommendation platform that he
 - Severity assessment
 - Hospital sorting strategy suggestions
 
-### 📊 Explore Mode
-- Browse all hospitals nationwide
-- Filter by state, quality, and performance
-- Compare facilities side-by-side
-- Export and analyze data
-
 ---
 
 ## 🚀 Quick Start
